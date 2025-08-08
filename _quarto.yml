@@ -6,10 +6,18 @@ website:
   title: "STA380 Course Webpage"
   navbar:
     right:
-      - href: pages/home.qmd
-        text: "Home"
+      - text: "Course Information"
+        menu:
+        - href: pages/outline.qmd
+          text: "Course Outline"
+        - href: pages/syllabus.qmd
+          text: "Syllabus"
+        - href: pages/test.qmd
+          text: "Test Information"
       - href: pages/lectures.qmd
         text: "Lectures"
+      - href: pages/practice.qmd
+        text: "Practice Problems"
 format:
   html:
     theme: cosmo

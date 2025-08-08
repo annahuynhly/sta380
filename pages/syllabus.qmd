@@ -1,7 +1,7 @@
 ---
-title: "Home"
+title: "Syllabus"
 format: html
 editor: visual
 ---
 
-Home page test...
+TBA... 

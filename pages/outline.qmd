@@ -1,0 +1,47 @@
+---
+title: "Course Outline"
+format: html
+editor: visual
+---
+
+# Lecture Information
+
+Monday 5:10 p.m. - 8:00 p.m. Please see the information on ACORN for location.
+
+For the main course content, we will be following the second edition of "Statistical Computing with R" by Maria L. Rizzo.
+
+However, by the end of this course I expect students to be comfortable with the basics of R.
+
+-   Students should know the material in chapters 2-4, 7 in ["An Introduction to R"](https://intro2r.com/) by Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau.
+
+-   Similarly, students should learn more from chapters 2-4, 6 in ["Advanced R"](https://adv-r.hadley.nz/index.html) by Hadley Wickham.
+
+# Office Hours
+
+TBA... (I prefer to host them online if possible...)
+
+# Tutorial Information
+
+TBA...
+
+# Learning Objectives
+
+[The official website](https://utm.calendar.utoronto.ca/course/sta380h5) details what the course will cover. To elaborate, I plan to cover the following:
+
+-   Various methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We also will explain special types of random variables that are in the form of mixtures, and hopefully some common multivariate distributions (multivariate normal and the Wishart distribution.)
+
+-   Monte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.
+
+-   Monte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing. If time permits, I would like to try to simulate other loss functions (MSE alternatives) and the Pitman's closeness criterion.
+
+-   Bootstrap, a nonparametric Monte Carlo method used to estimate the distribution of a population by re-sampling, and Jackknife, another re-sampling method for estimating the bias and standard error.
+
+-   Permutation tests, used to show whether two samples come from the same distribution.
+
+-   Estimating probability density functions. (Will need to think about what methods to discuss...)
+
+-   Optimization in `R`. We'll do one dimension, using `optimize()` (run `help(optimize)` in `R`, and two dimensions, using `optim()` (run `help(optim)`). If time permits, we will discuss the EM algorithm, which was one of the first things I learned in graduate school.
+
+-   Markov Chain Monte Carlo methods, such as the Metropolis-Hastings Algorithm and the Gibbs Sampler.
+
+-   Lastly, I want students to leave this course being comfortable with the basics of `R` programming. Some instructors strongly believe in theory, and although that is important, coding is also a valuable skill that I believe needs more practice, even in the realm of generative AI.

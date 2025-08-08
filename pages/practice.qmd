@@ -1,10 +1,12 @@
 ---
-title: "Lectures"
+title: "Practice Problems"
 format: html
 editor: visual
 ---
 
-To be displayed soon...
+# Unit 0: R Code Practice
+
+TBA...
 
 # Unit 1: Generating Random Variables
 
