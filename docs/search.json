@@ -1,24 +1,17 @@
 [
   {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Welcome to the STA380 website! Please see one of the headers above."
+  },
+  {
     "objectID": "pages/outline.html",
     "href": "pages/outline.html",
     "title": "Course Outline",
     "section": "",
     "text": "Lecture Information\nMonday 5:10 p.m. - 8:00 p.m. Please see the information on ACORN for location.\nFor the main course content, we will be following the second edition of “Statistical Computing with R” by Maria L. Rizzo.\nHowever, by the end of this course I expect students to be comfortable with the basics of R.\n\nStudents should know the material in chapters 2-4, 7 in “An Introduction to R” by Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau.\nSimilarly, students should learn more from chapters 2-4, 6 in “Advanced R” by Hadley Wickham.\n\n\n\nOffice Hours\nTBA… (I prefer to host them online if possible…)\n\n\nTutorial Information\nTBA…\n\n\nLearning Objectives\nThe official website details what the course will cover. To elaborate, I plan to cover the following:\n\nVarious methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We also will explain special types of random variables that are in the form of mixtures, and hopefully some common multivariate distributions (multivariate normal and the Wishart distribution.)\nMonte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.\nMonte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing. If time permits, I would like to try to simulate other loss functions (MSE alternatives) and the Pitman’s closeness criterion.\nBootstrap, a nonparametric Monte Carlo method used to estimate the distribution of a population by re-sampling, and Jackknife, another re-sampling method for estimating the bias and standard error.\nPermutation tests, used to show whether two samples come from the same distribution.\nEstimating probability density functions. (Will need to think about what methods to discuss…)\nOptimization in R. We’ll do one dimension, using optimize() (run help(optimize) in R, and two dimensions, using optim() (run help(optim)). If time permits, we will discuss the EM algorithm, which was one of the first things I learned in graduate school.\nMarkov Chain Monte Carlo methods, such as the Metropolis-Hastings Algorithm and the Gibbs Sampler.\nLastly, I want students to leave this course being comfortable with the basics of R programming. Some instructors strongly believe in theory, and although that is important, coding is also a valuable skill that I believe needs more practice, even in the realm of generative AI."
-  },
-  {
-    "objectID": "pages/practice.html",
-    "href": "pages/practice.html",
-    "title": "Practice Problems",
-    "section": "",
-    "text": "Unit 0: R Code Practice\nTBA…\n\n\nUnit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Re-sampling Techniques\nTBA…\n\n\nUnit 4: Permutation Testing\nTBA…\n\n\nUnit 5: Probability Density Function Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…\n\n\nUnit 7: MCMC Methods\nTBA…"
-  },
-  {
-    "objectID": "pages/test.html",
-    "href": "pages/test.html",
-    "title": "Test Information",
-    "section": "",
-    "text": "Weekly Quercus Quizzes\nTBA…\n\n\nQuiz 1\nTBA…\n\n\nMidterm\nTBA…\n\n\nQuiz 2\nTBA…"
   },
   {
     "objectID": "pages/syllabus.html",
@@ -28,6 +21,13 @@
     "text": "TBA…"
   },
   {
+    "objectID": "pages/practice.html",
+    "href": "pages/practice.html",
+    "title": "Practice Problems",
+    "section": "",
+    "text": "Unit 0: R Code Practice\nTBA…\n\n\nUnit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Re-sampling Techniques\nTBA…\n\n\nUnit 4: Permutation Testing\nTBA…\n\n\nUnit 5: Probability Density Function Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…\n\n\nUnit 7: MCMC Methods\nTBA…"
+  },
+  {
     "objectID": "pages/lectures.html",
     "href": "pages/lectures.html",
     "title": "Lectures",
@@ -35,10 +35,10 @@
     "text": "To be displayed soon…\n\nUnit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Re-sampling Techniques\nTBA…\n\n\nUnit 4: Permutation Testing\nTBA…\n\n\nUnit 5: Probability Density Function Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…\n\n\nUnit 7: MCMC Methods\nTBA…"
   },
   {
-    "objectID": "home.html",
-    "href": "home.html",
-    "title": "Welcome!",
+    "objectID": "pages/test.html",
+    "href": "pages/test.html",
+    "title": "Test Information",
     "section": "",
-    "text": "Welcome to the STA380 website! Please see one of the headers above."
+    "text": "Weekly Quercus Quizzes\nTBA…\n\n\nQuiz 1\nTBA…\n\n\nMidterm\nTBA…\n\n\nQuiz 2\nTBA…"
   }
 ]
