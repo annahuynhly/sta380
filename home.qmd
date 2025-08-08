@@ -1,0 +1,7 @@
+---
+title: "Welcome!"
+format: html
+editor: visual
+---
+
+Welcome to the STA380 website! Please see one of the headers above.

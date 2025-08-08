@@ -6,6 +6,8 @@ website:
   title: "STA380 Course Webpage"
   navbar:
     right:
+      - href: home.qmd
+        text: "Home"
       - text: "Course Information"
         menu:
         - href: pages/outline.qmd
