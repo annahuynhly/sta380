@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "STA380 Course Webpage"
+  navbar:
+    right:
+      - href: pages/home.qmd
+        text: "Home"
+      - href: pages/lectures.qmd
+        text: "Lectures"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
