@@ -10,11 +10,13 @@ Monday 5:10 p.m. - 8:00 p.m. Please see the information on ACORN for location.
 
 For the main course content, we will be following the second edition of "Statistical Computing with R" by Maria L. Rizzo.
 
-However, by the end of this course I expect students to be comfortable with the basics of R.
+However, by the end of this course I expect students to be comfortable with the basics of `R`.
 
 -   Students should know the material in chapters 2-4, 7 in ["An Introduction to R"](https://intro2r.com/) by Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau.
 
 -   Similarly, students should learn more from chapters 2-4, 6 in ["Advanced R"](https://adv-r.hadley.nz/index.html) by Hadley Wickham.
+
+-   It's also good to skim ["The R Inferno"](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf) by Patrick Burns to see the common `R` errors and best practices as a reference.
 
 # Office Hours
 
@@ -32,13 +34,13 @@ TBA...
 
 -   Monte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.
 
--   Monte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing. If time permits, I would like to try to simulate other loss functions (MSE alternatives) and the Pitman's closeness criterion.
+-   Monte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing.
 
 -   Bootstrap, a nonparametric Monte Carlo method used to estimate the distribution of a population by re-sampling, and Jackknife, another re-sampling method for estimating the bias and standard error.
 
 -   Permutation tests, used to show whether two samples come from the same distribution.
 
--   Estimating probability density functions. (Will need to think about what methods to discuss...)
+-   Probability density estimation. We will discuss methods such as the Sturges' rule, Scott's rule, and the Freedman-Diaconis Rule.
 
 -   Optimization in `R`. We'll do one dimension, using `optimize()` (run `help(optimize)` in `R`, and two dimensions, using `optim()` (run `help(optim)`). If time permits, we will discuss the EM algorithm, which was one of the first things I learned in graduate school.
 
