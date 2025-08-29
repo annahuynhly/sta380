@@ -5,19 +5,32 @@ editor: visual
 ---
 
 Tentative plan:
-Week 1: January 5 <- Generating Random Variables
-Week 2: January 12 <- Generating Random Variables
-Week 3: January 19 <- Monte Carlo Integration
-Week 4: January 26 <- Monte Carlo Integration
-Week 5: February 2 <- TERM TEST 1
-Week 6: February 9 <- Monte Carlo Methods in Inference
-Week 7: READING WEEK!!!
-Week 8: February 23 <- Resampling Techniques
-Week 9: March 2 <- Probability density estimation
-Week 10: March 9 <- TERM TEST 2
-Week 11: March 16 <- MCMC Methods
-Week 12: March 23 <- MCMC Methods
-Week 13: March 30 <- Review or grace period...
+
+-   Week 1 (January 5): Course Introduction, Generating Random Variables
+
+-   Week 2 (January 12): Generating Random Variables
+
+-   Week 3 (January 19): Monte Carlo Integration
+
+-   Week 4 (January 26): Monte Carlo Integration
+
+-   Week 5 (February 2): TERM TEST 1
+
+-   Week 6 (February 9): Monte Carlo Methods in Inference
+
+-   Week 7: READING WEEK!!!
+
+-   Week 8 (February 23): Re-sampling Techniques
+
+-   Week 9 (March 2): Probability density estimation
+
+-   Week 10 (March 9): TERM TEST 2
+
+-   Week 11 (March 16): MCMC Methods
+
+-   Week 12 (March 23): MCMC Methods
+
+-   Week 13: (March 30): Review/Grace period...
 
 # Unit 1: Generating Random Variables
 

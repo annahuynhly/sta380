@@ -1,0 +1,201 @@
+---
+title: "Project Outline"
+format: html
+editor: visual
+---
+
+Develop an interactive R Shiny website on a computational statistics topic. The topic may be selected from course material or, with instructor approval, from more advanced material.
+
+Because many of the required tasks contribute to building an R package, there will be a separate checkpoint dedicated to R package synthesis.
+
+This project is to be completed in groups of up to five students. The minimum group size will be determined based on course enrollment. Students are responsible for forming their own groups without instructor assistance.
+
+# Learning Goals
+
+By the end of this project, students should be able to:
+
+-   Code and clearly present introductory concepts in computational statistics.
+
+-   Demonstrate proficiency in R syntax, including vectors, subsetting, and functions.
+
+-   Build and customize applications in R Shiny, and identify relevant external packages when needed.
+
+-   Write and run tests using the testthat package.
+
+-   Properly cite sources, with emphasis on BibTeX citations.
+
+-   Use version control systems effectively, with a focus on GitHub.
+
+# Project Topics
+
+We outline potential project topics for the course. Each topic includes a checklist describing the minimum requirements the instructor expects. Multiple groups may choose the same general idea, but no two projects can be identical. For example, two groups may use the inverse-transform method to generate random variables, but each must simulate different distributions.
+
+The list of taken topics will be pinned on Piazza once the course begins.
+
+Projects fall into three categories: standard, advanced, and original. 
+
+-   Topics marked (Advanced) qualify for a +1 mark bonus on the project grade, unless otherwise stated.
+
+-   Original, instructor-approved ideas that have not been detailed here, will qualify for a +2 mark bonus on their project grade.
+
+\[WEIGHTS NOT FINALIZED!\] Note that the project will have a maximum score of 15/15. For instance, if a project would otherwise earn 14.5/15, the bonus raises the mark to 15/15, but no further.
+
+For original ideas, the instructor will provide a clear set of evaluation criteria once their topic has been approved.
+
+## Project Theme 1: Random Variable Generation
+
+**1. Inverse-Transform Method**
+
+-   Select at least two distributions to simulate (these will appear in your project title and distinguish your work from other groups).
+
+-   Include a graph comparing the true density with your simulated results (via a histogram).
+
+-   Provide a text output or table comparing simulated mean and variance to their theoretical values.
+
+**2. Acceptance-Rejection Method**
+
+-   Follow the same requirements as in Topic 1.
+
+**3. Convolution Methods**
+
+-   Follow the same requirements as in Topic 1, adjusted for one distribution.
+
+-   Choose a distribution with well-known results (e.g., the sum of i.i.d. squared Gaussians follow a chi-square distribution; the sum of i.i.d. exponential variables follow a gamma distribution).
+
+**4. Mixture Methods**
+
+-   Apply the method to one type of mixture (e.g., mixtures of Gaussians, gamma, etc.).
+
+-   Ensure your implementation supports mixtures of various sizes, including at least 5 variables.
+
+-   Include a density histogram of the simulated results. You do not need to compare this to the “true” density distribution.
+
+-   Provide a text output or table of reported simulated mean and variance. Again, you do not need to compare this to the “real” values.
+
+## Project Theme 2: Monte Carlo Inference
+
+**5. (Advanced) Monte Carlo Simulation of a Hypothesis Test**
+
+-   Select a specific hypothesis test (ideally one learned in a previous course, such as STA258) and choose a distribution for the data.
+
+-   Simulate and estimate the Type I error rate, Type II error rate, and power of the test.
+
+-   Include a relevant visualization. For example, graph the distribution of p-values with a vertical line indicating the significance threshold alpha.
+
+**6. (Advanced) Monte Carlo Simulation with Alternative Loss Functions**
+
+-   Instead of the commonly used mean squared error (MSE), choose an alternative loss function (e.g., mean absolute error, Huber loss, Log-Cosh loss).
+
+-   Compare the results from your chosen loss function against those from MSE.
+
+-   Select at least two estimators for comparison (e.g., mean vs. median, or other suitable estimators).
+
+**7. (Advanced) Monte Carlo Analysis of Estimator Performance**
+
+-   Go beyond loss functions by using alternative criteria for evaluating estimators, such as the Pitman closeness criterion. Select at least two estimators to compare.
+
+-   This option serves as an alternative to Topic 6, focusing on performance evaluation using a different theoretical framework.
+
+## Project Theme 3: Resampling Methods
+
+**8. (Advanced) Bootstrap Estimate**
+
+-   Select a dataset from a published research article (cite the source). Suitable repositories include Data Dryad and Zenodo.
+
+-   Compute bootstrap estimates for at least **two descriptive statistics** (e.g., mean, median, standard error, interquartile range, bias).
+
+-   Include at least **two histograms** of the bootstrap distributions, each with a vertical line marking the statistic computed from the full dataset (serving as the “true” value).
+
+**9. (Advanced) Jackknife**
+
+-   Similar to topic 8, select a dataset from a published research article.
+
+-   Use the jackknife method to estimate **bias** and **standard error**.
+
+-   Include graphs illustrating these estimates, along with a comparison to the values computed from the full dataset.
+
+**10. (Advanced) Bootstrap Confidence Interval**
+
+-   Similar to topic 8, select a dataset from a published research article.
+
+-   Construct a single bootstrap confidence interval for your chosen statistic.
+
+-   Include a visualization, such as a histogram with vertical dotted lines marking the confidence interval endpoints.
+
+**11. (Advanced +2) Permutation Test**
+
+-   Similar to topic 8, select a dataset from a published research article containing **two distinct groups** (suitable for a two-sample comparison).
+
+-   Choose the test statistic for your permutation procedure (e.g., mean difference, Kolmogorov–Smirnov statistic, Cramér–von Mises statistic, or another appropriate choice).
+
+-   Perform the test, report the **p-value**, and clearly state whether to **reject** or **fail to reject** the null hypothesis.
+
+-   Include a visualization, such as a density plot or histogram of the permutation p-values.
+
+# Checkpoints and Due Dates
+
+(Some of the percentage weights are tentative, as the syllabus has not been officially approved yet.)
+
+-   Group Formation & Submission Details (1%)
+
+    -   Due date: February 4th, 2026 at 11:59pm
+
+-   Proposal (1%)
+
+    -   Due date: February 11th, 2026 at 11:59pm
+
+-   Basic Implementation Check (XX%)
+
+    -   Due date: February 25th, 2026 at 11:59pm
+
+-   Package Compiling (XX%)
+
+    -   Due date: March 4th, 2026 at 11:59pm
+
+-   Website Prototype (1%)
+
+    -   Due date: March 11th, 2026 at 11:59pm
+
+-   Final Draft (XX%)
+
+    -   Due date: March 25th, 2026 at 11:59pm
+
+Project deadlines are scheduled after the first term test so that students have a better sense of the assessments before committing to the course project. That said, many tasks can be completed earlier in the term. Students who choose to work ahead may submit assessments early and should notify the instructor by email when doing so.
+
+# Opting Out
+
+If you know for sure you are not interested in participating in the project, you do not need to do anything. Your marks will automatically be composed of quizzes, term tests, and examinations instead.
+
+For those who sign up for the group formation: If the workload feels too heavy or the project is too challenging, individuals or entire groups are allowed to opt out before the third checkpoint (Basic Implementation Check) without penalty. In that case, your grade will instead be based on Quercus quizzes and examinations.
+
+Once you opt out, you cannot opt back in.
+
+# Permissions
+
+You are allowed to use Generative AI and LLM tools. However, you must specify in your project what you used AI for.
+
+Note that R Shiny is a niche package, and it is currently getting developed regularly. Some of my old R Shiny code has been deprecated, and I tried using LLMs to alter my code to give me the latest version. They failed miserably, so I went back to read the official documentation and quickly resolved my issues. If you’re able to use LLMs and generative AI to code for absolutely everything, with absolutely zero issues, I’d be interested to know, and you *will not* be penalized for this.
+
+You are also allowed to use stackoverflow and other online coding forms; just ensure you cite them. In fact, I’ve personally used it myself; [see this post for setting a seed](https://stackoverflow.com/questions/75676985/r-shiny-how-do-i-let-the-user-set-the-seed), which many of you might implement on your website.
+
+# Extensions
+
+Each checkpoint is intentionally short to support timely progress toward the final product. We recognize, however, that external circumstances may arise.
+
+Teams of 3 students or fewer may request an extension if the request is submitted at least one week in advance, or at any time in the event of an urgent medical emergency (e.g., accidents). The length of the extension will be determined on a case-by-case basis.
+
+To request an extension, the instructor must be emailed (with all team members CC’d) and the following details included:
+
+-   The reason for requesting an extension.
+
+-   Due dates for other courses that fall near the current deadline.
+
+Please note that teams of 4+ are not eligible for extensions.
+
+# Late Submission Policy
+
+-   Assignments are due at 11:59 PM on the specified date.
+
+-   A 10% penalty will be applied for each hour (or part thereof) past the deadline.
+
+-   For example, a submission at 12:01 AM will incur a 10% deduction.

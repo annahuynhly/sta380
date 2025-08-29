@@ -1,0 +1,85 @@
+---
+title: "Basic Implementation Check"
+format: html
+editor: visual
+---
+
+**Due date:** February 25th, 2026 at 11:59pm
+
+This checkpoint requires students to submit the core code for their R package and project website. The purpose is to demonstrate that you can:
+
+-   **Write functions for your chosen task.**
+
+    -   You should be familiar with writing functions this part in the course. However, if you need extra assistance, a good introduction to writing functions if you don’t have much experience is visiting [Chapter 7 from An Introduction to R](https://intro2r.com/prog_r.html). Common problems that you may encounter when writing R code are discussed in the [R Inferno](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf).
+
+    -   You are not expected to implement safeguards for unreasonable inputs! I.e., inputting a character when you should implement a number.
+
+-   **Verify that these functions work correctly by writing tests.**
+
+    -   We will be using the `testthat` package. A good guide can be found from [Chapter 13 in R Packages](https://r-pkgs.org/testing-basics.html).
+
+    -   You are not expected to test for unreasonable inputs! I.e., inputting a character when you should implement a number.
+
+-   **Be able to write appropriate documentation and vignettes.**
+
+    -   Documentation should be written using [roxygen](https://roxygen2.r-lib.org/articles/roxygen2.html) comments before introducing functions, and can easily be converted to .Rd (R documentation) files.
+
+    -   The [roxygen website](https://roxygen2.r-lib.org/articles/roxygen2.html) is a good place to start, but [Chapter 16 in R Packages](https://r-pkgs.org/man.html) details documentation nicely in addition.
+
+    -   It is best to write vignettes using R Markdown, and documentation practices are nicely explained in [Chapter 17 of R Packages](https://r-pkgs.org/vignettes.html).
+
+        -   I personally prefer Quarto over R Markdown, especially since the [developer working on R Markdown was laid off](https://yihui.org/en/2024/01/bye-rstudio/), and Quarto is supposed to be the successor.
+
+        -   Unfortunately, Quarto appears to be less compatible for writing documentation for R packages (there is allegedly support but I can’t get it to pass the [R CMD check](https://r-pkgs.org/R-CMD-check.html)). Hopefully there will be better support in a future update!
+
+    -   For the vignette, I mostly want an extended version of the documentation where you show how to use the function, some of the outputs of the tests, and feature the graphs.
+
+Note that at this point, you actually do not need to create an R package explicitly; this is for the next checkpoint.
+
+## Project Example
+
+An example with all file components is shown [here.](https://github.com/annahuynhly/sta380package.example/tree/main/submissions/BasicImplementation)
+
+## Submission Requirements
+
+1.  **Function Code**
+
+    -   An .R file containing all functions used for your project.
+
+    -   Functions should be documented with roxygen comments.
+
+2.  **Testing Code**
+
+    -   A separate .R file with all relevant tests, written using the testthat library.
+
+3.  **Vignette**
+
+    -   An .Rmd file demonstrating function use with some assumption checks.
+
+    -   A rendered .pdf or .html file.
+
+    -   This document must end with a references section written explicitly in BibTeX, with DOI or URL links included.
+
+## Suggested Task Order
+
+1.  Implement the functions for the computational statistics concepts.
+
+2.  Manually verify results (e.g., mean, SD, histograms vs. true density).
+
+3.  Write tests with `testthat`.
+
+4.  Add `roxygen2` comments before each function.
+
+5.  Draft a vignette starting with a simple .Rmd document, with the rendered .pdf or .html file.
+
+6.  Add the BibTeX citations at the end of the vignette.
+
+## Video Tutorials
+
+We write functions for most of the course content, but writing tests and documentation is not frequently emphasized to statistics students.
+
+YouTube tutorial for writing tests.
+
+YouTube tutorial for writing documentation.
+
+

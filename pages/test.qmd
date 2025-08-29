@@ -4,19 +4,20 @@ format: html
 editor: visual
 ---
 
+I plan to have a clear outline of topics I expect students to know for the tests and supply 2-3 practice quizzes/tests of a similar difficulty.
+
+In general, I believe if you know genuinely how to solve questions shown in lecture, tutorials, and practice problems, then I believe there should be no problem obtaining 80%+ in the course.
+
+The main issue is that I want to cover a lot of material for this course. So don't leave everything to the last minute!
+
 # Weekly Quercus Quizzes
 
 TBA...
 
-# Quiz 1
+# Term Test 1
 
 TBA...
 
-# Midterm
+# Term Test 2
 
 TBA...
-
-# Quiz 2
-
-TBA...
-

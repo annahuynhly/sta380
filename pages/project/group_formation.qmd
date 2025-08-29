@@ -1,0 +1,78 @@
+---
+title: "Group Formation"
+format: html
+editor: visual
+---
+
+
+**Due date:** February 4th, 2026 at 11:59pm
+
+In this checkpoint, students are tasked to form groups, create a GitHub repository, and decide on a topic!
+
+Marks are provided for successful completion.
+
+## Submission Details
+
+### 1. Repository Setup
+
+-   Create a GitHub repository for your group.
+
+    -   You do not need GitHub Pro; although if you find yourself using GitHub often, students can access **GitHub Pro for free** by verifying enrollment:[ https://github.com/education/students](https://github.com/education/students).
+
+-   Upload a .xlsx file (a template can be downloaded [here](https://github.com/annahuynhly/sta380package.example/tree/main/submissions/GroupFormation)) containing:
+
+    -   Each group member’s name, UTORid, student number, and GitHub username.
+
+    -   A list of three proposed project ideas.
+
+-   Ensure all group members are added with editing permissions.
+
+-   Add the instructor’s GitHub account ([annahuynhly](https://github.com/annahuynhly)) as a collaborator with editing permissions.
+
+If you have not used GitHub before, there are many free resources and documentation found online. There is the official documentation here  <https://docs.github.com/en/get-started>.
+
+The thing that the documentation above doesn't cover is how you can easily use git with R Studio. Here's a [quick Youtube tutorial](https://youtu.be/eKq9392UaTM?si=h5GZXK_eZ2Xgs2vW) of how I personally would set up the project with R Studio.
+
+If you are still struggling to set this up, feel free to visit the instructor’s office hours.
+
+### 2. Instructor Notification
+
+-   Once the .xlsx file is uploaded and all members have access, send the instructor an email.
+
+-   The instructor will confirm both repository access and topic approval by email.
+
+## Future Submissions
+
+-   All subsequent checkpoints and project files will be submitted directly to the GitHub repository (no additional uploads elsewhere).
+
+-   After each deadline, the instructor will check the repository for:
+
+    -   The latest submission date, and
+
+    -   All files uploaded before the deadline.
+
+## File Naming and Folder Organization
+
+-   No strict naming convention is required. However, clear and descriptive names are encouraged.
+
+-   For example: use `proposal.pdf` instead of `simulation_assignment428492873.pdf`.
+
+-   You should organize your folders in a particular way, since you’ll eventually turn this repository as a base for an R package. Consult the [example](https://github.com/annahuynhly/sta380package.example) to see how the folders are organized.
+
+## Feedback
+
+-   Instructor feedback will be provided directly within each group’s repository.
+
+## Group Fairness
+
+-   Note that this project is group work, and all members are expected to contribute.
+
+-   At the end of the project, git commit history will be thoroughly analyzed.
+
+    -   The instructor will investigate the number of commits and look at the contributions.
+
+-   All members should be familiar with using git; so do not let other group members submit on behalf of you. 
+
+-   There will be a penalization for group members who did not sufficiently contribute meaningfully to the project.
+
+-   **It is likely that when working on the project with other members, you will encounter issues with merging.** Again, there are many tutorials online that you can familiarize yourself with.

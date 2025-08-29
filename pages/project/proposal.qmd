@@ -1,0 +1,71 @@
+---
+title: "Proposal"
+format: html
+editor: visual
+---
+
+**Due date:** February 11th, 2026 at 11:59pm
+
+This checkpoint requires students to specify the details of their chosen project.
+
+An example of a proposal, as well as other files, can be found [here](https://github.com/annahuynhly/sta380package.example/tree/main/submissions/Proposal).
+
+Marks are provided for completion.
+
+## Submission Requirements
+
+Upload:
+
+-   a maximum 2-page PDF,
+
+-   the file used to render the pdf,
+
+-   and an accompanying BibTeX file.
+
+-   **Project Topic**
+
+    -   State the topic idea you are pursuing (must already be approved by the instructor).
+
+-   **Simulation vs. Dataset**
+
+    -   Indicate whether your project will use pure simulation or a dataset.
+
+    -   If using a dataset:
+
+        -   Provide the source (datasets must come from published research articles).
+
+        -   Suggested repositories: Data Dryad, Zenodo.
+
+        -   If you cannot decide, the instructor may assign a dataset, which you must use.
+
+        -   Attach the dataset as a .csv file.
+
+-   **Project Details**
+
+    -   Expand on the requirements outlined in your chosen topic description.
+
+    -   For original topics, include the minimum expectations previously given by the instructor.
+
+-   **User Inputs (Shiny Components)**
+
+    -   List at least five interactive inputs you plan to include in your R Shiny app.
+
+    -   Examples: simulation sample size, random seed, plot color, option to download the simulated dataset as .csv, etc.
+
+    -   Creativity is encouraged. More inputs are welcome!
+
+-   **References**
+
+    -   Include as many references as possible.
+
+    -   Since you will be using R Shiny, begin with citing R and Shiny.
+
+    -   If you know in advance which R packages you’ll use, include their citations (`citation("packageName")` in `R`).
+
+    -   If the reference is NOT a textbook, then it MUST include a DOI link. If no DOI exists, provide a valid URL. If neither exists, the source cannot be used.
+
+    -   The format of the citations do not matter, but it should be consistent amongst citations.
+
+No more wasting your time to match the exact citation styles. Since you are expected to use BibTeX references, you’ll need to write the proposal in LaTeX or anything else that supports BibTeX. [BibTeX works well with Rmarkdown](https://bibtex.eu/rmarkdown/) (and Quarto), and can easily be used.
+
+You do not need to permanently commit to the details in the proposal; the example proposal and the finished product are actually different. However, it’s good to write some ideas down so you have a direction to work towards.
