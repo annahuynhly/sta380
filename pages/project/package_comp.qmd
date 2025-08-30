@@ -60,7 +60,7 @@ If `devtools::check()` doesn’t have any extra errors, or warnings then you are
 
 Notes sometimes matter, but are often okay. Since I have incorporated submission examples, I was given the following note:
 
-```
+```         
 ❯ checking top-level files ... NOTE
   Non-standard files/directories found at top level:
     ‘shiny-app’ ‘submissions’
@@ -74,12 +74,10 @@ NOTE: If you are doing a topic that includes a data-set, you MUST attach the rel
 
 Assignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.
 
--   90\% of the marks are allocated for successful completion. 
+-   90% of the marks are allocated for successful completion.
     -   All students are assumed to receive the full 90%; however, 15% will be deducted for each error, warning, or significant note generated when running `devtools::check()`.
-
--   10\% of marks are awarded for an updated statement regarding generative AI usage (or lack thereof.)
+-   10% of marks are awarded for an updated statement regarding generative AI usage (or lack thereof.)
 
 ## Video Tutorials
 
-To be created...
-
+{{< video https://youtu.be/Jvzgt_tV2YA >}}

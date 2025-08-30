@@ -28,11 +28,11 @@ The GitHub repository can be found [here.](https://github.com/annahuynhly/sta380
 
 Assignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.
 
--   40\% of the marks are allocated for successful deployment of the website.
+-   40% of the marks are allocated for successful deployment of the website.
 
--   50\% of the marks are allocated for at least 5 Shiny components displaying on the website, with at least 3 of them working correctly.
+-   50% of the marks are allocated for at least 5 Shiny components displaying on the website, with at least 3 of them working correctly.
 
--   10\% of marks are awarded for a new vignette statement regarding generative AI usage (or lack thereof.)
+-   10% of marks are awarded for a new vignette statement regarding generative AI usage (or lack thereof.)
 
 ## Video Tutorials
 
@@ -44,4 +44,4 @@ There are many great guides on how to create R Shiny websites. In the following 
 
 -   and how I deployed my website.
 
-To be created...
+{{< video https://youtu.be/qKxur_JkI10 >}}

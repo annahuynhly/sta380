@@ -70,13 +70,19 @@ No more wasting your time to match the exact citation styles. Since you are expe
 
 You do not need to permanently commit to the details in the proposal; the example proposal and the finished product are actually different. However, it’s good to write some ideas down so you have a direction to work towards.
 
+## Optional Responsibilities Document
+
+Groups may add to their proposal a section detailing responsibilities of each group member for future checkpoints and designate a team leader. This section will be reviewed at the end when checking git history, and does not count towards the 2-page limit.
+
+This section is optional but encouraged to ensure certain members don't over or under contribute.
+
 ## Making Scheme
 
 Assignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.
 
--   70\% of marks are provided for proper completion. 
--   20\% of marks are awarded for correct BibTeX citation.
--   10\% of marks are awarded for a statement regarding generative AI usage (or lack thereof.)
+-   70% of marks are provided for proper completion.
+-   20% of marks are awarded for correct BibTeX citation.
+-   10% of marks are awarded for a statement regarding generative AI usage (or lack thereof.)
 
 ## BibTeX Guide
 
