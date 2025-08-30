@@ -6,6 +6,8 @@ editor: visual
 
 **Due date:** February 25th, 2026 at 11:59pm
 
+**For every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in your vignette.**
+
 This checkpoint requires students to submit the core code for their R package and project website. The purpose is to demonstrate that you can:
 
 -   **Write functions for your chosen task.**
@@ -60,6 +62,30 @@ An example with all file components is shown [here.](https://github.com/annahuyn
 
     -   This document must end with a references section written explicitly in BibTeX, with DOI or URL links included.
 
+## Rubric
+
+Assignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.
+
+**Function Code (40%)**
+
+-   The functions work as intended.
+
+-   The functions are appropriately documented.
+
+**Testing Code (30%)**
+
+-   The tests are reasonable and work as intended.
+
+**Vignette (30%)**
+
+-   The vignette shows how the functions can be used.
+
+-   Appropriate graphs are included.
+
+-   Includes citations written in BibTeX.
+
+-   Consists of a statement regarding generative AI usage (or lack thereof.)
+
 ## Suggested Task Order
 
 1.  Implement the functions for the computational statistics concepts.
@@ -76,10 +102,14 @@ An example with all file components is shown [here.](https://github.com/annahuyn
 
 ## Video Tutorials
 
-We write functions for most of the course content, but writing tests and documentation is not frequently emphasized to statistics students.
+In this course we write a lot of functions. However, writing tests and documentation is often not taught to statistics students explicitly. Hence, you are free to watch these short YouTube videos on how to use, and a better understanding of how these tools work.
 
-YouTube tutorial for writing tests.
+**Disclaimer:** the functions `devtools::test()` and `devtools::document()` only work once you have built the package; I've included these examples to demonstrate how they can be used for R package development.
 
-YouTube tutorial for writing documentation.
+### Video for `testthat`
 
+{{< video https://youtu.be/3uruq6c6JAs >}}
 
+### Video for `roxygen` Comments
+
+{{< video https://youtu.be/4XkbfsCgeqo >}}

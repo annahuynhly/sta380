@@ -6,6 +6,8 @@ editor: visual
 
 Develop an interactive R Shiny website on a computational statistics topic. The topic may be selected from course material or, with instructor approval, from more advanced material.
 
+[Click here to view an example of what we expect students to create at the end of the project.](https://annahuynhly-sta380shiny-example.share.connect.posit.cloud/)
+
 Because many of the required tasks contribute to building an R package, there will be a separate checkpoint dedicated to R package synthesis.
 
 This project is to be completed in groups of up to five students. The minimum group size will be determined based on course enrollment. Students are responsible for forming their own groups without instructor assistance.
@@ -32,7 +34,7 @@ We outline potential project topics for the course. Each topic includes a checkl
 
 The list of taken topics will be pinned on Piazza once the course begins.
 
-Projects fall into three categories: standard, advanced, and original. 
+Projects fall into three categories: standard, advanced, and original.
 
 -   Topics marked (Advanced) qualify for a +1 mark bonus on the project grade, unless otherwise stated.
 
@@ -182,15 +184,13 @@ You are also allowed to use stackoverflow and other online coding forms; just en
 
 Each checkpoint is intentionally short to support timely progress toward the final product. We recognize, however, that external circumstances may arise.
 
-Teams of 3 students or fewer may request an extension if the request is submitted at least one week in advance, or at any time in the event of an urgent medical emergency (e.g., accidents). The length of the extension will be determined on a case-by-case basis.
+Teams may request an extension if the request is submitted at least five days in advance, or at any time in the event of an urgent medical emergency (e.g., accidents). The length of the extension will be determined on a case-by-case basis.
 
 To request an extension, the instructor must be emailed (with all team members CC’d) and the following details included:
 
 -   The reason for requesting an extension.
 
 -   Due dates for other courses that fall near the current deadline.
-
-Please note that teams of 4+ are not eligible for extensions.
 
 # Late Submission Policy
 

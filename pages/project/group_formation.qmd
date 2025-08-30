@@ -4,7 +4,6 @@ format: html
 editor: visual
 ---
 
-
 **Due date:** February 4th, 2026 at 11:59pm
 
 In this checkpoint, students are tasked to form groups, create a GitHub repository, and decide on a topic!
@@ -17,7 +16,7 @@ Marks are provided for successful completion.
 
 -   Create a GitHub repository for your group.
 
-    -   You do not need GitHub Pro; although if you find yourself using GitHub often, students can access **GitHub Pro for free** by verifying enrollment:[ https://github.com/education/students](https://github.com/education/students).
+    -   You do not need GitHub Pro; although if you find yourself using GitHub often, students can access **GitHub Pro for free** by verifying enrollment:<https://github.com/education/students>.
 
 -   Upload a .xlsx file (a template can be downloaded [here](https://github.com/annahuynhly/sta380package.example/tree/main/submissions/GroupFormation)) containing:
 
@@ -29,9 +28,11 @@ Marks are provided for successful completion.
 
 -   Add the instructor’s GitHub account ([annahuynhly](https://github.com/annahuynhly)) as a collaborator with editing permissions.
 
-If you have not used GitHub before, there are many free resources and documentation found online. There is the official documentation here  <https://docs.github.com/en/get-started>.
+If you have not used GitHub before, there are many free resources and documentation found online. There is the official documentation here <https://docs.github.com/en/get-started>.
 
-The thing that the documentation above doesn't cover is how you can easily use git with R Studio. Here's a [quick Youtube tutorial](https://youtu.be/eKq9392UaTM?si=h5GZXK_eZ2Xgs2vW) of how I personally would set up the project with R Studio.
+The thing that the documentation above doesn't cover is how you can easily use git with R Studio. Below is a quick YouTube tutorial of how I personally would set up the project with R Studio. However, if you have lots of experience using GitHub I would skip this video.
+
+{{< video https://youtu.be/eKq9392UaTM >}}
 
 If you are still struggling to set this up, feel free to visit the instructor’s office hours.
 
@@ -71,7 +72,7 @@ If you are still struggling to set this up, feel free to visit the instructor’
 
     -   The instructor will investigate the number of commits and look at the contributions.
 
--   All members should be familiar with using git; so do not let other group members submit on behalf of you. 
+-   All members should be familiar with using git; so do not let other group members submit on behalf of you.
 
 -   There will be a penalization for group members who did not sufficiently contribute meaningfully to the project.
 

@@ -4,3 +4,48 @@ format: html
 editor: visual
 ---
 
+**Due date:** March 25th, 2026 at 11:59pm
+
+**For every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in the same vignette as the last checkpoint.**
+
+Students are to submit a fully functional website with all of the requirements outlined. 
+
+### Rubric
+
+**Fixing Remaining Issues (10%)**
+
+-   Problems with any previous checkpoint, such as the algorithms, documentation, etc., are resolved.
+
+-   Generative AI usage statement is included.
+
+**Completion (40%)**
+
+-   All assigned components work as intended; site runs without errors.
+
+-   Inputs/outputs behave as expected.
+
+    -   The website does not need to be robust to unreasonable inputs.
+
+-   The Shiny app incorporates required features from the topic instructions.
+
+**Aesthetics (10%)**
+
+-   Clean, consistent theme.
+
+-   Navigation is intuitive.
+
+-   Effective use of visualizations (clear, labeled plots/tables).
+
+**Additional Features (20%)**
+
+-   Creative extensions beyond requirements. 
+
+-   Some examples: use of external packages not referenced, unique components, innovative designs, etc.
+
+**Individual Contribution (20%)**
+
+-   Contributions assessed via commits and quality of said commits.
+
+    -   For instance, if you commit only 3 times, but they include a plethora of files/changes, then you should obtain full marks.
+
+    -   This is more of a safeguard against team members who produce little to no contribution.

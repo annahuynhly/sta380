@@ -4,4 +4,44 @@ format: html
 editor: visual
 ---
 
-To be filled...
+**Due date:** March 11th, 2026 at 11:59pm
+
+**For every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in a new vignette.**
+
+The purpose of this checkpoint is to ensure that students can successfully launch a working version of their Shiny website and demonstrate functionality in some of the key components.
+
+-   Marks are awarded for having a successfully launched site, with some of the components working.
+
+-   Students are strongly encouraged to treat the rough draft as though it were a final submission, since detailed instructor feedback will be provided at this stage at no additional grade cost.
+
+Documentation for Shiny is nicely done [here](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/).
+
+[Posit Connect Cloud](https://connect.posit.cloud/) is recommended since it can be connected to a GitHub repository for immediate deployment.
+
+## Project Example
+
+An example website, which uses Posit Connect Cloud, can be found [here](https://annahuynhly-sta380shiny-example.share.connect.posit.cloud/).
+
+The GitHub repository can be found [here.](https://github.com/annahuynhly/sta380package.example/tree/main/shiny-app)
+
+## Marking Scheme
+
+Assignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.
+
+-   40\% of the marks are allocated for successful deployment of the website.
+
+-   50\% of the marks are allocated for at least 5 Shiny components displaying on the website, with at least 3 of them working correctly.
+
+-   10\% of marks are awarded for a new vignette statement regarding generative AI usage (or lack thereof.)
+
+## Video Tutorials
+
+There are many great guides on how to create R Shiny websites. In the following video, I explain:
+
+-   how my example works,
+
+-   and tips on how to read my code,
+
+-   and how I deployed my website.
+
+To be created...

@@ -20,6 +20,22 @@ website:
         text: "Lectures"
       - href: pages/practice.qmd
         text: "Practice Problems"
+      - text: "Project Information"
+        menu:
+        - href: pages/project/project_outline.qmd
+          text: "Project Overview"
+        - href: pages/project/group_formation.qmd
+          text: "Group Formation"
+        - href: pages/project/proposal.qmd
+          text: "Proposal"
+        - href: pages/project/basic_imp.qmd
+          text: "Basic Implementation Check"
+        - href: pages/project/package_comp.qmd
+          text: "Package Compiling"
+        - href: pages/project/website.qmd
+          text: "Website Prototype"
+        - href: pages/project/final_website.qmd
+          text: "Final Implementation"
 format:
   html:
     theme: cosmo
@@ -27,4 +43,3 @@ format:
     toc: true
 
 editor: visual
-

@@ -3,3 +3,83 @@ title: "Package Compiling"
 format: html
 editor: visual
 ---
+
+**Due date:** March 4th, 2026 at 11:59pm
+
+**For every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please update your generative AI statement in your vignette.**
+
+By completing this checkpoint, students should:
+
+-   Understand the basics of building an R package.
+
+-   Consolidate previous work (functions, tests, documentation, vignettes).
+
+-   Identify and fix any remaining package issues.
+
+Building an R package isn’t related to building the R Shiny website. However, you have already built the foundation for an R package in the previous checkpoint. Hence, it would be a waste to not learn how to do the finishing touches.
+
+There are many bits and pieces that come with building R packages that I cannot easily summarize. The [R Packages](https://r-pkgs.org/) textbook I have been referencing is my favourite guide. You should now start by reading Chapter 1-2, and revisit Chapters referenced in the previous checkpoint to ensure seamless package implementation.
+
+For additional notes regarding writing R packages, there’s also the official [Writing R Extensions](https://cran.r-project.org/doc/manuals/R-exts.html) website.
+
+## Project Example
+
+An example with all file components is shown [here.](https://github.com/annahuynhly/sta380package.example/)
+
+## Submission Requirements Checklist
+
+Here are the main components from the R package that I am checking for:
+
+1.  **Function Code**
+
+    -   These should be within the `R/` folder of the package, and the file type should be .R.
+
+2.  **Testing Code**
+
+    -   These should be contained in the `tests/testthat/` folder of the package.
+
+    -   Run `devtools::test()` to ensure all tests are valid.
+
+3.  **Documentation**
+
+    -   Documentation should be written as roxygen comments directly before the relevant functions.
+
+    -   The documentation should be compiled in the `man/` folder as .Rd files.
+
+    -   Run the command `devtools::document()` if there is nothing in the `man/` folder.
+
+4.  **Vignettes**
+
+    -   Vignettes should be written in the `vignettes/` folder, but the .pdf should be compiled in the `doc/` folder.
+
+    -   Run the command `devtools::build_vignettes()` if it doesn’t exist in `doc/` yet.
+
+The final check before submission is to run `devtools::check()`, which typically catches other issues that I may have not mentioned. However, details regarding building the package should be found in both [R Packages](https://r-pkgs.org/) and [Writing R Extensions](https://cran.r-project.org/doc/manuals/R-exts.html).
+
+If `devtools::check()` doesn’t have any extra errors, or warnings then you are good to go!
+
+Notes sometimes matter, but are often okay. Since I have incorporated submission examples, I was given the following note:
+
+```
+❯ checking top-level files ... NOTE
+  Non-standard files/directories found at top level:
+    ‘shiny-app’ ‘submissions’
+```
+
+I will not penalize most notes within reason. If you are unsure, please ask on Piazza to clarify whether I expect you to fix it, or if there is nothing to worry about!
+
+NOTE: If you are doing a topic that includes a data-set, you MUST attach the relevant data-set by converting it to an .rda file. See [Chapter 7 of R Packages](https://r-pkgs.org/data.html).
+
+## Marking Scheme
+
+Assignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.
+
+-   90\% of the marks are allocated for successful completion. 
+    -   All students are assumed to receive the full 90%; however, 15% will be deducted for each error, warning, or significant note generated when running `devtools::check()`.
+
+-   10\% of marks are awarded for an updated statement regarding generative AI usage (or lack thereof.)
+
+## Video Tutorials
+
+To be created...
+

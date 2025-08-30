@@ -11,7 +11,7 @@
     "href": "pages/outline.html",
     "title": "Course Outline",
     "section": "",
-    "text": "Lecture Information\nMonday 5:10 p.m. - 8:00 p.m. Please see the information on ACORN for location.\nFor the main course content, we will be following the second edition of “Statistical Computing with R” by Maria L. Rizzo.\nHowever, by the end of this course I expect students to be comfortable with the basics of R.\n\nStudents should know the material in chapters 2-4, 7 in “An Introduction to R” by Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau.\nSimilarly, students should learn more from chapters 2-4, 6 in “Advanced R” by Hadley Wickham.\n\n\n\nOffice Hours\nTBA… (I prefer to host them online if possible…)\n\n\nTutorial Information\nTBA…\n\n\nLearning Objectives\nThe official website details what the course will cover. To elaborate, I plan to cover the following:\n\nVarious methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We also will explain special types of random variables that are in the form of mixtures, and hopefully some common multivariate distributions (multivariate normal and the Wishart distribution.)\nMonte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.\nMonte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing. If time permits, I would like to try to simulate other loss functions (MSE alternatives) and the Pitman’s closeness criterion.\nBootstrap, a nonparametric Monte Carlo method used to estimate the distribution of a population by re-sampling, and Jackknife, another re-sampling method for estimating the bias and standard error.\nPermutation tests, used to show whether two samples come from the same distribution.\nEstimating probability density functions. (Will need to think about what methods to discuss…)\nOptimization in R. We’ll do one dimension, using optimize() (run help(optimize) in R, and two dimensions, using optim() (run help(optim)). If time permits, we will discuss the EM algorithm, which was one of the first things I learned in graduate school.\nMarkov Chain Monte Carlo methods, such as the Metropolis-Hastings Algorithm and the Gibbs Sampler.\nLastly, I want students to leave this course being comfortable with the basics of R programming. Some instructors strongly believe in theory, and although that is important, coding is also a valuable skill that I believe needs more practice, even in the realm of generative AI."
+    "text": "Lecture Information\nMonday 5:10 p.m. - 8:00 p.m. Please see the information on ACORN for location.\nFor the main course content, we will be following the second edition of “Statistical Computing with R” by Maria L. Rizzo.\nHowever, by the end of this course I expect students to be comfortable with the basics of R.\n\nStudents should know the material in chapters 2-4, 7 in “An Introduction to R” by Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau.\nSimilarly, students should learn more from chapters 2-4, 6 in “Advanced R” by Hadley Wickham.\nIt’s also good to skim “The R Inferno” by Patrick Burns to see the common R errors and best practices as a reference.\n\n\n\nOffice Hours\nTBA… (I prefer to host them online if possible…)\n\n\nTutorial Information\nTBA…\n\n\nLearning Objectives\nThe official website details what the course will cover. To elaborate, I plan to cover the following:\n\nVarious methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We also will explain special types of random variables that are in the form of mixtures, and hopefully some common multivariate distributions (multivariate normal and the Wishart distribution.)\nMonte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.\nMonte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing.\nBootstrap, a nonparametric Monte Carlo method used to estimate the distribution of a population by re-sampling, and Jackknife, another re-sampling method for estimating the bias and standard error.\nPermutation tests, used to show whether two samples come from the same distribution.\nProbability density estimation. We will discuss methods such as the Sturges’ rule, Scott’s rule, and the Freedman-Diaconis Rule.\nOptimization in R. We’ll do one dimension, using optimize() (run help(optimize) in R, and two dimensions, using optim() (run help(optim)). If time permits, we will discuss the EM algorithm, which was one of the first things I learned in graduate school.\nMarkov Chain Monte Carlo methods, such as the Metropolis-Hastings Algorithm and the Gibbs Sampler.\nLastly, I want students to leave this course being comfortable with the basics of R programming. Some instructors strongly believe in theory, and although that is important, coding is also a valuable skill that I believe needs more practice, even in the realm of generative AI."
   },
   {
     "objectID": "pages/syllabus.html",
@@ -32,13 +32,356 @@
     "href": "pages/lectures.html",
     "title": "Lectures",
     "section": "",
-    "text": "To be displayed soon…\n\nUnit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Re-sampling Techniques\nTBA…\n\n\nUnit 4: Permutation Testing\nTBA…\n\n\nUnit 5: Probability Density Function Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…\n\n\nUnit 7: MCMC Methods\nTBA…"
+    "text": "Tentative plan:\n\nWeek 1 (January 5): Course Introduction, Generating Random Variables\nWeek 2 (January 12): Generating Random Variables\nWeek 3 (January 19): Monte Carlo Integration\nWeek 4 (January 26): Monte Carlo Integration\nWeek 5 (February 2): TERM TEST 1\nWeek 6 (February 9): Monte Carlo Methods in Inference\nWeek 7: READING WEEK!!!\nWeek 8 (February 23): Re-sampling Techniques\nWeek 9 (March 2): Probability density estimation\nWeek 10 (March 9): TERM TEST 2\nWeek 11 (March 16): MCMC Methods\nWeek 12 (March 23): MCMC Methods\nWeek 13: (March 30): Review/Grace period…\n\n\nUnit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Monte Carlo Methods in Inference\nTBA…\n\n\nUnit 4: Resampling Techniques (includes Permutation Tests)\nTBA…\n\n\nUnit 5: Probability Density Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…\n\n\nUnit 7: MCMC Methods\nTBA…"
   },
   {
     "objectID": "pages/test.html",
     "href": "pages/test.html",
     "title": "Test Information",
     "section": "",
-    "text": "Weekly Quercus Quizzes\nTBA…\n\n\nQuiz 1\nTBA…\n\n\nMidterm\nTBA…\n\n\nQuiz 2\nTBA…"
+    "text": "I plan to have a clear outline of topics I expect students to know for the tests and supply 2-3 practice quizzes/tests of a similar difficulty.\nIn general, I believe if you know genuinely how to solve questions shown in lecture, tutorials, and practice problems, then I believe there should be no problem obtaining 80%+ in the course.\nThe main issue is that I want to cover a lot of material for this course. So don’t leave everything to the last minute!\n\nWeekly Quercus Quizzes\nTBA…\n\n\nTerm Test 1\nTBA…\n\n\nTerm Test 2\nTBA…"
+  },
+  {
+    "objectID": "sta380package.example/LICENSE.html",
+    "href": "sta380package.example/LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2025 sta380package.example authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html",
+    "href": "sta380package.example/vignettes/vign_example.html",
+    "title": "Independent Metropolis–Hastings",
+    "section": "",
+    "text": "This vignette merely serves as an example on how to use the three functions within the sta380package.example package for simulating the bivariate Gaussian distribution using three introductory MCMC methods:\nIn particular, the following examples are for generating random vectors from the bivariate Gaussian distribution with \\(\\mu_{1} = \\mu_{2} = 0\\), \\(\\sigma_{1} = \\sigma_{2} = 1\\) and correlation \\(\\rho = 0.7\\).\nWe also include examples on what the resultant samples appear to be, and comparisons between the three functions.\nLoading the in-house package below:\ndevtools::load_all()\n\nℹ Loading sta380package.example\nLoading required package: mvtnorm"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#generating-samples",
+    "href": "sta380package.example/vignettes/vign_example.html#generating-samples",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Generating Samples",
+    "text": "Generating Samples\n\nset.seed(1)\nN &lt;- 100000\nburn &lt;- 100\nrho &lt;- 0.7\nsigma_matrix &lt;- matrix(c(1, rho, rho, 1), nrow = 2, ncol = 2)\nmu_vec &lt;- c(0, 0)\ntest_pt1 = rmvnorm(n = 1, mean = c(0, 0), sigma = sigma_matrix)\nsim_attempt1 = rbivariate.mh_ind(N, burn, test_pt1, sigma_matrix, mu_vec)"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#scatterplot",
+    "href": "sta380package.example/vignettes/vign_example.html#scatterplot",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Scatterplot",
+    "text": "Scatterplot\n\npar(mfcol=c(1,1))\nplot(sim_attempt1[,1], sim_attempt1[,2],\n     xlab = \"Variable 1\",\n     ylab = \"Variable 2\",\n     main = \"Scatter plot of the simulated bivariate Gaussian samples obtained \n     via the independence Metropolis–Hastings algorithm.\")"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#checking-normality-assumptions",
+    "href": "sta380package.example/vignettes/vign_example.html#checking-normality-assumptions",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Checking Normality Assumptions",
+    "text": "Checking Normality Assumptions\n\npar(mfcol=c(2,2))\nxx = seq(-4,4,by=0.01)\nhist(sim_attempt1[,1], breaks=100, freq=FALSE, \n     main = \"Histogram of Variable 1\",\n     xlab = \"Variable 1\",\n     col = \"#6699FF\", border = \"white\")\nlines(xx, dnorm(xx), col=\"red\", lwd = 2, lty = 2)\nqqnorm(sim_attempt1[,1], main = \"Normal Q–Q Plot for Variable 1\",\n       col = \"#6699FF\")\nqqline(sim_attempt1[,1], col=\"red\", lwd = 2, lty = 2)\n\nhist(sim_attempt1[,2], breaks=100, freq=FALSE,\n     main = \"Histogram of Variable 2\",\n     xlab = \"Variable 2\",\n     col = \"#05DEB2\", border = \"white\")\nlines(xx, dnorm(xx), col=\"red\", lwd = 2, lty = 2)\nqqnorm(sim_attempt1[,2], main = \"Normal Q–Q Plot for Variable 2\",\n       col = \"#05DEB2\")\nqqline(sim_attempt1[,2], col=\"red\", lwd = 2, lty = 2)"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#generating-samples-1",
+    "href": "sta380package.example/vignettes/vign_example.html#generating-samples-1",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Generating Samples",
+    "text": "Generating Samples\n\nset.seed(1)\nN &lt;- 100000\nburn &lt;- 100\nrho &lt;- 0.7\nsigma_matrix &lt;- matrix(c(1, rho, rho, 1), nrow = 2, ncol = 2)\nmu_vec &lt;- c(0, 0)\ntest_pt1 &lt;- rmvnorm(n = 1, mean = c(0, 0), sigma = sigma_matrix)\nsim_attempt2 &lt;- rbivariate.rwmh(N, burn, test_pt1, sigma_matrix, mu_vec)"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#scatterplot-1",
+    "href": "sta380package.example/vignettes/vign_example.html#scatterplot-1",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Scatterplot",
+    "text": "Scatterplot\n\npar(mfcol=c(1,1))\nplot(sim_attempt2[,1], sim_attempt2[,2],\n     xlab = \"Variable 1\",\n     ylab = \"Variable 2\",\n     main = \"Scatter plot of the simulated bivariate Gaussian samples obtained \n     via the Random Walk Metropolis–Hastings algorithm.\")"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#checking-normality-assumptions-1",
+    "href": "sta380package.example/vignettes/vign_example.html#checking-normality-assumptions-1",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Checking Normality Assumptions",
+    "text": "Checking Normality Assumptions\n\npar(mfcol=c(2,2))\nxx = seq(-4,4,by=0.01)\nhist(sim_attempt2[,1], breaks=100, freq=FALSE, \n     main = \"Histogram of Variable 1\",\n     xlab = \"Variable 1\",\n     col = \"#6699FF\", border = \"white\")\nlines(xx, dnorm(xx), col=\"red\", lwd = 2, lty = 2)\nqqnorm(sim_attempt2[,1], main = \"Normal Q–Q Plot for Variable 1\",\n       col = \"#6699FF\")\nqqline(sim_attempt2[,1], col=\"red\", lwd = 2, lty = 2)\n\nhist(sim_attempt2[,2], breaks=100, freq=FALSE,\n     main = \"Histogram of Variable 2\",\n     xlab = \"Variable 2\",\n     col = \"#05DEB2\", border = \"white\")\nlines(xx, dnorm(xx), col=\"red\", lwd = 2, lty = 2)\nqqnorm(sim_attempt2[,2], main = \"Normal Q–Q Plot for Variable 2\",\n       col = \"#05DEB2\")\nqqline(sim_attempt2[,2], col=\"red\", lwd = 2, lty = 2)"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#generating-samples-2",
+    "href": "sta380package.example/vignettes/vign_example.html#generating-samples-2",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Generating Samples",
+    "text": "Generating Samples\n\nset.seed(1)\nN &lt;- 100000\nburn &lt;- 100\nrho &lt;- 0.7\nsigma_matrix &lt;- matrix(c(1, rho, rho, 1), nrow = 2, ncol = 2)\nmu_vec &lt;- c(0, 0)\ntest_pt1 &lt;- rmvnorm(n = 1, mean = c(0, 0), sigma = sigma_matrix)\nsim_attempt3 &lt;- gibbs_sampler(N, burn, test_pt1, sigma_matrix, mu_vec)"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#scatterplot-2",
+    "href": "sta380package.example/vignettes/vign_example.html#scatterplot-2",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Scatterplot",
+    "text": "Scatterplot\n\npar(mfcol=c(1,1))\nplot(sim_attempt3[,1], sim_attempt3[,2],\n     xlab = \"Variable 1\",\n     ylab = \"Variable 2\",\n     main = \"Scatter plot of the simulated bivariate Gaussian samples obtained \n     via the Random Walk Metropolis–Hastings algorithm.\")"
+  },
+  {
+    "objectID": "sta380package.example/vignettes/vign_example.html#checking-normality-assumptions-2",
+    "href": "sta380package.example/vignettes/vign_example.html#checking-normality-assumptions-2",
+    "title": "Independent Metropolis–Hastings",
+    "section": "Checking Normality Assumptions",
+    "text": "Checking Normality Assumptions\n\npar(mfcol=c(2,2))\nxx = seq(-4,4,by=0.01)\nhist(sim_attempt3[,1], breaks=100, freq=FALSE, \n     main = \"Histogram of Variable 1\",\n     xlab = \"Variable 1\",\n     col = \"#6699FF\", border = \"white\")\nlines(xx, dnorm(xx), col=\"red\", lwd = 2, lty = 2)\nqqnorm(sim_attempt3[,1], main = \"Normal Q–Q Plot for Variable 1\",\n       col = \"#6699FF\")\nqqline(sim_attempt3[,1], col=\"red\", lwd = 2, lty = 2)\n\nhist(sim_attempt3[,2], breaks=100, freq=FALSE,\n     main = \"Histogram of Variable 2\",\n     xlab = \"Variable 2\",\n     col = \"#05DEB2\", border = \"white\")\nlines(xx, dnorm(xx), col=\"red\", lwd = 2, lty = 2)\nqqnorm(sim_attempt3[,2], main = \"Normal Q–Q Plot for Variable 2\",\n       col = \"#05DEB2\")\nqqline(sim_attempt3[,2], col=\"red\", lwd = 2, lty = 2)"
+  },
+  {
+    "objectID": "pages/project/final_website.html",
+    "href": "pages/project/final_website.html",
+    "title": "Final Implementation",
+    "section": "",
+    "text": "Due date: March 25th, 2026 at 11:59pm\nFor every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in the same vignette as the last checkpoint.\nStudents are to submit a fully functional website with all of the requirements outlined. \n\nRubric\nFixing Remaining Issues (10%)\n\nProblems with any previous checkpoint, such as the algorithms, documentation, etc., are resolved.\nGenerative AI usage statement is included.\n\nCompletion (40%)\n\nAll assigned components work as intended; site runs without errors.\nInputs/outputs behave as expected.\n\nThe website does not need to be robust to unreasonable inputs.\n\nThe Shiny app incorporates required features from the topic instructions.\n\nAesthetics (10%)\n\nClean, consistent theme.\nNavigation is intuitive.\nEffective use of visualizations (clear, labeled plots/tables).\n\nAdditional Features (20%)\n\nCreative extensions beyond requirements. \nSome examples: use of external packages not referenced, unique components, innovative designs, etc.\n\nIndividual Contribution (20%)\n\nContributions assessed via commits and quality of said commits.\n\nFor instance, if you commit only 3 times, but they include a plethora of files/changes, then you should obtain full marks.\nThis is more of a safeguard against team members who produce little to no contribution."
+  },
+  {
+    "objectID": "pages/project/proposal.html",
+    "href": "pages/project/proposal.html",
+    "title": "Proposal",
+    "section": "",
+    "text": "Due date: February 11th, 2026 at 11:59pm\nFor every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it.\nThis checkpoint requires students to specify the details of their chosen project.\nAn example of a proposal, as well as other files, can be found here."
+  },
+  {
+    "objectID": "pages/project/basic_imp.html",
+    "href": "pages/project/basic_imp.html",
+    "title": "Basic Implementation Check",
+    "section": "",
+    "text": "Due date: February 25th, 2026 at 11:59pm\nFor every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in your vignette.\nThis checkpoint requires students to submit the core code for their R package and project website. The purpose is to demonstrate that you can:\nNote that at this point, you actually do not need to create an R package explicitly; this is for the next checkpoint."
+  },
+  {
+    "objectID": "pages/project/website.html",
+    "href": "pages/project/website.html",
+    "title": "Website Prototype",
+    "section": "",
+    "text": "Due date: March 11th, 2026 at 11:59pm\nFor every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in a new vignette.\nThe purpose of this checkpoint is to ensure that students can successfully launch a working version of their Shiny website and demonstrate functionality in some of the key components.\nDocumentation for Shiny is nicely done here.\nPosit Connect Cloud is recommended since it can be connected to a GitHub repository for immediate deployment."
+  },
+  {
+    "objectID": "pages/project/group_formation.html",
+    "href": "pages/project/group_formation.html",
+    "title": "Group Formation",
+    "section": "",
+    "text": "Due date: February 4th, 2026 at 11:59pm\nIn this checkpoint, students are tasked to form groups, create a GitHub repository, and decide on a topic!\nMarks are provided for successful completion."
+  },
+  {
+    "objectID": "pages/project/project_outline.html",
+    "href": "pages/project/project_outline.html",
+    "title": "Project Outline",
+    "section": "",
+    "text": "Develop an interactive R Shiny website on a computational statistics topic. The topic may be selected from course material or, with instructor approval, from more advanced material.\nClick here to view an example of what we expect students to create at the end of the project.\nBecause many of the required tasks contribute to building an R package, there will be a separate checkpoint dedicated to R package synthesis.\nThis project is to be completed in groups of up to five students. The minimum group size will be determined based on course enrollment. Students are responsible for forming their own groups without instructor assistance."
+  },
+  {
+    "objectID": "pages/project/project_outline.html#project-theme-1-random-variable-generation",
+    "href": "pages/project/project_outline.html#project-theme-1-random-variable-generation",
+    "title": "Project Outline",
+    "section": "Project Theme 1: Random Variable Generation",
+    "text": "Project Theme 1: Random Variable Generation\n1. Inverse-Transform Method\n\nSelect at least two distributions to simulate (these will appear in your project title and distinguish your work from other groups).\nInclude a graph comparing the true density with your simulated results (via a histogram).\nProvide a text output or table comparing simulated mean and variance to their theoretical values.\n\n2. Acceptance-Rejection Method\n\nFollow the same requirements as in Topic 1.\n\n3. Convolution Methods\n\nFollow the same requirements as in Topic 1, adjusted for one distribution.\nChoose a distribution with well-known results (e.g., the sum of i.i.d. squared Gaussians follow a chi-square distribution; the sum of i.i.d. exponential variables follow a gamma distribution).\n\n4. Mixture Methods\n\nApply the method to one type of mixture (e.g., mixtures of Gaussians, gamma, etc.).\nEnsure your implementation supports mixtures of various sizes, including at least 5 variables.\nInclude a density histogram of the simulated results. You do not need to compare this to the “true” density distribution.\nProvide a text output or table of reported simulated mean and variance. Again, you do not need to compare this to the “real” values."
+  },
+  {
+    "objectID": "pages/project/project_outline.html#project-theme-2-monte-carlo-inference",
+    "href": "pages/project/project_outline.html#project-theme-2-monte-carlo-inference",
+    "title": "Project Outline",
+    "section": "Project Theme 2: Monte Carlo Inference",
+    "text": "Project Theme 2: Monte Carlo Inference\n5. (Advanced) Monte Carlo Simulation of a Hypothesis Test\n\nSelect a specific hypothesis test (ideally one learned in a previous course, such as STA258) and choose a distribution for the data.\nSimulate and estimate the Type I error rate, Type II error rate, and power of the test.\nInclude a relevant visualization. For example, graph the distribution of p-values with a vertical line indicating the significance threshold alpha.\n\n6. (Advanced) Monte Carlo Simulation with Alternative Loss Functions\n\nInstead of the commonly used mean squared error (MSE), choose an alternative loss function (e.g., mean absolute error, Huber loss, Log-Cosh loss).\nCompare the results from your chosen loss function against those from MSE.\nSelect at least two estimators for comparison (e.g., mean vs. median, or other suitable estimators).\n\n7. (Advanced) Monte Carlo Analysis of Estimator Performance\n\nGo beyond loss functions by using alternative criteria for evaluating estimators, such as the Pitman closeness criterion. Select at least two estimators to compare.\nThis option serves as an alternative to Topic 6, focusing on performance evaluation using a different theoretical framework."
+  },
+  {
+    "objectID": "pages/project/project_outline.html#project-theme-3-resampling-methods",
+    "href": "pages/project/project_outline.html#project-theme-3-resampling-methods",
+    "title": "Project Outline",
+    "section": "Project Theme 3: Resampling Methods",
+    "text": "Project Theme 3: Resampling Methods\n8. (Advanced) Bootstrap Estimate\n\nSelect a dataset from a published research article (cite the source). Suitable repositories include Data Dryad and Zenodo.\nCompute bootstrap estimates for at least two descriptive statistics (e.g., mean, median, standard error, interquartile range, bias).\nInclude at least two histograms of the bootstrap distributions, each with a vertical line marking the statistic computed from the full dataset (serving as the “true” value).\n\n9. (Advanced) Jackknife\n\nSimilar to topic 8, select a dataset from a published research article.\nUse the jackknife method to estimate bias and standard error.\nInclude graphs illustrating these estimates, along with a comparison to the values computed from the full dataset.\n\n10. (Advanced) Bootstrap Confidence Interval\n\nSimilar to topic 8, select a dataset from a published research article.\nConstruct a single bootstrap confidence interval for your chosen statistic.\nInclude a visualization, such as a histogram with vertical dotted lines marking the confidence interval endpoints.\n\n11. (Advanced +2) Permutation Test\n\nSimilar to topic 8, select a dataset from a published research article containing two distinct groups (suitable for a two-sample comparison).\nChoose the test statistic for your permutation procedure (e.g., mean difference, Kolmogorov–Smirnov statistic, Cramér–von Mises statistic, or another appropriate choice).\nPerform the test, report the p-value, and clearly state whether to reject or fail to reject the null hypothesis.\nInclude a visualization, such as a density plot or histogram of the permutation p-values."
+  },
+  {
+    "objectID": "pages/project/proposal.html#repository-setup",
+    "href": "pages/project/proposal.html#repository-setup",
+    "title": "Proposal",
+    "section": "1. Repository Setup",
+    "text": "1. Repository Setup\n\nCreate a GitHub repository for your group.\n\nYou do not need GitHub Pro; although if you find yourself using GitHub often, students can access GitHub Pro for free by verifying enrollment:https://github.com/education/students.\n\nUpload a .csv file (a template is uploaded) containing:\n\nEach group member’s name, UTORid, student number, and GitHub username.\nA list of three proposed project ideas.\n\nEnsure all group members are added with editing permissions.\nAdd the instructor’s GitHub account (annahuynhly) as a collaborator with editing permissions.\n\nIf you have not used GitHub before, there are many free resources and documentation found online. There is the official documentation here https://docs.github.com/en/get-started \nHere’s a quick Youtube tutorial of how I personally would set up the project with R studio.\nIf you are still struggling to set this up, feel free to visit the instructor’s office hours."
+  },
+  {
+    "objectID": "pages/project/proposal.html#instructor-notification",
+    "href": "pages/project/proposal.html#instructor-notification",
+    "title": "Proposal",
+    "section": "2. Instructor Notification",
+    "text": "2. Instructor Notification\n\nOnce the .csv file is uploaded and all members have access, send the instructor an email.\nThe instructor will confirm both repository access and topic approval by email."
+  },
+  {
+    "objectID": "pages/project/proposal.html#future-submissions",
+    "href": "pages/project/proposal.html#future-submissions",
+    "title": "Proposal",
+    "section": "Future Submissions",
+    "text": "Future Submissions\n\nAll subsequent checkpoints and project files will be submitted directly to the GitHub repository (no additional uploads elsewhere).\nAfter each deadline, the instructor will check the repository for:\n\nThe latest submission date, and\nAll files uploaded before the deadline."
+  },
+  {
+    "objectID": "pages/project/proposal.html#file-naming-and-folder-organization",
+    "href": "pages/project/proposal.html#file-naming-and-folder-organization",
+    "title": "Proposal",
+    "section": "File Naming and Folder Organization",
+    "text": "File Naming and Folder Organization\n\nNo strict naming convention is required. However, clear and descriptive names are encouraged.\nFor example: use proposal.pdf instead of simulation_assignment428492873.pdf.\nYou should organize your folders in a particular way, since you’ll eventually turn this repository as a base for an R package. Consult the example to see how the folders are organized."
+  },
+  {
+    "objectID": "pages/project/proposal.html#feedback",
+    "href": "pages/project/proposal.html#feedback",
+    "title": "Proposal",
+    "section": "Feedback",
+    "text": "Feedback\n\nInstructor feedback will be provided directly within each group’s repository."
+  },
+  {
+    "objectID": "pages/project/proposal.html#group-fairness",
+    "href": "pages/project/proposal.html#group-fairness",
+    "title": "Proposal",
+    "section": "Group Fairness",
+    "text": "Group Fairness\n\nNote that this project is group work, and all members are expected to contribute.\nAt the end of the project, git commit history will be thoroughly analyzed.\n\nThe instructor will investigate the number of commits and look at the contributions.\n\nAll members should be familiar with using git; so do not let other group members submit on behalf of you.\nThere will be a penalization for group members who did not sufficiently contribute meaningfully to the project.\nIt is likely that when working on the project with other members, you will encounter issues with merging. Again, there are many tutorials online that you can familiarize yourself with."
+  },
+  {
+    "objectID": "pages/project/proposal.html#submission-details",
+    "href": "pages/project/proposal.html#submission-details",
+    "title": "Proposal",
+    "section": "Submission Details",
+    "text": "Submission Details\n\n1. Repository Setup\n\nCreate a GitHub repository for your group.\n\nYou do not need GitHub Pro; although if you find yourself using GitHub often, students can access GitHub Pro for free by verifying enrollment:https://github.com/education/students.\n\nUpload a .xlsx file (a template can be downloaded here) containing:\n\nEach group member’s name, UTORid, student number, and GitHub username.\nA list of three proposed project ideas.\n\nEnsure all group members are added with editing permissions.\nAdd the instructor’s GitHub account (annahuynhly) as a collaborator with editing permissions.\n\nIf you have not used GitHub before, there are many free resources and documentation found online. There is the official documentation here https://docs.github.com/en/get-started.\nThe thing that the documentation above doesn’t cover is how you can easily use git with R Studio. Here’s a quick Youtube tutorial of how I personally would set up the project with R Studio.\nIf you are still struggling to set this up, feel free to visit the instructor’s office hours.\n\n\n2. Instructor Notification\n\nOnce the .xlsx file is uploaded and all members have access, send the instructor an email.\nThe instructor will confirm both repository access and topic approval by email."
+  },
+  {
+    "objectID": "pages/project/group_formation.html#submission-details",
+    "href": "pages/project/group_formation.html#submission-details",
+    "title": "Group Formation",
+    "section": "Submission Details",
+    "text": "Submission Details\n\n1. Repository Setup\n\nCreate a GitHub repository for your group.\n\nYou do not need GitHub Pro; although if you find yourself using GitHub often, students can access GitHub Pro for free by verifying enrollment:https://github.com/education/students.\n\nUpload a .xlsx file (a template can be downloaded here) containing:\n\nEach group member’s name, UTORid, student number, and GitHub username.\nA list of three proposed project ideas.\n\nEnsure all group members are added with editing permissions.\nAdd the instructor’s GitHub account (annahuynhly) as a collaborator with editing permissions.\n\nIf you have not used GitHub before, there are many free resources and documentation found online. There is the official documentation here https://docs.github.com/en/get-started.\nThe thing that the documentation above doesn’t cover is how you can easily use git with R Studio. Below is a quick YouTube tutorial of how I personally would set up the project with R Studio. However, if you have lots of experience using GitHub I would skip this video.\n\nIf you are still struggling to set this up, feel free to visit the instructor’s office hours.\n\n\n2. Instructor Notification\n\nOnce the .xlsx file is uploaded and all members have access, send the instructor an email.\nThe instructor will confirm both repository access and topic approval by email."
+  },
+  {
+    "objectID": "pages/project/group_formation.html#future-submissions",
+    "href": "pages/project/group_formation.html#future-submissions",
+    "title": "Group Formation",
+    "section": "Future Submissions",
+    "text": "Future Submissions\n\nAll subsequent checkpoints and project files will be submitted directly to the GitHub repository (no additional uploads elsewhere).\nAfter each deadline, the instructor will check the repository for:\n\nThe latest submission date, and\nAll files uploaded before the deadline."
+  },
+  {
+    "objectID": "pages/project/group_formation.html#file-naming-and-folder-organization",
+    "href": "pages/project/group_formation.html#file-naming-and-folder-organization",
+    "title": "Group Formation",
+    "section": "File Naming and Folder Organization",
+    "text": "File Naming and Folder Organization\n\nNo strict naming convention is required. However, clear and descriptive names are encouraged.\nFor example: use proposal.pdf instead of simulation_assignment428492873.pdf.\nYou should organize your folders in a particular way, since you’ll eventually turn this repository as a base for an R package. Consult the example to see how the folders are organized."
+  },
+  {
+    "objectID": "pages/project/group_formation.html#feedback",
+    "href": "pages/project/group_formation.html#feedback",
+    "title": "Group Formation",
+    "section": "Feedback",
+    "text": "Feedback\n\nInstructor feedback will be provided directly within each group’s repository."
+  },
+  {
+    "objectID": "pages/project/group_formation.html#group-fairness",
+    "href": "pages/project/group_formation.html#group-fairness",
+    "title": "Group Formation",
+    "section": "Group Fairness",
+    "text": "Group Fairness\n\nNote that this project is group work, and all members are expected to contribute.\nAt the end of the project, git commit history will be thoroughly analyzed.\n\nThe instructor will investigate the number of commits and look at the contributions.\n\nAll members should be familiar with using git; so do not let other group members submit on behalf of you.\nThere will be a penalization for group members who did not sufficiently contribute meaningfully to the project.\nIt is likely that when working on the project with other members, you will encounter issues with merging. Again, there are many tutorials online that you can familiarize yourself with."
+  },
+  {
+    "objectID": "pages/project/proposal.html#submission-requirements",
+    "href": "pages/project/proposal.html#submission-requirements",
+    "title": "Proposal",
+    "section": "Submission Requirements",
+    "text": "Submission Requirements\nUpload:\n\na maximum 2-page PDF,\nthe file used to render the pdf,\nand an accompanying BibTeX file.\nProject Topic\n\nState the topic idea you are pursuing (must already be approved by the instructor).\n\nSimulation vs. Dataset\n\nIndicate whether your project will use pure simulation or a dataset.\nIf using a dataset:\n\nProvide the source (datasets must come from published research articles).\nSuggested repositories: Data Dryad, Zenodo.\nIf you cannot decide, the instructor may assign a dataset, which you must use.\nAttach the dataset as a .csv file.\n\n\nProject Details\n\nExpand on the requirements outlined in your chosen topic description.\nFor original topics, include the minimum expectations previously given by the instructor.\n\nUser Inputs (Shiny Components)\n\nList at least five interactive inputs you plan to include in your R Shiny app.\nExamples: simulation sample size, random seed, plot color, option to download the simulated dataset as .csv, etc.\nCreativity is encouraged. More inputs are welcome!\n\nReferences\n\nInclude as many references as possible.\nSince you will be using R Shiny, begin with citing R and Shiny.\nIf you know in advance which R packages you’ll use, include their citations (citation(\"packageName\") in R).\nIf the reference is NOT a textbook, then it MUST include a DOI link. If no DOI exists, provide a valid URL. If neither exists, the source cannot be used.\nThe format of the citations do not matter, but it should be consistent amongst citations.\n\n\nNo more wasting your time to match the exact citation styles. Since you are expected to use BibTeX references, you’ll need to write the proposal in LaTeX or anything else that supports BibTeX. BibTeX works well with Rmarkdown (and Quarto), and can easily be used.\nYou do not need to permanently commit to the details in the proposal; the example proposal and the finished product are actually different. However, it’s good to write some ideas down so you have a direction to work towards."
+  },
+  {
+    "objectID": "pages/project/basic_imp.html#project-example",
+    "href": "pages/project/basic_imp.html#project-example",
+    "title": "Basic Implementation Check",
+    "section": "Project Example",
+    "text": "Project Example\nAn example with all file components is shown here."
+  },
+  {
+    "objectID": "pages/project/basic_imp.html#submission-requirements",
+    "href": "pages/project/basic_imp.html#submission-requirements",
+    "title": "Basic Implementation Check",
+    "section": "Submission Requirements",
+    "text": "Submission Requirements\n\nFunction Code\n\nAn .R file containing all functions used for your project.\nFunctions should be documented with roxygen comments.\n\nTesting Code\n\nA separate .R file with all relevant tests, written using the testthat library.\n\nVignette\n\nAn .Rmd file demonstrating function use with some assumption checks.\nA rendered .pdf or .html file.\nThis document must end with a references section written explicitly in BibTeX, with DOI or URL links included."
+  },
+  {
+    "objectID": "pages/project/basic_imp.html#suggested-task-order",
+    "href": "pages/project/basic_imp.html#suggested-task-order",
+    "title": "Basic Implementation Check",
+    "section": "Suggested Task Order",
+    "text": "Suggested Task Order\n\nImplement the functions for the computational statistics concepts.\nManually verify results (e.g., mean, SD, histograms vs. true density).\nWrite tests with testthat.\nAdd roxygen2 comments before each function.\nDraft a vignette starting with a simple .Rmd document, with the rendered .pdf or .html file.\nAdd the BibTeX citations at the end of the vignette."
+  },
+  {
+    "objectID": "pages/project/basic_imp.html#video-tutorials",
+    "href": "pages/project/basic_imp.html#video-tutorials",
+    "title": "Basic Implementation Check",
+    "section": "Video Tutorials",
+    "text": "Video Tutorials\nIn this course we write a lot of functions. However, writing tests and documentation is often not taught to statistics students explicitly. Hence, you are free to watch these short YouTube videos on how to use, and a better understanding of how these tools work.\nDisclaimer: the functions devtools::test() and devtools::document() only work once you have built the package; I’ve included these examples to demonstrate how they can be used for R package development.\n\nVideo for testthat\n\n\n\nVideo for roxygen Comments"
+  },
+  {
+    "objectID": "pages/project/proposal.html#bibtex-guide",
+    "href": "pages/project/proposal.html#bibtex-guide",
+    "title": "Proposal",
+    "section": "BibTeX Guide",
+    "text": "BibTeX Guide\nFrom my personal experience, Generative AI tends to hallucinate when it comes to citations. This is how I do them easily.\n1. Go to Google Scholar and search for the reference I want to use.\n\n\n\n\n\n2. Press “Cite” (at the end, to the left of “Cited by XX”).\n\n\n\n\n\n3. Click “BibTeX” (see at the bottom, to the left of EndNote).\n\\@book{voss2013introduction,\n  title={An introduction to statistical computing: a simulation-based approach},\n  author={Voss, Jochen},\n  year={2013},\n  publisher={John Wiley \\\\& Sons}\n}\n4. Copy this output and paste it into the .bib file.\nIf you ever want to reference the citation in a sentence, we tend to use @key. In the above example, the key in that case would be voss2013introduction, so one would use @voss2013introduction.\nIn my example, I did not reference any citations. By default, citations only are referenced if you use then; to ensure that all are listed regardless of reference in the main text, you’ll need to do something similar to \\nocite{*}; see the example .tex file here."
+  },
+  {
+    "objectID": "pages/project/package_comp.html",
+    "href": "pages/project/package_comp.html",
+    "title": "Package Compiling",
+    "section": "",
+    "text": "Due date: March 4th, 2026 at 11:59pm\nFor every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please update your generative AI statement in your vignette.\nBy completing this checkpoint, students should:\nBuilding an R package isn’t related to building the R Shiny website. However, you have already built the foundation for an R package in the previous checkpoint. Hence, it would be a waste to not learn how to do the finishing touches.\nThere are many bits and pieces that come with building R packages that I cannot easily summarize. The R Packages textbook I have been referencing is my favourite guide. You should now start by reading Chapter 1-2, and revisit Chapters referenced in the previous checkpoint to ensure seamless package implementation.\nFor additional notes regarding writing R packages, there’s also the official Writing R Extensions website."
+  },
+  {
+    "objectID": "pages/project/package_comp.html#submission-requirements-checklist",
+    "href": "pages/project/package_comp.html#submission-requirements-checklist",
+    "title": "Package Compiling",
+    "section": "Submission Requirements Checklist",
+    "text": "Submission Requirements Checklist\nHere are the main components from the R package that I am checking for:\n\nFunction Code\n\nThese should be within the R/ folder of the package, and the file type should be .R.\n\nTesting Code\n\nThese should be contained in the tests/testthat/ folder of the package.\nRun devtools::test() to ensure all tests are valid.\n\nDocumentation\n\nDocumentation should be written as roxygen comments directly before the relevant functions.\nThe documentation should be compiled in the man/ folder as .Rd files.\nRun the command devtools::document() if there is nothing in the man/ folder.\n\nVignettes\n\nVignettes should be written in the vignettes/ folder, but the .pdf should be compiled in the doc/ folder.\nRun the command devtools::build_vignettes() if it doesn’t exist in doc/ yet.\n\n\nThe final check before submission is to run devtools::check(), which typically catches other issues that I may have not mentioned. However, details regarding building the package should be found in both R Packages and Writing R Extensions.\nIf devtools::check() doesn’t have any extra errors, or warnings then you are good to go!\nNotes sometimes matter, but are often okay. Since I have incorporated submission examples, I was given the following note:\n❯ checking top-level files ... NOTE\n  Non-standard files/directories found at top level:\n    ‘shiny-app’ ‘submissions’\nI will not penalize most notes within reason. If you are unsure, please ask on Piazza to clarify whether I expect you to fix it, or if there is nothing to worry about!\nNOTE: If you are doing a topic that includes a data-set, you MUST attach the relevant data-set by converting it to an .rda file. See Chapter 7 of R Packages."
+  },
+  {
+    "objectID": "pages/project/package_comp.html#project-example",
+    "href": "pages/project/package_comp.html#project-example",
+    "title": "Package Compiling",
+    "section": "Project Example",
+    "text": "Project Example\nAn example with all file components is shown here."
+  },
+  {
+    "objectID": "pages/project/package_comp.html#video-tutorials",
+    "href": "pages/project/package_comp.html#video-tutorials",
+    "title": "Package Compiling",
+    "section": "Video Tutorials",
+    "text": "Video Tutorials\nTo be created…"
+  },
+  {
+    "objectID": "pages/project/final_website.html#final-draft-xx",
+    "href": "pages/project/final_website.html#final-draft-xx",
+    "title": "Final Implementation",
+    "section": "",
+    "text": "Due date: March 25th, 2026 at 11:59pm\nStudents are to submit a fully functional website with all of the requirements outlined. \n\n\nFixing Remaining Issues (10%)\n\nProblems with any previous checkpoint, such as the algorithms, documentation, etc., are resolved.\n\nCompletion (40%)\n\nAll assigned components work as intended; site runs without errors.\nInputs/outputs behave as expected.\n\nThe website does not need to be robust to unreasonable inputs.\n\nThe Shiny app incorporates required features from the topic instructions.\n\nAesthetics (10%)\n\nClean, consistent theme.\nNavigation is intuitive.\nEffective use of visualizations (clear, labeled plots/tables).\n\nAdditional Features (20%)\n\nCreative extensions beyond requirements. \nSome examples: use of external packages not referenced, unique components, innovative designs, etc.\n\nIndividual Contribution (20%)\n\nContributions assessed via commits and quality of said commits.\n\nFor instance, if you commit only 3 times, but they include a plethora of files/changes, then you should obtain full marks.\nThis is more of a safeguard against team members who produce little to no contribution."
+  },
+  {
+    "objectID": "pages/project/website.html#video-tutorials",
+    "href": "pages/project/website.html#video-tutorials",
+    "title": "Website Prototype",
+    "section": "Video Tutorials",
+    "text": "Video Tutorials\nThere are many great guides on how to create R Shiny websites. In the following video, I explain:\n\nhow my example works,\nand tips on how to read my code,\nand how I deployed my website.\n\nTo be created…"
+  },
+  {
+    "objectID": "pages/project/website.html#project-example",
+    "href": "pages/project/website.html#project-example",
+    "title": "Website Prototype",
+    "section": "Project Example",
+    "text": "Project Example\nAn example website, which uses Posit Connect Cloud, can be found here.\nThe GitHub repository can be found here."
+  },
+  {
+    "objectID": "pages/project/proposal.html#making-scheme",
+    "href": "pages/project/proposal.html#making-scheme",
+    "title": "Proposal",
+    "section": "Making Scheme",
+    "text": "Making Scheme\nAssignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.\n\n70% of marks are provided for proper completion.\n20% of marks are awarded for correct BibTeX citation.\n10% of marks are awarded for a statement regarding generative AI usage (or lack thereof.)"
+  },
+  {
+    "objectID": "pages/project/basic_imp.html#rubric",
+    "href": "pages/project/basic_imp.html#rubric",
+    "title": "Basic Implementation Check",
+    "section": "Rubric",
+    "text": "Rubric\nAssignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.\nFunction Code (40%)\n\nThe functions work as intended.\nThe functions are appropriately documented.\n\nTesting Code (30%)\n\nThe tests are reasonable and work as intended.\n\nVignette (30%)\n\nThe vignette shows how the functions can be used.\nAppropriate graphs are included.\nIncludes citations written in BibTeX.\nConsists of a statement regarding generative AI usage (or lack thereof.)"
+  },
+  {
+    "objectID": "pages/project/package_comp.html#marking-scheme",
+    "href": "pages/project/package_comp.html#marking-scheme",
+    "title": "Package Compiling",
+    "section": "Marking Scheme",
+    "text": "Marking Scheme\nAssignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.\n\n90% of the marks are allocated for successful completion.\n\nAll students are assumed to receive the full 90%; however, 15% will be deducted for each error, warning, or significant note generated when running devtools::check().\n\n10% of marks are awarded for an updated statement regarding generative AI usage (or lack thereof.)"
+  },
+  {
+    "objectID": "pages/project/website.html#marking-scheme",
+    "href": "pages/project/website.html#marking-scheme",
+    "title": "Website Prototype",
+    "section": "Marking Scheme",
+    "text": "Marking Scheme\nAssignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.\n\n40% of the marks are allocated for successful deployment of the website.\n50% of the marks are allocated for at least 5 Shiny components displaying on the website, with at least 3 of them working correctly.\n10% of marks are awarded for a new vignette statement regarding generative AI usage (or lack thereof.)"
   }
 ]

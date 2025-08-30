@@ -6,11 +6,11 @@ editor: visual
 
 **Due date:** February 11th, 2026 at 11:59pm
 
+**For every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it.**
+
 This checkpoint requires students to specify the details of their chosen project.
 
 An example of a proposal, as well as other files, can be found [here](https://github.com/annahuynhly/sta380package.example/tree/main/submissions/Proposal).
-
-Marks are provided for completion.
 
 ## Submission Requirements
 
@@ -69,3 +69,40 @@ Upload:
 No more wasting your time to match the exact citation styles. Since you are expected to use BibTeX references, you’ll need to write the proposal in LaTeX or anything else that supports BibTeX. [BibTeX works well with Rmarkdown](https://bibtex.eu/rmarkdown/) (and Quarto), and can easily be used.
 
 You do not need to permanently commit to the details in the proposal; the example proposal and the finished product are actually different. However, it’s good to write some ideas down so you have a direction to work towards.
+
+## Making Scheme
+
+Assignments will directly be marked on the GitHub repository. If there are any missing files, then the assignment would be considered incomplete and will get a 0.
+
+-   70\% of marks are provided for proper completion. 
+-   20\% of marks are awarded for correct BibTeX citation.
+-   10\% of marks are awarded for a statement regarding generative AI usage (or lack thereof.)
+
+## BibTeX Guide
+
+From my personal experience, Generative AI tends to hallucinate when it comes to citations. This is how I do them easily.
+
+**1. Go to Google Scholar and search for the reference I want to use.**
+
+![](img/cite1.png){fig-align="center" width="499"}
+
+**2. Press “Cite” (at the end, to the left of “Cited by XX”).**
+
+![](img/cite2.png){fig-align="center" width="425"}
+
+**3. Click “BibTeX” (see at the bottom, to the left of EndNote).**
+
+```         
+\@book{voss2013introduction,
+  title={An introduction to statistical computing: a simulation-based approach},
+  author={Voss, Jochen},
+  year={2013},
+  publisher={John Wiley \\& Sons}
+}
+```
+
+**4. Copy this output and paste it into the `.bib` file.**
+
+If you ever want to reference the citation in a sentence, we tend to use `@key`. In the above example, the key in that case would be voss2013introduction, so one would use `@voss2013introduction`.
+
+In my example, I did not reference any citations. By default, citations only are referenced if you use then; to ensure that all are listed regardless of reference in the main text, you'll need to do something similar to `\nocite{*}`; [see the example .tex file here.](https://github.com/annahuynhly/sta380package.example/blob/main/submissions/Proposal/main.tex)
