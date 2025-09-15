@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-I plan to have a clear outline of topics I expect students to know for the tests and supply 2-3 practice quizzes/tests of a similar difficulty.
+I plan to have a clear outline of topics I expect students to know for the tests and supply 2-3 practice tests of a similar difficulty.
 
 In general, I believe if you know genuinely how to solve questions shown in lecture, tutorials, and practice problems, then I believe there should be no problem obtaining 80%+ in the course.
 
@@ -12,12 +12,110 @@ The main issue is that I want to cover a lot of material for this course. So don
 
 # Weekly Quercus Quizzes
 
+The first quiz topics preliminary topics from STA256H5 and STA260H5. It will be available from the start of the course until January 20th. However, we recommend starting the quiz as early as possible; the due date is to accommodate for students that enroll in the course later.
+
+The rest of the quizzes will be available from Thursday 12:00am to Friday 11:59pm. The best 5 out of 7 will be counted.
+
+## Quiz 1: Preliminary Quiz (Due January 20th)
+
+## Quiz 2: Generating Random Variables
+
+Availability period: January 22-23
+
+## Quiz 3: Monte Carlo Integration
+
+Availability period: January 29-30
+
+## Quiz 4: Monte Carlo Methods in Inference
+
+Availability period: February 12-13
+
+## Quiz 5: Re-sampling Techniques
+
+Availability period: February 26-27
+
+## Quiz 6: Probability density estimation
+
+Availability period: March 5-6
+
+## Quiz 7: MCMC Methods
+
+Availability period: March 26-27
+
+# Term Tests
+
+## Coding Expectations
+
+You are expected to know how to code in `R` by hand for the term tests. You do not need to memorize a bunch of different functions and perfectly make plots. Most of the coding in `R` is to demonstrate that you know how to write the algorithms taught in lecture. In particular, students should be familiar with the following functions and how to do the following tasks:
+
+-   Setting a seed: `set.seed()`
+
+-   Variable assignment, either `<-` or `=`
+
+-   Initialize a vector: `x <- c()`
+
+-   Basic math operators & common functions
+
+    -   Addition: `+`
+
+    -   Subtraction: `-`
+
+    -   Multiplication: `*`
+
+    -   Division: `/`
+
+    -   Exponents: `^` or `**`
+
+    -   Exponential: `exp()`
+
+    -   Natural Logarithm: `log()`
+
+-   Basic logic operators (i.e., or: `|`, and: `&`, as well as `>=`, `==`, `<=`, `>`, `<`)
+
+-   Simulate from a standard uniform distribution `runif()` and standard Gaussian `rnorm()`. **We will give function and argument descriptions IF we require anything else similar to these.** Examples of what we would PROVIDE, IF NEEDED, are below:
+
+    -   Uniform(a, b), N(mu = a, sigma = b), etc.
+
+    -   density, `dnorm()`, quantile `qnorm()`, cdf `pnorm()`, etc.
+
+    -   Simulations from other distributions such as gamma `rgamma()`, beta `rbeta()`, etc.
+
+-   Write if/else statements
+
+-   Write for and while loops
+
+-   Write functions and include arguments and the `return()` statement(s)
+
+-   Writing comments; use `#` before writing them!
+
+## Term Test 1
+
 TBA...
 
-# Term Test 1
+We will provide a formula sheet of common distribution functions, such as the uniform, geometric, binomial, bernoulli, Gaussian, exponential, gamma, etc... (Will be posted.)
 
-TBA...
+Practice tests will be uploaded for students to get a general idea of the topics that may be asked and expectations. The difficulty is meant to be similar.
 
-# Term Test 2
+This term test should include the following topics:
+
+-   Students should be comfortable with pre-requisite material that are related to the lecture slides and practice problems (i.e., cdf, pdf, expected value, etc.)
+
+-   Students should be comfortable with all derivations and `R` codes regarding the inverse-transform and acceptance-rejection method as outlined in lecture and practice problems.
+
+-   Given a transformation or convolution (i.e., if provided the relationship between a standard Gaussian and a chisquare distribution), students should be able to write in `R` code how to generate the requested distribution.
+
+-   Understand how mixture models work for generating random variables, the code used to generate them, and the difference between mixture and convolutions.
+
+-   Introductory Monte Carlo methods for numerically estimating integrals (Section 1 of Unit 2 slides.) Both the written algorithm and how to code.
+
+Students will NOT be asked to do the following:
+
+-   Trick questions regarding whether the inverse-transform or the acceptance-rejection method is applicable or preferred in certain cases.
+
+-   Memorize all different combinations of transformations and convolutions between distributions; these will be supplied. Consult the practice test for examples.
+
+-   Plotting in `R`.
+
+## Term Test 2
 
 TBA...
