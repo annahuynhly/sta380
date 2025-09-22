@@ -18,7 +18,7 @@ By completing this checkpoint, students should:
 
 Building an R package isn’t related to building the R Shiny website. However, you have already built the foundation for an R package in the previous checkpoint. Hence, it would be a waste to not learn how to do the finishing touches.
 
-There are many bits and pieces that come with building R packages that I cannot easily summarize. The [R Packages](https://r-pkgs.org/) textbook I have been referencing is my favourite guide. You should now start by reading Chapter 1-2, and revisit Chapters referenced in the previous checkpoint to ensure seamless package implementation.
+There are many bits and pieces that come with building R packages that I cannot easily summarize. The [R Packages](https://r-pkgs.org/) textbook I have been referencing is my favourite guide. **You should now start by reading Chapter 1-2, and revisit Chapters referenced in the previous checkpoint to ensure seamless package implementation.**
 
 For additional notes regarding writing R packages, there’s also the official [Writing R Extensions](https://cran.r-project.org/doc/manuals/R-exts.html) website.
 
