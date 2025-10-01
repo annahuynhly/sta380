@@ -20,6 +20,7 @@ f(op$maximum)
 
 abline(h = f(op$maximum), col = "red", lty = 2, lwd = 2)
 
+
 # For $n = 10$ randomly sample from a $Gamma(\alpha = 5, \lambda = 2)$ using 
 # rgamma(). Use optim() to maximize this function with respect to 
 # $\boldsymbol{\theta} = (\alpha, \lambda)$
