@@ -6,9 +6,9 @@ editor: visual
 
 # TL;DR:
 
--   This course is crucial if you are planning graduate studies in statistics, especially if you do a thesis, UNLESS you are a pure measure theoretic probability theorist.
+-   This course is crucial if you are planning graduate studies in statistics, especially if you do a thesis.
 
--   If you are only interested in doing ML and AI, this course is not needed. I recommend `STA314` and `STA315` instead. However, if you need an extra statistics course for your degree, this is a better choice than time series analysis, survival analysis, etc.
+-   If you are only interested in doing ML and AI, this course is not needed. I recommend `STA314` and `STA315` instead. The CS courses, `CSC311` and `CSC413` are even better. However, if you need an extra statistics course for your degree, this is a better choice than time series analysis, survival analysis, etc.
 
 -   This course has an emphasis on theoretical aspects, however, unlike other iterations of the course, there is also a large coding aspect. Coding skills are applicable. The project will give you a nice project to add to a resume, and you will confidently call yourself an `R` coder.
 
@@ -18,15 +18,15 @@ editor: visual
 
 Recently, people have been recommending students to take this course. Furthermore, [the course description](https://utm.calendar.utoronto.ca/course/sta380h5) mentions that computational methods play a central role in modern statistics and **machine learning**.
 
-The former is undeniably true; unless you are doing pure measure theoretic probability theory research, you will employ computational statistics techniques in your thesis.
+The former is undeniably true; you will employ computational statistics techniques in your thesis. 
 
-I genuinely think if you take the course with me, you will be well prepared for most graduate programs in statistics, and your thesis supervisor should be satisfied with your `R` background.
+I genuinely think if you take the course with me, you will be prepared for the coding aspects for most graduate programs in statistics, and your thesis supervisor should be satisfied with your `R` background.
 
-The latter, referring to the machine learning aspect, is not necessarily true. They can be useful for machine learning, but it is not directly related the same way as the other statistics courses, `STA314` and `STA315` are. You may benefit from learning elementary Monte Carlo methods, bootstrap & jackknife, and numerical optimization.
+The latter, referring to the machine learning aspect, is not necessarily true. They can be useful for machine learning, but it is not directly related the same way as the other statistics courses, `STA314` and `STA315` are. The CS courses are especially (and even more) relevant, such as `CSC311` and `CSC413`. You may benefit from learning elementary Monte Carlo methods, bootstrap & jackknife, and numerical optimization.
 
-However, I would not be surprised if you never directly employ these approaches. Furthermore, most numerical optimization techniques are graduate school level; I will mostly be touching the surface. The optimization techniques I describe in detail are more for statisticians (EM algorithm).
+However, I would not be surprised if you never directly employ these approaches. Furthermore, most numerical optimization techniques are advanced; I will just mention how to use them in `R`. I'll only cover the Newton Raphson and EM algorithms in detail.
 
-Unlike past iterations of the course, I highly believe statistics students should know how to code. You will need this skill for a career and modern graduate studies. Unless you are a pure measure theoretic probability theorist, you will code.
+Unlike past iterations of the course, I highly believe statistics students should know how to code. You will need this skill for a career and modern graduate studies.
 
 Hence, the project has a heavy `R` coding component, and there will be a coding aspect for the examinations. Don't be too alarmed; the test page details what I expect students to be able to write by hand!
 

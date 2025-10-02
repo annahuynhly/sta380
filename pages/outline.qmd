@@ -30,7 +30,7 @@ TBA...
 
 [The official website](https://utm.calendar.utoronto.ca/course/sta380h5) details what the course will cover. To elaborate, I plan to cover the following:
 
--   Various methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We also will explain special types of random variables that are in the form of mixtures, and hopefully some common multivariate distributions (multivariate normal and the Wishart distribution.)
+-   Various methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We also will explain mixtures.
 
 -   Monte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.
 
@@ -42,7 +42,7 @@ TBA...
 
 -   Probability density estimation. We will discuss methods such as the Sturges' rule, Scott's rule, and the Freedman-Diaconis Rule.
 
--   Optimization in `R`. We'll do one dimension, using `optimize()` (run `help(optimize)` in `R`, and two dimensions, using `optim()` (run `help(optim)`). If time permits, we will discuss the EM algorithm, which was one of the first things I learned in graduate school.
+-   Optimization in `R`. We'll do one dimension, using `optimize()` (run `help(optimize)` in `R`, and two dimensions, using `optim()` (run `help(optim)`). I'll also explain Newton Raphson and the EM algorithm.
 
 -   Markov Chain Monte Carlo methods, such as the Metropolis-Hastings Algorithm and the Gibbs Sampler.
 
