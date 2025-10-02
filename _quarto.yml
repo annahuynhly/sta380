@@ -16,6 +16,8 @@ website:
           text: "Syllabus"
         - href: pages/test.qmd
           text: "Test Information"
+        - href: pages/coursefor.qmd
+          text: "Who This Course is For"
       - href: pages/lectures.qmd
         text: "Lectures"
       - href: pages/practice.qmd

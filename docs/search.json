@@ -32,14 +32,14 @@
     "href": "pages/lectures.html",
     "title": "Lectures",
     "section": "",
-    "text": "Tentative plan:\n\nWeek 1 (January 5): Course Introduction, Generating Random Variables\nWeek 2 (January 12): Generating Random Variables\nWeek 3 (January 19): Monte Carlo Integration\nWeek 4 (January 26): Monte Carlo Integration\nWeek 5 (February 2): TERM TEST 1\nWeek 6 (February 9): Monte Carlo Methods in Inference\nWeek 7: READING WEEK!!!\nWeek 8 (February 23): Re-sampling Techniques\nWeek 9 (March 2): Probability density estimation\nWeek 10 (March 9): TERM TEST 2\nWeek 11 (March 16): MCMC Methods\nWeek 12 (March 23): MCMC Methods\nWeek 13: (March 30): Review/Grace period…\n\n\nUnit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Monte Carlo Methods in Inference\nTBA…\n\n\nUnit 4: Resampling Techniques (includes Permutation Tests)\nTBA…\n\n\nUnit 5: Probability Density Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…\n\n\nUnit 7: MCMC Methods\nTBA…"
+    "text": "Tentative plan:\n\nWeek 1 (January 5): Course Introduction, Generating Random Variables\nWeek 2 (January 12): Generating Random Variables\nWeek 3 (January 19): Monte Carlo Integration\nWeek 4 (January 26): Monte Carlo Integration\nWeek 5 (February 2): TERM TEST 1\nWeek 6 (February 9): Monte Carlo Methods in Inference\nWeek 7: READING WEEK!!!\nWeek 8 (February 23): Re-sampling Techniques\nWeek 9 (March 2): Probability density estimation\nWeek 10 (March 9): TERM TEST 2\nWeek 11 (March 16): MCMC Methods\nWeek 12 (March 23): MCMC Methods\nWeek 13: (March 30): Review/Grace period…\n\nI understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)\nSolutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded but no promises (in case a file gets corrupted, quality is poor, etc.)\nI recommend against rushing everything until last second. The assessments will be difficult if you do not come to lecture regularly and ask questions. The examinations should be reasonable otherwise.\n\nUnit 1: Generating Random Variables\nLecture Notes\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Monte Carlo Methods in Inference\nTBA…\n\n\nUnit 4: Resampling Techniques (includes Permutation Tests)\nTBA…\n\n\nUnit 5: Probability Density Estimation\nLecture Notes\n\n\nUnit 6: Optimization\nTBA…\n\n\nUnit 7: MCMC Methods\nTBA…"
   },
   {
     "objectID": "pages/test.html",
     "href": "pages/test.html",
     "title": "Test Information",
     "section": "",
-    "text": "I plan to have a clear outline of topics I expect students to know for the tests and supply 2-3 practice quizzes/tests of a similar difficulty.\nIn general, I believe if you know genuinely how to solve questions shown in lecture, tutorials, and practice problems, then I believe there should be no problem obtaining 80%+ in the course.\nThe main issue is that I want to cover a lot of material for this course. So don’t leave everything to the last minute!\n\nWeekly Quercus Quizzes\nTBA…\n\n\nTerm Test 1\nTBA…\n\n\nTerm Test 2\nTBA…"
+    "text": "I plan to have a clear outline of topics I expect students to know for the tests and supply 2-3 practice tests of a similar difficulty.\nIn general, I believe if you know genuinely how to solve questions shown in lecture, tutorials, and practice problems, then I believe there should be no problem obtaining 80%+ in the course.\nThe main issue is that I want to cover a lot of material for this course. So don’t leave everything to the last minute!"
   },
   {
     "objectID": "sta380package.example/LICENSE.html",
@@ -390,5 +390,82 @@
     "title": "Proposal",
     "section": "Optional Responsibilities Document",
     "text": "Optional Responsibilities Document\nGroups may add to their proposal a section detailing responsibilities of each group member for future checkpoints and designate a team leader. This section will be reviewed at the end when checking git history, and does not count towards the 2-page limit.\nThis section is optional but encouraged to ensure certain members don’t over or under contribute."
+  },
+  {
+    "objectID": "pages/test.html#quiz-1-preliminary-quiz-due-january-20th",
+    "href": "pages/test.html#quiz-1-preliminary-quiz-due-january-20th",
+    "title": "Test Information",
+    "section": "Quiz 1: Preliminary Quiz (Due January 20th)",
+    "text": "Quiz 1: Preliminary Quiz (Due January 20th)"
+  },
+  {
+    "objectID": "pages/test.html#quiz-2-generating-random-variables",
+    "href": "pages/test.html#quiz-2-generating-random-variables",
+    "title": "Test Information",
+    "section": "Quiz 2: Generating Random Variables",
+    "text": "Quiz 2: Generating Random Variables\nAvailability period: January 22-23"
+  },
+  {
+    "objectID": "pages/test.html#quiz-3-monte-carlo-integration",
+    "href": "pages/test.html#quiz-3-monte-carlo-integration",
+    "title": "Test Information",
+    "section": "Quiz 3: Monte Carlo Integration",
+    "text": "Quiz 3: Monte Carlo Integration\nAvailability period: January 29-30"
+  },
+  {
+    "objectID": "pages/test.html#quiz-4-monte-carlo-methods-in-inference",
+    "href": "pages/test.html#quiz-4-monte-carlo-methods-in-inference",
+    "title": "Test Information",
+    "section": "Quiz 4: Monte Carlo Methods in Inference",
+    "text": "Quiz 4: Monte Carlo Methods in Inference\nAvailability period: February 12-13"
+  },
+  {
+    "objectID": "pages/test.html#quiz-5-re-sampling-techniques",
+    "href": "pages/test.html#quiz-5-re-sampling-techniques",
+    "title": "Test Information",
+    "section": "Quiz 5: Re-sampling Techniques",
+    "text": "Quiz 5: Re-sampling Techniques\nAvailability period: February 26-27"
+  },
+  {
+    "objectID": "pages/test.html#quiz-6-probability-density-estimation",
+    "href": "pages/test.html#quiz-6-probability-density-estimation",
+    "title": "Test Information",
+    "section": "Quiz 6: Probability density estimation",
+    "text": "Quiz 6: Probability density estimation\nAvailability period: March 5-6"
+  },
+  {
+    "objectID": "pages/test.html#quiz-7-mcmc-methods",
+    "href": "pages/test.html#quiz-7-mcmc-methods",
+    "title": "Test Information",
+    "section": "Quiz 7: MCMC Methods",
+    "text": "Quiz 7: MCMC Methods\nAvailability period: March 26-27"
+  },
+  {
+    "objectID": "pages/test.html#term-test-1",
+    "href": "pages/test.html#term-test-1",
+    "title": "Test Information",
+    "section": "Term Test 1",
+    "text": "Term Test 1\nTBA…\nWe will provide a formula sheet of common distribution functions, such as the uniform, geometric, binomial, bernoulli, Gaussian, exponential, gamma, etc… (Will be posted.)\nPractice tests will be uploaded for students to get a general idea of the topics that may be asked and expectations. The difficulty is meant to be similar.\nThis term test should include the following topics:\n\nStudents should be comfortable with pre-requisite material that are related to the lecture slides and practice problems (i.e., cdf, pdf, expected value, etc.)\nStudents should be comfortable with all derivations and R codes regarding the inverse-transform and acceptance-rejection method as outlined in lecture and practice problems.\nGiven a transformation or convolution (i.e., if provided the relationship between a standard Gaussian and a chisquare distribution), students should be able to write in R code how to generate the requested distribution.\nUnderstand how mixture models work for generating random variables, the code used to generate them, and the difference between mixture and convolutions.\nIntroductory Monte Carlo methods for numerically estimating integrals (Section 1 of Unit 2 slides.) Both the written algorithm and how to code.\n\nStudents will NOT be asked to do the following:\n\nTrick questions regarding whether the inverse-transform or the acceptance-rejection method is applicable or preferred in certain cases.\nMemorize all different combinations of transformations and convolutions between distributions; these will be supplied. Consult the practice test for examples.\nPlotting in R."
+  },
+  {
+    "objectID": "pages/test.html#coding-expectations",
+    "href": "pages/test.html#coding-expectations",
+    "title": "Test Information",
+    "section": "Coding Expectations",
+    "text": "Coding Expectations\nYou are expected to know how to code in R by hand for the term tests. You do not need to memorize a bunch of different functions and perfectly make plots. Most of the coding in R is to demonstrate that you know how to write the algorithms taught in lecture. In particular, students should be familiar with the following functions and how to do the following tasks:\n\nSetting a seed: set.seed()\nVariable assignment, either &lt;- or =\nInitialize a vector: x &lt;- c()\nBasic math operators & common functions\n\nAddition: +\nSubtraction: -\nMultiplication: *\nDivision: /\nExponents: ^ or **\nExponential: exp()\nNatural Logarithm: log()\n\nBasic logic operators (i.e., or: |, and: &, as well as &gt;=, ==, &lt;=, &gt;, &lt;)\nSimulate from a standard uniform distribution runif() and standard Gaussian rnorm(). We will give function and argument descriptions IF we require anything else similar to these. Examples of what we would PROVIDE, IF NEEDED, are below:\n\nUniform(a, b), N(mu = a, sigma = b), etc.\ndensity, dnorm(), quantile qnorm(), cdf pnorm(), etc.\nSimulations from other distributions such as gamma rgamma(), beta rbeta(), etc.\n\nWrite if/else statements\nWrite for and while loops\nWrite functions and include arguments and the return() statement(s)\nWriting comments; use # before writing them!"
+  },
+  {
+    "objectID": "pages/test.html#term-test-2",
+    "href": "pages/test.html#term-test-2",
+    "title": "Test Information",
+    "section": "Term Test 2",
+    "text": "Term Test 2\nTBA…"
+  },
+  {
+    "objectID": "pages/coursefor.html",
+    "href": "pages/coursefor.html",
+    "title": "Who This Course is For",
+    "section": "",
+    "text": "TL;DR:\n\nThis course is crucial if you are planning graduate studies in statistics, especially if you do a thesis, UNLESS you are a pure measure theoretic probability theorist.\nIf you are only interested in doing ML and AI, this course is not needed. I recommend STA314 and STA315 instead. However, if you need an extra statistics course for your degree, this is a better choice than time series analysis, survival analysis, etc.\nThis course has an emphasis on theoretical aspects, however, unlike other iterations of the course, there is also a large coding aspect. Coding skills are applicable. The project will give you a nice project to add to a resume, and you will confidently call yourself an R coder.\nThis is not a bird course, but you also shouldn’t be annihilated, as long as you regularly keep up with the material.\n\n\n\nLong Answer\nRecently, people have been recommending students to take this course. Furthermore, the course description mentions that computational methods play a central role in modern statistics and machine learning.\nThe former is undeniably true; unless you are doing pure measure theoretic probability theory research, you will employ computational statistics techniques in your thesis.\nI genuinely think if you take the course with me, you will be well prepared for most graduate programs in statistics, and your thesis supervisor should be satisfied with your R background.\nThe latter, referring to the machine learning aspect, is not necessarily true. They can be useful for machine learning, but it is not directly related the same way as the other statistics courses, STA314 and STA315 are. You may benefit from learning elementary Monte Carlo methods, bootstrap & jackknife, and numerical optimization.\nHowever, I would not be surprised if you never directly employ these approaches. Furthermore, most numerical optimization techniques are graduate school level; I will mostly be touching the surface. The optimization techniques I describe in detail are more for statisticians (EM algorithm).\nUnlike past iterations of the course, I highly believe statistics students should know how to code. You will need this skill for a career and modern graduate studies. Unless you are a pure measure theoretic probability theorist, you will code.\nHence, the project has a heavy R coding component, and there will be a coding aspect for the examinations. Don’t be too alarmed; the test page details what I expect students to be able to write by hand!\nAs an instructor, my teaching philosophy is as follows:\n\nI strive for students to know more than me when I was at their stage of their undergraduate career.\nA course should only be as difficult as the material being taught. The tests should be a reflection of the course content. I am not fond of “gotcha!” questions or are artificially difficult due to complicated computations.\nI want students to be adequately prepared for graduate studies, and/or be a sufficient R programmer.\n\nClearly, this will not be a bird course, and I am ambitious with the material being taught. But I don’t want students to drown and be worried about their GPA. At the same time, I want you to feel confident with the course content. Hence, the pacing may feel fast but I will be super clear with expectations for the examination to help ease the stress for students.\n\n\nReason for R\nIf you are getting into the ML and AI space, most things are done in python and you don’t need R.\nHowever, this is a statistics course. Most statistics research is done in R, not python.\nR is a good programming language for statisticians; and overall has a less barrier for entry for package development. Statisticians are not trying to be engineers. We mostly want to obtain the relevant numerical analysis for our statistical models.\nAfter all, it takes significantly less setup and lines of code for to obtain statistical information for a linear model and to graph a histogram in R than python\nThere has been recent development for python libraries to perform linear mixed modelling and structural equation models. However, these are not as well known in the statistics community (and uncertain of any possible issues for models of high dimensions or a more complicated covariance structure.)\nMost people should know both. There are already a lot of computer science courses that use python, and most undergraduate courses will not focus on R programming as much as this one."
   }
 ]

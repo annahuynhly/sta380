@@ -32,9 +32,15 @@ Tentative plan:
 
 -   Week 13: (March 30): Review/Grace period...
 
+I understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)
+
+Solutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded but no promises (in case a file gets corrupted, quality is poor, etc.)
+
+I recommend against rushing everything until last second. The assessments will be difficult if you do not come to lecture regularly and ask questions. The examinations should be reasonable otherwise.
+
 # Unit 1: Generating Random Variables
 
-TBA...
+[Lecture Notes](lecture_notes/Unit1_Slides_nosol.pdf)
 
 # Unit 2: Monte Carlo Integration
 
@@ -50,7 +56,7 @@ TBA...
 
 # Unit 5: Probability Density Estimation
 
-TBA...
+[Lecture Notes](lecture_notes/Unit5_Slides_nosol.pdf)
 
 # Unit 6: Optimization
 
