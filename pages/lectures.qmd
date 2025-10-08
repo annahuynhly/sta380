@@ -4,37 +4,37 @@ format: html
 editor: visual
 ---
 
-Tentative plan:
+Tentative plan (Updated October 8):
 
--   Week 1 (January 5): Course Introduction, Generating Random Variables
+-   Week 1 (January 5): Course Introduction, Simple Review, Generating Random Variables
 
 -   Week 2 (January 12): Generating Random Variables
 
--   Week 3 (January 19): Monte Carlo Integration
+-   Week 3 (January 19): Generating Random Variables / Monte Carlo Integration
 
 -   Week 4 (January 26): Monte Carlo Integration
 
 -   Week 5 (February 2): TERM TEST 1
 
--   Week 6 (February 9): Monte Carlo Methods in Inference
+-   Week 6 (February 9): Monte Carlo Integration / Monte Carlo Methods in Inference
 
 -   Week 7: READING WEEK!!!
 
--   Week 8 (February 23): Re-sampling Techniques
+-   Week 8 (February 23): Monte Carlo Methods in Inference
 
--   Week 9 (March 2): Probability density estimation
+-   Week 9 (March 2): Re-sampling Techniques
 
 -   Week 10 (March 9): TERM TEST 2
 
--   Week 11 (March 16): MCMC Methods
+-   Week 11 (March 16): Probability density estimation
 
--   Week 12 (March 23): MCMC Methods
+-   Week 12 (March 23): Optimization
 
 -   Week 13: (March 30): Review/Grace period...
 
 I understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)
 
-Solutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded but no promises (in case a file gets corrupted, quality is poor, etc.)
+Solutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded on Quercus but no promises (in case a file gets corrupted, quality is poor, etc.)
 
 I recommend against rushing everything until last second. The assessments will be difficult if you do not come to lecture regularly and ask questions. The examinations should be reasonable otherwise.
 
@@ -60,8 +60,7 @@ TBA...
 
 # Unit 6: Optimization
 
-TBA...
+[Lecture Notes](lecture_notes/Unit6_Slides_nosol.pdf)
 
-# Unit 7: MCMC Methods
+If you saw an earlier version of this website, you've noticed I removed covering MCMC methods. This is because most instructors advised not adding too much. That being said, if I have an ambitious cohort I may re-add it! :D
 
-TBA...

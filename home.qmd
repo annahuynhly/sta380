@@ -5,3 +5,17 @@ editor: visual
 ---
 
 Welcome to the STA380 website! Please see one of the headers above.
+
+Most of the notes will be posted on this website instead of Quercus/Canvas. [Ben Recht said it best](https://www.argmin.net/p/machine-learning-evaluation-a-syllabus):
+
+*"Using Canvas means that course content lives behind an obnoxious campus IT firewall."*
+
+I will not privatize this website. I will let the world witness the content I have to offer.
+
+That being said, some content that are personal will not be uploaded. The following will be on Quercus:
+
+-   Assessments
+
+-   Practice problems curated by previous instructors
+
+-   Recordings (if any).

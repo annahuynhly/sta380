@@ -20,7 +20,6 @@ f(op$maximum)
 
 abline(h = f(op$maximum), col = "red", lty = 2, lwd = 2)
 
-
 # For $n = 10$ randomly sample from a $Gamma(\alpha = 5, \lambda = 2)$ using 
 # rgamma(). Use optim() to maximize this function with respect to 
 # $\boldsymbol{\theta} = (\alpha, \lambda)$
@@ -58,7 +57,7 @@ op_5$par
 # Use optim() to maximize this function with respect to $x$:
 #    f(x, n, r, t) = \left( 1 + \frac{n-r}{2} \right)x - r + 
 #    \left( \frac{n-r}{2} \right) t
-# Compare the results and time required between the 5 different methods.
+# Compare the results between the 5 different methods.
 
 f2 <- function(theta){
   x <- theta[1]
@@ -93,6 +92,74 @@ f2(op_2$par)
 f2(op_3$par)
 f2(op_4$par)
 f2(op_5$par)
+
+# Consider the same log likelihood function we solved earlier for gamma. 
+# Again, randomly sample values from  $Gamma(\alpha = 5, \lambda = 2)$ 
+# and now use the Newton-Raphson Method to solve for the MLE. 
+# Hint: you're allowed to use numDeriv::grad and numDeriv::hessian.
+
+library("numDeriv")
+
+# This computes the gradient of a function
+??numDeriv::grad
+# This computes the Hessian matrix for us
+??numDeriv::hessian
+
+samp <- rgamma(10000, shape = 5, rate = 2)
+
+# Simlar function as before but we don't need to negate it
+gamma_likelihood_nr = function(theta, sample){
+  alpha <- theta[1]
+  lambda <- theta[2]
+  n <- length(sample)
+  sum_xi <- sum(sample)
+  sum_log_xi <- sum(log(sample))
+  part1 <- alpha*n*log(lambda) - n * lgamma(alpha)
+  part2 <- (alpha-1)*sum_log_xi - lambda * sum_xi
+  return(part1 + part2)
+}
+
+newton_raphson_gamma <- function(theta0, sample, tol = 0.01){
+  theta <- theta0
+  no_root <- TRUE
+  while(no_root){
+    L <- numDeriv::grad(gamma_likelihood_nr, theta, sample = sample)
+    H <- numDeriv::hessian(gamma_likelihood_nr, theta, sample = sample)
+    
+    new_theta <- theta - solve(H, L)
+    if(sqrt(sum((new_theta - theta)^(2))) <= tol){
+      no_root = FALSE
+    }
+    theta <- new_theta
+  }
+  return(theta)
+}
+
+newton_raphson_gamma(theta0 = c(2, 1), sample = samp)
+
+# EM Algorithm for iid $X_{1}, \dots, X_{n}$ where $X_{i} \sim Poisson(\tau)$ 
+# for $i = 1, 2, \dots, n$. Suppose we had all of the realizations 
+# $x_{2}, x_{3}, \dots, x_{n}$ except for $X_{1}$.
+
+n <- 10000
+incomp_samp <- rpois(n-1, lambda = 3)
+
+# Assume the sample we put in here is incomplete.
+em_poisson <- function(sample, tol = 0.0001){
+  # Step 1: get the starting point
+  tau <- sum(sample) / length(sample)
+  no_sol <- TRUE
+  while(no_sol){
+    new_tau <- (tau + sum(sample)) / (length(sample)+1)
+    if(sqrt(sum((new_tau - tau)^(2))) <= tol){
+      no_sol = FALSE
+    }
+    tau <- new_tau
+  }
+  return(tau)
+}
+
+em_poisson(incomp_samp)
 
 
 

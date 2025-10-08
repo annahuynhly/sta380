@@ -44,6 +44,4 @@ TBA...
 
 -   Optimization in `R`. We'll do one dimension, using `optimize()` (run `help(optimize)` in `R`, and two dimensions, using `optim()` (run `help(optim)`). I'll also explain Newton Raphson and the EM algorithm.
 
--   Markov Chain Monte Carlo methods, such as the Metropolis-Hastings Algorithm and the Gibbs Sampler.
-
 -   Lastly, I want students to leave this course being comfortable with the basics of `R` programming. Some instructors strongly believe in theory, and although that is important, coding is also a valuable skill that I believe needs more practice, even in the realm of generative AI.
