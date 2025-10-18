@@ -38,6 +38,10 @@ website:
           text: "Website Prototype"
         - href: pages/project/final_website.qmd
           text: "Final Implementation"
+      - text: "Other"
+        menu: 
+        - href: pages/other/ref.qmd
+          text: "Reference Letters"
 format:
   html:
     theme: cosmo

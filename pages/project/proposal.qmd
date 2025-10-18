@@ -112,3 +112,7 @@ From my personal experience, Generative AI tends to hallucinate when it comes to
 If you ever want to reference the citation in a sentence, we tend to use `@key`. In the above example, the key in that case would be voss2013introduction, so one would use `@voss2013introduction`.
 
 In my example, I did not reference any citations. By default, citations only are referenced if you use then; to ensure that all are listed regardless of reference in the main text, you'll need to do something similar to `\nocite{*}`; [see the example .tex file here.](https://github.com/annahuynhly/sta380package.example/blob/main/submissions/Proposal/main.tex)
+
+**Alternative Method: Zotero**
+
+Nowadays, a lot of researchers use [Zotero.](https://www.zotero.org/) While this is a powerful tool, my personal issue is I find this a bit finicky when dealing with articles that do not have a [DOI](https://www.doi.org/) link. Nonetheless, it is also a useful asset to have.

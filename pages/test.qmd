@@ -38,7 +38,7 @@ Availability period: February 26-27
 
 Availability period: March 5-6
 
-## Quiz 7: MCMC Methods
+## Quiz 7: Optimization
 
 Availability period: March 26-27
 
