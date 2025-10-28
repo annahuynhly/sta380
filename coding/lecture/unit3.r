@@ -98,7 +98,63 @@ est2 <- sqrt((1/(n-1)) * rowSums( (x - rowMeans(x))^(2)) )
 mse1 <- mean((est1 - theta)^2)
 mse2 <- mean((est2 - theta)^2)
 
+# PITMAN CLOSENESS PROBABILITY ################################################
 
+# using est1 and est2 from before
+pc <- abs(est1 - theta) <= abs(est2 - theta)
+sum(pc)/m
 
+# CONFIDENCE LEVEL ############################################################
 
+theta <- 5
+n <- 10
+m <- 10000
+alpha <- 0.05
+x <- matrix(rnorm(n*m, mean = theta, sd = sqrt(2)), nrow = m)
 
+mu_x <- rowMeans(x)
+sd_x <- sqrt((1/(n-1)) * rowSums( (x - rowMeans(x))^(2)) ) / sqrt(n)
+lower_x <- mu_x - qt(1-alpha/2, n-1) * sd_x
+upper_x <- mu_x + qt(1-alpha/2, n-1) * sd_x
+
+y <- ifelse(theta > lower_x, ifelse(theta < upper_x, 1, 0), 0)
+mean(y)
+
+# TYPE-I ERROR RATE ###########################################################
+
+n <- 20
+alpha <- 0.05
+mu0 <- 500
+sig <- 100
+
+m <- 10000
+
+x <- matrix(rnorm(n*m, mean = mu0, sd = sig), nrow = m)
+xbar <- rowMeans(x)
+# Computing the test statistic for each row
+test_stat <- (xbar - mu0)/(sig/sqrt(n))
+# Computing the p-value
+p_val <- 2 * pnorm(-abs(test_stat))
+# Reject the test_stat if p-value < alpha
+type_1_err <- mean(p_val < alpha)
+
+# TYPE-II ERROR RATE AND POWER ################################################
+
+n <- 20
+alpha <- 0.05
+mu1 <- 570
+mu0 <- 500
+sig <- 100
+
+m <- 10000
+
+x <- matrix(rnorm(n*m, mean = mu1, sd = sig), nrow = m)
+xbar <- rowMeans(x)
+# Computing the test statistic for each row
+test_stat <- (xbar - mu0)/(sig/sqrt(n))
+# Computing the p-value
+p_val <- 2 * pnorm(-abs(test_stat))
+# We want to check instances where we fail to reject.
+type_2_err <- mean(p_val > alpha)
+
+power = 1 - type_2_err

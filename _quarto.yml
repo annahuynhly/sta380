@@ -42,6 +42,8 @@ website:
         menu: 
         - href: pages/other/ref.qmd
           text: "Reference Letters"
+        - href: pages/other/reading.qmd
+          text: "Research Information"
 format:
   html:
     theme: cosmo

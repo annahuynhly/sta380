@@ -32,7 +32,7 @@ Tentative plan (Updated October 8):
 
 -   Week 13: (March 30): Review/Grace period...
 
-I understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)
+I understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive physically as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)
 
 Solutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded on Quercus but no promises (in case a file gets corrupted, quality is poor, etc.)
 
@@ -42,25 +42,60 @@ I recommend against rushing everything until last second. The assessments will b
 
 [Lecture Notes](lecture_notes/Unit1_Slides_nosol.pdf)
 
+Lecture Notes (Solution Version) - TBA
+
+R Codes - TBA
+
+---
+
 # Unit 2: Monte Carlo Integration
 
-TBA...
+Lecture Notes - TBA
+
+Lecture Notes (Solution Version) - TBA
+
+R Codes - TBA
+
+---
 
 # Unit 3: Monte Carlo Methods in Inference
 
-TBA...
+[Lecture Notes](lecture_notes/Unit3_Slides_nosol.pdf)
+
+Lecture Notes (Solution Version) - TBA
+
+R Codes - TBA
+
+---
 
 # Unit 4: Resampling Techniques (includes Permutation Tests)
 
-TBA...
+Lecture Notes - TBA
+
+Lecture Notes (Solution Version) - TBA
+
+R Codes - TBA
+
+---
 
 # Unit 5: Probability Density Estimation
 
 [Lecture Notes](lecture_notes/Unit5_Slides_nosol.pdf)
 
+Lecture Notes (Solution Version) - TBA
+
+R Codes - TBA
+
+---
+
 # Unit 6: Optimization
 
 [Lecture Notes](lecture_notes/Unit6_Slides_nosol.pdf)
 
-If you saw an earlier version of this website, you've noticed I removed covering MCMC methods. This is because most instructors advised not adding too much. That being said, if I have an ambitious cohort I may re-add it! :D
+Lecture Notes (Solution Version) - TBA
 
+R Codes - TBA
+
+---
+
+If you saw an earlier version of this website, you've noticed I removed covering MCMC methods. This is because most instructors advised not adding too much. That being said, if I have an ambitious cohort I may re-add it! :D
