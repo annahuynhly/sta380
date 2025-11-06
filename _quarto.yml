@@ -14,14 +14,12 @@ website:
           text: "Course Outline"
         - href: pages/syllabus.qmd
           text: "Syllabus"
-        - href: pages/test.qmd
-          text: "Test Information"
         - href: pages/coursefor.qmd
           text: "Who This Course is For"
       - href: pages/lectures.qmd
         text: "Lectures"
-      - href: pages/practice.qmd
-        text: "Practice Problems"
+      - href: pages/test.qmd
+        text: "Test Information"
       - text: "Project Information"
         menu:
         - href: pages/project/project_outline.qmd

@@ -16,7 +16,25 @@ The first quiz topics preliminary topics from STA256H5 and STA260H5. It will be 
 
 The rest of the quizzes will be available from Thursday 12:00am to Friday 11:59pm. The best 5 out of 7 will be counted.
 
+The Quercus quizzes are in the format of multiple choice, true or false, or fill in the blank (numerical answers). 
+
 ## Quiz 1: Preliminary Quiz (Due January 20th)
+
+For this quiz, you need to know the following concepts:
+
+-   How to compute an expected value, variance, bias, and mean squared error for continuous random variables. It's even easier if you recognize well known continuous distributions: Gaussian (also known as normal), exponential, gamma, beta.
+
+    -   You **should** know how to do this for discrete random variables as well, but it is not on the quiz.
+
+-   Know the variance-bias decomposition of mean squared error.
+
+-   Know how to compute confidence intervals.
+
+-   Know how to derive likelihood functions and find the maximum likelihood estimator.
+
+[Practice questions for quiz 1.](practice/quiz1_practice.pdf)
+
+Unlike the practice questions, you may be given the actual population parameter (i.e., $\beta = 2$) such that you can insert your fill-in-the-blank answer for the mean, variance, bias, and MSE. You should hold onto your original equation (without inserting $\beta$) as the value provided will change.
 
 ## Quiz 2: Generating Random Variables
 

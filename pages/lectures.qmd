@@ -46,7 +46,7 @@ Lecture Notes (Solution Version) - TBA
 
 R Codes - TBA
 
----
+------------------------------------------------------------------------
 
 # Unit 2: Monte Carlo Integration
 
@@ -56,7 +56,7 @@ Lecture Notes (Solution Version) - TBA
 
 R Codes - TBA
 
----
+------------------------------------------------------------------------
 
 # Unit 3: Monte Carlo Methods in Inference
 
@@ -66,7 +66,7 @@ Lecture Notes (Solution Version) - TBA
 
 R Codes - TBA
 
----
+------------------------------------------------------------------------
 
 # Unit 4: Resampling Techniques (includes Permutation Tests)
 
@@ -76,7 +76,7 @@ Lecture Notes (Solution Version) - TBA
 
 R Codes - TBA
 
----
+------------------------------------------------------------------------
 
 # Unit 5: Probability Density Estimation
 
@@ -86,7 +86,7 @@ Lecture Notes (Solution Version) - TBA
 
 R Codes - TBA
 
----
+------------------------------------------------------------------------
 
 # Unit 6: Optimization
 
@@ -96,6 +96,6 @@ Lecture Notes (Solution Version) - TBA
 
 R Codes - TBA
 
----
+------------------------------------------------------------------------
 
 If you saw an earlier version of this website, you've noticed I removed covering MCMC methods. This is because most instructors advised not adding too much. That being said, if I have an ambitious cohort I may re-add it! :D

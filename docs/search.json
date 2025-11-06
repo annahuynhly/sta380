@@ -396,7 +396,7 @@
     "href": "pages/test.html#quiz-1-preliminary-quiz-due-january-20th",
     "title": "Test Information",
     "section": "Quiz 1: Preliminary Quiz (Due January 20th)",
-    "text": "Quiz 1: Preliminary Quiz (Due January 20th)"
+    "text": "Quiz 1: Preliminary Quiz (Due January 20th)\nFor this quiz, you need to know the following concepts:\n\nHow to compute an expected value, variance, bias, and mean squared error for continuous random variables. It’s even easier if you recognize well known continuous distributions: Gaussian (also known as normal), exponential, gamma, beta.\n\nYou should know how to do this for discrete random variables as well, but it is not on the quiz.\n\nKnow the variance-bias decomposition of mean squared error.\nKnow how to compute confidence intervals.\nKnow how to derive likelihood functions and find the maximum likelihood estimator.\n\nPractice questions for quiz 1.\nUnlike the practice questions, you may be given the actual population parameter (i.e., \\(\\beta = 2\\)) such that you can insert your fill-in-the-blank answer for the mean, variance, bias, and MSE. You should hold onto your original equation (without inserting \\(\\beta\\)) as the value provided will change."
   },
   {
     "objectID": "pages/test.html#quiz-2-generating-random-variables",
