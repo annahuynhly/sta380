@@ -98,21 +98,21 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
     -   Simulations from other distributions such as gamma `rgamma()`, beta `rbeta()`, etc.
 
--   Write if/else statements
+-   Write if/else statements, and `ifelse()`
 
 -   Write for and while loops
 
 -   Write functions and include arguments and the `return()` statement(s)
 
--   Writing comments; use `#` before writing them!
+-   Writing comments; use `#` before writing them
 
 ## Term Test 1
 
-TBA...
+[Practice Test Version A](practice/STA380_test1_practiceA.pdf) | [Practice Test Version B](practice/STA380_test1_practiceB.pdf)
 
 We will provide a formula sheet of common distribution functions, such as the uniform, geometric, binomial, bernoulli, Gaussian, exponential, gamma, etc... (Will be posted.)
 
-Practice tests will be uploaded for students to get a general idea of the topics that may be asked and expectations. The difficulty is meant to be similar.
+Practice tests are for students to get a general idea of the topics that may be asked and expectations.
 
 This term test should include the following topics:
 
