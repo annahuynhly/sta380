@@ -4,4 +4,4 @@ format: html
 editor: visual
 ---
 
-Notes by the teaching assistant will be uploaded here.
+Notes by the teaching assistant, Ting Lin, will be uploaded here.
