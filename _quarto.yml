@@ -16,11 +16,15 @@ website:
           text: "Syllabus"
         - href: pages/coursefor.qmd
           text: "Who This Course is For"
+      - href: pages/agenda.qmd
+        text: "Agenda"
       - href: pages/lectures.qmd
         text: "Lectures"
+      - href: pages/tutorial.qmd
+        text: "Tutorials"
       - href: pages/test.qmd
-        text: "Test Information"
-      - text: "Project Information"
+        text: "Tests & Quizzes"
+      - text: "Project"
         menu:
         - href: pages/project/project_outline.qmd
           text: "Project Overview"

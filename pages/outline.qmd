@@ -20,17 +20,25 @@ However, by the end of this course I expect students to be comfortable with the 
 
 # Office Hours
 
-TBA... (I prefer to host them online if possible...)
+Office hours will be hosted online on zoom. 
+
+The link will be on Piazza and Quercus. 
+
+There will be a [when2meet](https://www.when2meet.com/) link sent as an announcement to ensure that office hours are constructed considering students' general availability.
+
+The teaching assistant, Ting Lin, will not have scheduled office hours but she was given ample Piazza hours and generally responds quickly to student inquries.
 
 # Tutorial Information
 
-TBA...
+Tutorials will be held by Ting Lin. 
+
+The main focus of tutorials is to go over the practice quizzes and/or practice tests.
 
 # Learning Objectives
 
 [The official website](https://utm.calendar.utoronto.ca/course/sta380h5) details what the course will cover. To elaborate, I plan to cover the following:
 
--   Various methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We also will explain mixtures.
+-   Various methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We will also explain mixtures.
 
 -   Monte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.
 

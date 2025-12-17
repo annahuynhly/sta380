@@ -32,7 +32,7 @@
     "href": "pages/lectures.html",
     "title": "Lectures",
     "section": "",
-    "text": "Tentative plan (Updated October 8):\n\nWeek 1 (January 5): Course Introduction, Simple Review, Generating Random Variables\nWeek 2 (January 12): Generating Random Variables\nWeek 3 (January 19): Generating Random Variables / Monte Carlo Integration\nWeek 4 (January 26): Monte Carlo Integration\nWeek 5 (February 2): TERM TEST 1\nWeek 6 (February 9): Monte Carlo Integration / Monte Carlo Methods in Inference\nWeek 7: READING WEEK!!!\nWeek 8 (February 23): Monte Carlo Methods in Inference\nWeek 9 (March 2): Re-sampling Techniques\nWeek 10 (March 9): TERM TEST 2\nWeek 11 (March 16): Probability density estimation / Optimization\nWeek 12 (March 23): Optimization\nWeek 13: (March 30): Review/Grace period…\n\nI understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive physically as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)\nSolutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded on Quercus but no promises (in case a file gets corrupted, quality is poor, etc.)\nI recommend against rushing everything until last second. The assessments will be difficult if you do not come to lecture regularly and ask questions. The examinations should be reasonable otherwise.\n\nUnit 1: Generating Random Variables\nLecture Notes\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 2: Monte Carlo Integration\nLecture Notes - TBA\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 3: Monte Carlo Methods in Inference\nLecture Notes\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 4: Resampling Techniques (includes Permutation Tests)\nLecture Notes - TBA\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 5: Probability Density Estimation\nLecture Notes\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 6: Optimization\nLecture Notes\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\nIf you saw an earlier version of this website, you’ve noticed I removed covering MCMC methods. This is because most instructors advised not adding too much. That being said, if I have an ambitious cohort I may re-add it! :D"
+    "text": "Tentative plan (Updated October 8):\n\nWeek 1 (January 5): Course Introduction, Simple Review, Generating Random Variables\nWeek 2 (January 12): Generating Random Variables\nWeek 3 (January 19): Generating Random Variables / Monte Carlo Integration\nWeek 4 (January 26): Monte Carlo Integration\nWeek 5 (February 2): TERM TEST 1\nWeek 6 (February 9): Monte Carlo Integration / Monte Carlo Methods in Inference\nWeek 7: READING WEEK!!!\nWeek 8 (February 23): Monte Carlo Methods in Inference\nWeek 9 (March 2): Re-sampling Techniques\nWeek 10 (March 9): TERM TEST 2\nWeek 11 (March 16): Probability density estimation / Optimization\nWeek 12 (March 23): Optimization\nWeek 13: (March 30): Review/Grace period…\n\nI understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive physically as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)\nSolutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded on Quercus but no promises (in case a file gets corrupted, quality is poor, etc.)\nI recommend against rushing everything until last second. The assessments will be difficult if you do not come to lecture regularly and ask questions. The examinations should be reasonable otherwise.\n\nUnit 1: Generating Random Variables\nLecture Notes\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 2: Monte Carlo Integration\nLecture Notes - TBA\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 3: Monte Carlo Methods in Inference\nLecture Notes - TBA; recently removed (need to change)\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 4: Resampling Techniques (includes Permutation Tests)\nLecture Notes - TBA\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 5: Probability Density Estimation\nLecture Notes\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\n\n\nUnit 6: Optimization\nLecture Notes\nLecture Notes (Solution Version) - TBA\nR Codes - TBA\n\nIf you saw an earlier version of this website, you’ve noticed I removed covering MCMC methods. This is because most instructors advised not adding too much. That being said, if I have an ambitious cohort I may re-add it! :D"
   },
   {
     "objectID": "pages/test.html",
@@ -431,7 +431,7 @@
     "href": "pages/test.html#quiz-6-probability-density-estimation",
     "title": "Test Information",
     "section": "Quiz 6: Probability density estimation",
-    "text": "Quiz 6: Probability density estimation\nAvailability period: March 5-6"
+    "text": "Quiz 6: Probability density estimation\nAvailability period: March 5-6\nThere will be no practice quiz for probability density estimation. You can just rely on the lecture slides."
   },
   {
     "objectID": "pages/test.html#quiz-7-mcmc-methods",
@@ -488,5 +488,110 @@
     "title": "Research and Reading Course Information",
     "section": "",
     "text": "As a sessional instructor I am not permitted to conduct reading courses and neither am I permitted to kickstart any research projects.\nYou must instead ask other full time faculty."
+  },
+  {
+    "objectID": "pages/tutorial.html",
+    "href": "pages/tutorial.html",
+    "title": "Tutorial Information",
+    "section": "",
+    "text": "Notes by the teaching assistant will be uploaded here."
+  },
+  {
+    "objectID": "pages/agenda.html",
+    "href": "pages/agenda.html",
+    "title": "Agenda",
+    "section": "",
+    "text": "Lecture (January 5): Course Introduction, Quick Review, Generating Random Variables\nTutorial (January 6): Practice questions for preliminary Quiz 1\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+  },
+  {
+    "objectID": "pages/agenda.html#week-1",
+    "href": "pages/agenda.html#week-1",
+    "title": "Agenda",
+    "section": "",
+    "text": "Lecture (January 5): Course Introduction, Quick Review, Generating Random Variables\nTutorial (January 6): Practice questions for preliminary Quiz 1\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+  },
+  {
+    "objectID": "pages/agenda.html#week-2",
+    "href": "pages/agenda.html#week-2",
+    "title": "Agenda",
+    "section": "Week 2",
+    "text": "Week 2\nLecture (January 12): Generating Random Variables\nTutorial (January 13): TODO\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+  },
+  {
+    "objectID": "pages/agenda.html#week-3",
+    "href": "pages/agenda.html#week-3",
+    "title": "Agenda",
+    "section": "Week 3",
+    "text": "Week 3\nLecture (January 19): Generating Random Variables / Monte Carlo Integration\nTutorial (January 20): TODO\nDeadlines:\n\nPreliminary Quiz is due on Tuesday January 20 (11:59pm).\nQuiz 2 is due on Friday January 23 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-4",
+    "href": "pages/agenda.html#week-4",
+    "title": "Agenda",
+    "section": "Week 4",
+    "text": "Week 4\nLecture (January 26): Monte Carlo Integration\nTutorial (January 27): TODO\nDeadlines:\n\nQuiz 3 is due on Friday January 30 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-5",
+    "href": "pages/agenda.html#week-5",
+    "title": "Agenda",
+    "section": "Week 5",
+    "text": "Week 5\nLecture (February 2): Term Test 1\nTutorial (February 3): TODO\nDeadlines:\n\nGroup formation is due on Wednesday February 4 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-6",
+    "href": "pages/agenda.html#week-6",
+    "title": "Agenda",
+    "section": "Week 6",
+    "text": "Week 6\nLecture (February 9): Monte Carlo Integration / Monte Carlo Methods in Inference\nTutorial (February 10): TODO\nDeadlines:\n\nProposal is due on Wednesday February 11 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-7",
+    "href": "pages/agenda.html#week-7",
+    "title": "Agenda",
+    "section": "Week 7",
+    "text": "Week 7\nREADING WEEK! ENJOY YOUR HOLIDAY!"
+  },
+  {
+    "objectID": "pages/agenda.html#week-8",
+    "href": "pages/agenda.html#week-8",
+    "title": "Agenda",
+    "section": "Week 8",
+    "text": "Week 8\nLecture (February 23): Monte Carlo Methods in Inference\nTutorial (February 24): TODO\nDeadlines:\n\nQuiz 4 is due on Friday February 27 (11:59pm).\nBasic implementation check is due on Wednesday February 25 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-9",
+    "href": "pages/agenda.html#week-9",
+    "title": "Agenda",
+    "section": "Week 9",
+    "text": "Week 9\nLecture (March 2): Re-sampling Techniques\nTutorial (March 3): TODO\nDeadlines:\n\nQuiz 5 is due on Friday March 6 (11:59pm).\nPackage compiling is due on Wednesday March 4 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-10",
+    "href": "pages/agenda.html#week-10",
+    "title": "Agenda",
+    "section": "Week 10",
+    "text": "Week 10\nLecture (March 9): TERM TEST 2\nTutorial (March 10): TODO\nDeadlines:\n\nWebsite prototype is due on Wednesday March 11 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-11",
+    "href": "pages/agenda.html#week-11",
+    "title": "Agenda",
+    "section": "Week 11",
+    "text": "Week 11\nLecture (March 16): Probability density estimation / Optimization\nTutorial (March 17): TODO\nDeadlines:\n\nQuiz 6 is due on Friday March 20 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-12",
+    "href": "pages/agenda.html#week-12",
+    "title": "Agenda",
+    "section": "Week 12",
+    "text": "Week 12\nLecture (March 23): Optimization\nTutorial (March 24): TODO\nDeadlines:\n\nQuiz 7 is due on Friday March 27 (11:59pm).\nFinal implementation is due on Wednesday March 25 (11:59pm)."
+  },
+  {
+    "objectID": "pages/agenda.html#week-13",
+    "href": "pages/agenda.html#week-13",
+    "title": "Agenda",
+    "section": "Week 13",
+    "text": "Week 13\nLecture (March 30): Review/Grace Period\nTutorial (March 31): TODO"
   }
 ]

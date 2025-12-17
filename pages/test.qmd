@@ -56,6 +56,8 @@ Availability period: February 26-27
 
 Availability period: March 5-6
 
+There will be no practice quiz for probability density estimation. You can just rely on the lecture slides.
+
 ## Quiz 7: Optimization
 
 Availability period: March 26-27

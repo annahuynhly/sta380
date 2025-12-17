@@ -46,11 +46,29 @@ library(packageRank)
 hist(sleepstudy$Reaction)
 
 
-
-
 data("starwars", package = "dplyr") 
 # this is so not Gaussian
 hist(starwars$height)
 
+##################################
+# Jackknife fails example (may want to change the code example?)
+n <- 10
+x <- sample(1:100, size = n)
+
+M <- numeric(n)
+for (i in 1:n) { #leave one out
+  y <- x[-i]
+  M[i] <- median(y)
+}
+
+Mbar <- mean(M)
+print(sqrt((n-1)/n * sum((M - Mbar)^2)))
+
+#bootstrap estimate of se
+Mb <- replicate(1000, expr = {
+  y <- sample(x, size = n, replace = TRUE)
+  median(y) })
+
+print(sd(Mb))
 
 

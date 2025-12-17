@@ -1,0 +1,129 @@
+---
+title: "Agenda"
+format: html
+editor: visual
+---
+
+## Week 1
+
+**Lecture (January 5):** Course Introduction, Quick Review, Generating Random Variables
+
+**Tutorial (January 6):** Practice questions for preliminary Quiz 1
+
+No assessments due, but the preliminary quiz is open. You should do it before it's too late!
+
+## Week 2
+
+**Lecture (January 12):** Generating Random Variables
+
+**Tutorial (January 13):** TODO
+
+No assessments due, but the preliminary quiz is open. You should do it before it's too late!
+
+## Week 3
+
+**Lecture (January 19):** Generating Random Variables / Monte Carlo Integration
+
+**Tutorial (January 20):** TODO
+
+Deadlines:
+
+-   Preliminary Quiz is due on Tuesday January 20 (11:59pm).
+
+-   Quiz 2 is due on Friday January 23 (11:59pm).
+
+## Week 4
+
+**Lecture (January 26):** Monte Carlo Integration
+
+**Tutorial (January 27):** TODO
+
+Deadlines:
+
+-   Quiz 3 is due on Friday January 30 (11:59pm).
+
+## Week 5
+
+**Lecture (February 2):** Term Test 1
+
+**Tutorial (February 3):** TODO
+
+Deadlines:
+
+-   Group formation is due on Wednesday February 4 (11:59pm).
+
+## Week 6
+
+**Lecture (February 9):** Monte Carlo Integration / Monte Carlo Methods in Inference
+
+**Tutorial (February 10):** TODO
+
+Deadlines:
+
+-   Proposal is due on Wednesday February 11 (11:59pm).
+
+## Week 7
+
+READING WEEK! ENJOY YOUR HOLIDAY!
+
+## Week 8
+
+**Lecture (February 23):** Monte Carlo Methods in Inference
+
+**Tutorial (February 24):** TODO
+
+Deadlines:
+
+-   Quiz 4 is due on Friday February 27 (11:59pm).
+
+-   Basic implementation check is due on Wednesday February 25 (11:59pm).
+
+## Week 9
+
+**Lecture (March 2):** Re-sampling Techniques
+
+**Tutorial (March 3):** TODO
+
+Deadlines:
+
+-   Quiz 5 is due on Friday March 6 (11:59pm).
+
+-   Package compiling is due on Wednesday March 4 (11:59pm).
+
+## Week 10
+
+**Lecture (March 9):** TERM TEST 2
+
+**Tutorial (March 10):** TODO
+
+Deadlines:
+
+-   Website prototype is due on Wednesday March 11 (11:59pm).
+
+## Week 11
+
+**Lecture (March 16):** Probability density estimation / Optimization
+
+**Tutorial (March 17):** TODO
+
+Deadlines:
+
+-   Quiz 6 is due on Friday March 20 (11:59pm).
+
+## Week 12
+
+**Lecture (March 23):** Optimization
+
+**Tutorial (March 24):** TODO
+
+Deadlines:
+
+-   Quiz 7 is due on Friday March 27 (11:59pm).
+
+-   Final implementation is due on Wednesday March 25 (11:59pm).
+
+## Week 13
+
+**Lecture (March 30):** Review/Grace Period
+
+**Tutorial (March 31):** TODO
