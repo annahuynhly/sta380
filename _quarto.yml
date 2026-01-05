@@ -12,8 +12,6 @@ website:
         menu:
         - href: pages/outline.qmd
           text: "Course Outline"
-        - href: pages/syllabus.qmd
-          text: "Syllabus"
         - href: pages/coursefor.qmd
           text: "Who This Course is For"
       - href: pages/agenda.qmd

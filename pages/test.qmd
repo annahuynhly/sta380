@@ -16,7 +16,7 @@ The first quiz topics preliminary topics from STA256H5 and STA260H5. It will be 
 
 The rest of the quizzes will be available from Thursday 12:00am to Friday 11:59pm. The best 5 out of 7 will be counted.
 
-The Quercus quizzes are in the format of multiple choice, true or false, or fill in the blank (numerical answers). 
+The Quercus quizzes are in the format of multiple choice, true or false, or fill in the blank (numerical answers).
 
 ## Quiz 1: Preliminary Quiz (Due January 20th)
 
@@ -32,7 +32,7 @@ For this quiz, you need to know the following concepts:
 
 -   Know how to derive likelihood functions and find the maximum likelihood estimator.
 
-[Practice questions for quiz 1.](practice/quiz1_practice.pdf)
+[Practice questions to prepare for quiz 1.](practice/quiz1_practice.pdf)
 
 Unlike the practice questions, you may be given the actual population parameter (i.e., $\beta = 2$) such that you can insert your fill-in-the-blank answer for the mean, variance, bias, and MSE. You should hold onto your original equation (without inserting $\beta$) as the value provided will change.
 
@@ -40,9 +40,13 @@ Unlike the practice questions, you may be given the actual population parameter 
 
 Availability period: January 22-23
 
+[Practice questions to prepare for quiz 2.](practice/quiz2_practice.pdf)
+
 ## Quiz 3: Monte Carlo Integration
 
 Availability period: January 29-30
+
+[Practice questions to prepare for quiz 3.](practice/quiz3_practice.pdf)
 
 ## Quiz 4: Monte Carlo Methods in Inference
 
@@ -110,7 +114,7 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
 ## Term Test 1
 
-[Practice Test Version A](practice/STA380_test1_practiceA.pdf) | [Practice Test Version B](practice/STA380_test1_practiceB.pdf)
+[Practice Test Version A](practice/STA380_test1_practiceA.pdf) \| [Practice Test Version B](practice/STA380_test1_practiceB.pdf)
 
 We will provide a formula sheet of common distribution functions, such as the uniform, geometric, binomial, bernoulli, Gaussian, exponential, gamma, etc... (Will be posted.)
 

@@ -4,10 +4,6 @@ format: html
 editor: visual
 ---
 
-# Unit 0: R Code Practice
-
-TBA...
-
 # Unit 1: Generating Random Variables
 
 TBA...

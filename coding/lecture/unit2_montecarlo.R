@@ -37,7 +37,6 @@ test_that("MC test 2", {
   expect_equal(method2, -exp(-4) + exp(-2), tol = 0.05)
 })
 
-
 # Use the Monte Carlo approach to estimate the standard Gaussian cdf:
 # \Phi(x) = \int_{-\infty}^{x} \frac{1}{\sqrt{2\pi}} e^{-t^2/2} dt
 # Where $x > 0$. Try both methods and compare the results to pnorm().
@@ -47,7 +46,7 @@ x1 <- 0.5 # choice of x is arbitrary
 x2 <- -x1
 
 # Method 1
-mc_gaussian = function(x){
+mc_gaussian = function(n, x){
   u <- runif(n, 0, 1)
   if(x > 0){
     thetahat <- 1/sqrt(2*pi) * mean(x * exp((-(u*x)^2)/2))
@@ -59,8 +58,8 @@ mc_gaussian = function(x){
   return(q3method1)
 }
 
-q3_method1_pos <- mc_gaussian(x1)
-q3_method2_neg <- mc_gaussian(x2)
+q3_method1_pos <- mc_gaussian(n, x1)
+q3_method2_neg <- mc_gaussian(n, x2)
 
 test_that("MC test 3 (Method 1)", {
   expect_equal(q3_method1_pos, pnorm(x1), tol = 0.01)
@@ -87,7 +86,6 @@ test_that("MC test 3 (Method 2)", {
   expect_equal(q3_method2_pos, pnorm(x1), tol = 0.01)
   expect_equal(q3_method2_neg, pnorm(x2), tol = 0.01)
 })
-
 
 # Let $X \sim N(0, 1)$. Use the hit or miss method to estimate 
 # $\mathbb{P}(X > 2)$ and $\mathbb{P}(0 < X < 1)$. 
@@ -152,7 +150,6 @@ c(est1 - err_bds1, est1 + err_bds1)
 # second confidence interval
 c(est2 - err_bds2, est2 + err_bds2)
 
-
 # Derive a Monte Carlo estimator of $S$ using the Geometric distribution 
 # as defined below, and then approximate a value for S:
 # S = \sum_{i=0}^{\infty} (i^{2} + 2)^{-5} 5^{-i}
@@ -186,4 +183,64 @@ est_pi = 4*mean(chk)
 test_that("Checking pi", {
   expect_equal(est_pi, pi, tol = 0.02)
 })
+
+# Let $X \sim N(0, 1)$. Estimate $\mathbb{P}(X > 2.5)$ using importance 
+# sampling in R, where the importance function is an exponential density with 
+# mean 1.
+
+n <- 10^8
+x <- rexp(n)
+weights <- 1/sqrt(2*pi) * exp(-(x^2)/2 + x)
+imp_est <- mean((x>2.5) * weights)
+true_prob = pnorm(2.5, lower.tail = FALSE)
+
+test_that("Checking importance sampler", {
+  expect_equal(imp_est, true_prob, tol = 0.0001)
+})
+
+# Using antithetic variables, estimate the following integral:
+# \int_{0}^{1} \frac{1}{1+x} dx
+# Compare the result to the simple monte carlo estimator and the true value.
+
+n <- 10^8
+x1 <- runif(n/2)
+x2 <- runif(n)
+g_total <- (1/(1+x1) + 1/(1+(1-x1)))/2
+
+ans1 <- mean(g_total)
+ans2 <- mean(1/(1+x2))
+
+# notice that the first answer performs better..
+abs(ans1 - log(2))
+abs(ans2 - log(2))
+
+# Using antithetic variables, estimate $\Phi(2.9)$ and $\Phi(-3.2)$. Recall:
+# \Phi(x) = \int_{-\infty}^{x} \frac{1}{\sqrt{2\pi}} \exp\{-t^{2}/2\} dt
+# Compare the result to the simple Monte Carlo estimator that we computed earlier.
+
+# antithetic variable approach
+x <- 2.9
+n <- 10^8
+
+time1 <- system.time({
+  u <- runif(n/2)
+  g1 <- 1/sqrt(2*pi) * x * exp(-(x*u)^2 / 2)
+  g2 <- 1/sqrt(2*pi) * x * exp(-(x*(1-u))^2 / 2)
+  g_total <- (g1 + g2)/2
+  ans1 <- 0.5 + mean(g_total) 
+})
+
+# simple mc approach (copied and pasted)
+time2 <- system.time({
+  ans2 <- mc_gaussian(n, x)
+})
+
+# again, first answer performs better (even in terms of time.)
+help(system.time)
+time1
+time2
+
+abs(ans1 - pnorm(2.9))
+abs(ans2 - pnorm(2.9))
+
 

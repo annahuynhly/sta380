@@ -81,26 +81,27 @@ var(x)
 # Use the inverse transform method to simulate a random sample from the 
 # Binomial distribution
 
-n_generate <- 100
-u <- runif(n_generate)
-sim_vec <- rep(0, n_generate)
-n <- 10
-p <- 0.4 # Choice of p is arbitrary
-p_start <- (1-p)^n
+m <- 10^4
+u <- runif(m)
+sim_vec <- numeric(m)
+n <- 10 # arbitrary choice
+p <- 0.4 # arbitrary choice
+p_start <- choose(n, 0) * p^(0) * (1-p)^(n-0) 
 
-for(i in 1:n_generate){
+for(i in 1:m){
   j <- 0
   F_val <- p_start
   p_j <- p_start
-  while((u[i] >= F_val) & (j < n)){
-    j <- j + 1
-    p_j <- ((n - (j - 1))/j) * (p/(1-p)) * p_j
+  while((u[i] >= F_val) && (j<n)){
+    p_j <- (n-j)/(j+1) * (p)/(1-p) * p_j
     F_val <- F_val + p_j
+    j <- j + 1
   }
   sim_vec[i] <- j
 }
 
-# Comparing the mean and variance
+table(sim_vec)/m
+# Comparing mean and variance
 mean(sim_vec)
 n*p
 var(sim_vec)

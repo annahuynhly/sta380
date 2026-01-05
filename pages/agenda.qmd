@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+Plans may change. This is the latest planned agenda.
+
 ## Week 1
 
 **Lecture (January 5):** Course Introduction, Quick Review, Generating Random Variables
@@ -16,7 +18,7 @@ No assessments due, but the preliminary quiz is open. You should do it before it
 
 **Lecture (January 12):** Generating Random Variables
 
-**Tutorial (January 13):** TODO
+**Tutorial (January 13):** Practice questions for Quiz 2
 
 No assessments due, but the preliminary quiz is open. You should do it before it's too late!
 
@@ -24,7 +26,7 @@ No assessments due, but the preliminary quiz is open. You should do it before it
 
 **Lecture (January 19):** Generating Random Variables / Monte Carlo Integration
 
-**Tutorial (January 20):** TODO
+**Tutorial (January 20):** Practice questions for Quiz 3
 
 Deadlines:
 
@@ -36,7 +38,7 @@ Deadlines:
 
 **Lecture (January 26):** Monte Carlo Integration
 
-**Tutorial (January 27):** TODO
+**Tutorial (January 27):** Practice questions for Term Test 1
 
 Deadlines:
 
@@ -46,7 +48,7 @@ Deadlines:
 
 **Lecture (February 2):** Term Test 1
 
-**Tutorial (February 3):** TODO
+**Tutorial (February 3):** Additional Monte Carlo practice questions
 
 Deadlines:
 
@@ -56,7 +58,7 @@ Deadlines:
 
 **Lecture (February 9):** Monte Carlo Integration / Monte Carlo Methods in Inference
 
-**Tutorial (February 10):** TODO
+**Tutorial (February 10):** Practice questions for Quiz 4
 
 Deadlines:
 
@@ -70,7 +72,7 @@ READING WEEK! ENJOY YOUR HOLIDAY!
 
 **Lecture (February 23):** Monte Carlo Methods in Inference
 
-**Tutorial (February 24):** TODO
+**Tutorial (February 24):** Practice questions for Quiz 5
 
 Deadlines:
 
@@ -82,7 +84,7 @@ Deadlines:
 
 **Lecture (March 2):** Re-sampling Techniques
 
-**Tutorial (March 3):** TODO
+**Tutorial (March 3):** Practice questions for Term Test 2
 
 Deadlines:
 
@@ -94,7 +96,7 @@ Deadlines:
 
 **Lecture (March 9):** TERM TEST 2
 
-**Tutorial (March 10):** TODO
+**Tutorial (March 10):** [Tutorial may be cancelled! Take a break!]
 
 Deadlines:
 
@@ -104,7 +106,7 @@ Deadlines:
 
 **Lecture (March 16):** Probability density estimation / Optimization
 
-**Tutorial (March 17):** TODO
+**Tutorial (March 17):** [No plan yet...]
 
 Deadlines:
 
@@ -114,7 +116,7 @@ Deadlines:
 
 **Lecture (March 23):** Optimization
 
-**Tutorial (March 24):** TODO
+**Tutorial (March 24):** Practice questions for Quiz 7
 
 Deadlines:
 
@@ -126,4 +128,4 @@ Deadlines:
 
 **Lecture (March 30):** Review/Grace Period
 
-**Tutorial (March 31):** TODO
+**Tutorial (March 31):** Final Exam Review

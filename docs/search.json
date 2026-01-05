@@ -11,7 +11,7 @@
     "href": "pages/outline.html",
     "title": "Course Outline",
     "section": "",
-    "text": "Lecture Information\nMonday 5:10 p.m. - 8:00 p.m. Please see the information on ACORN for location.\nFor the main course content, we will be following the second edition of “Statistical Computing with R” by Maria L. Rizzo.\nHowever, by the end of this course I expect students to be comfortable with the basics of R.\n\nStudents should know the material in chapters 2-4, 7 in “An Introduction to R” by Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau.\nSimilarly, students should learn more from chapters 2-4, 6 in “Advanced R” by Hadley Wickham.\nIt’s also good to skim “The R Inferno” by Patrick Burns to see the common R errors and best practices as a reference.\n\n\n\nOffice Hours\nOffice hours will be hosted online on zoom.\nThe link will be on Piazza and Quercus.\nThere will be a when2meet link sent as an announcement to ensure that office hours are constructed considering students’ general availability.\nThe teaching assistant, Ting Lin, will not have scheduled office hours but she was given ample Piazza hours and generally responds quickly to student inquries.\n\n\nTutorial Information\nTutorials will be held by Ting Lin.\nThe main focus of tutorials is to go over the practice quizzes and/or practice tests.\n\n\nLearning Objectives\nThe official website details what the course will cover. To elaborate, I plan to cover the following:\n\nVarious methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We will also explain mixtures.\nMonte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.\nMonte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing.\nBootstrap, a nonparametric Monte Carlo method used to estimate the distribution of a population by re-sampling, and Jackknife, another re-sampling method for estimating the bias and standard error.\nPermutation tests, used to show whether two samples come from the same distribution.\nProbability density estimation. We will discuss methods such as the Sturges’ rule, Scott’s rule, and the Freedman-Diaconis Rule.\nOptimization in R. We’ll do one dimension, using optimize() (run help(optimize) in R, and two dimensions, using optim() (run help(optim)). I’ll also explain Newton Raphson and the EM algorithm.\nLastly, I want students to leave this course being comfortable with the basics of R programming. Some instructors strongly believe in theory, and although that is important, coding is also a valuable skill that I believe needs more practice, even in the realm of generative AI."
+    "text": "Lecture Information\nMonday 5:10 p.m. - 8:00 p.m. Please see the information on ACORN for location.\nFor the main course content, we will be following the second edition of “Statistical Computing with R” by Maria L. Rizzo.\nHowever, by the end of this course I expect students to be comfortable with the basics of R.\n\nStudents should know the material in chapters 2-4, 7 in “An Introduction to R” by Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David Lusseau.\nSimilarly, students should learn more from chapters 2-4, 6 in “Advanced R” by Hadley Wickham.\nIt’s also good to skim “The R Inferno” by Patrick Burns to see the common R errors and best practices as a reference.\n\n\n\nOffice Hours\nOffice hours will be hosted online on zoom.\nThe link will be on Piazza and Quercus.\nThere will be a when2meet link sent as an announcement to ensure that office hours are constructed considering students’ general availability.\nThe teaching assistant, Ting Lin, will not have scheduled office hours but she was given ample Piazza hours and generally responds quickly to student inquires.\n\n\nTutorial Information\nTutorials will be held by Ting Lin.\nThe main focus of tutorials is to go over the practice quizzes and/or practice tests.\n\n\nLearning Objectives\nThe official website details what the course will cover. To elaborate, I plan to cover the following:\n\nVarious methods for generating random variables, such as inverse-transform and the acceptance-rejection techniques. We will also explain mixtures.\nMonte Carlo integration, a method for estimating integrals (more specifically, expected values), and techniques to reduce the variance for this estimation.\nMonte Carlo methods, which briefly refers to any simulation-based method in statistical inference. We will start with examples students should be familiar with: simulating the mean, standard error, confidence intervals, MSE, bias, and hypothesis testing.\nBootstrap, a nonparametric Monte Carlo method used to estimate the distribution of a population by re-sampling, and Jackknife, another re-sampling method for estimating the bias and standard error.\nPermutation tests, used to show whether two samples come from the same distribution.\nProbability density estimation. We will discuss methods such as the Sturges’ rule, Scott’s rule, and the Freedman-Diaconis Rule.\nOptimization in R. We’ll do one dimension, using optimize() (run help(optimize) in R, and two dimensions, using optim() (run help(optim)). I’ll also explain Newton Raphson and the EM algorithm.\nLastly, I want students to leave this course being comfortable with the basics of R programming. Some instructors strongly believe in theory, and although that is important, coding is also a valuable skill that I believe needs more practice, even in the realm of generative AI."
   },
   {
     "objectID": "pages/syllabus.html",
@@ -25,7 +25,7 @@
     "href": "pages/practice.html",
     "title": "Practice Problems",
     "section": "",
-    "text": "Unit 0: R Code Practice\nTBA…\n\n\nUnit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Re-sampling Techniques\nTBA…\n\n\nUnit 4: Permutation Testing\nTBA…\n\n\nUnit 5: Probability Density Function Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…"
+    "text": "Unit 1: Generating Random Variables\nTBA…\n\n\nUnit 2: Monte Carlo Integration\nTBA…\n\n\nUnit 3: Re-sampling Techniques\nTBA…\n\n\nUnit 4: Permutation Testing\nTBA…\n\n\nUnit 5: Probability Density Function Estimation\nTBA…\n\n\nUnit 6: Optimization\nTBA…"
   },
   {
     "objectID": "pages/lectures.html",
@@ -396,21 +396,21 @@
     "href": "pages/test.html#quiz-1-preliminary-quiz-due-january-20th",
     "title": "Test Information",
     "section": "Quiz 1: Preliminary Quiz (Due January 20th)",
-    "text": "Quiz 1: Preliminary Quiz (Due January 20th)\nFor this quiz, you need to know the following concepts:\n\nHow to compute an expected value, variance, bias, and mean squared error for continuous random variables. It’s even easier if you recognize well known continuous distributions: Gaussian (also known as normal), exponential, gamma, beta.\n\nYou should know how to do this for discrete random variables as well, but it is not on the quiz.\n\nKnow the variance-bias decomposition of mean squared error.\nKnow how to compute confidence intervals.\nKnow how to derive likelihood functions and find the maximum likelihood estimator.\n\nPractice questions for quiz 1.\nUnlike the practice questions, you may be given the actual population parameter (i.e., \\(\\beta = 2\\)) such that you can insert your fill-in-the-blank answer for the mean, variance, bias, and MSE. You should hold onto your original equation (without inserting \\(\\beta\\)) as the value provided will change."
+    "text": "Quiz 1: Preliminary Quiz (Due January 20th)\nFor this quiz, you need to know the following concepts:\n\nHow to compute an expected value, variance, bias, and mean squared error for continuous random variables. It’s even easier if you recognize well known continuous distributions: Gaussian (also known as normal), exponential, gamma, beta.\n\nYou should know how to do this for discrete random variables as well, but it is not on the quiz.\n\nKnow the variance-bias decomposition of mean squared error.\nKnow how to compute confidence intervals.\nKnow how to derive likelihood functions and find the maximum likelihood estimator.\n\nPractice questions to prepare for quiz 1.\nUnlike the practice questions, you may be given the actual population parameter (i.e., \\(\\beta = 2\\)) such that you can insert your fill-in-the-blank answer for the mean, variance, bias, and MSE. You should hold onto your original equation (without inserting \\(\\beta\\)) as the value provided will change."
   },
   {
     "objectID": "pages/test.html#quiz-2-generating-random-variables",
     "href": "pages/test.html#quiz-2-generating-random-variables",
     "title": "Test Information",
     "section": "Quiz 2: Generating Random Variables",
-    "text": "Quiz 2: Generating Random Variables\nAvailability period: January 22-23"
+    "text": "Quiz 2: Generating Random Variables\nAvailability period: January 22-23\nPractice questions to prepare for quiz 2."
   },
   {
     "objectID": "pages/test.html#quiz-3-monte-carlo-integration",
     "href": "pages/test.html#quiz-3-monte-carlo-integration",
     "title": "Test Information",
     "section": "Quiz 3: Monte Carlo Integration",
-    "text": "Quiz 3: Monte Carlo Integration\nAvailability period: January 29-30"
+    "text": "Quiz 3: Monte Carlo Integration\nAvailability period: January 29-30\nPractice questions to prepare for quiz 3."
   },
   {
     "objectID": "pages/test.html#quiz-4-monte-carlo-methods-in-inference",
@@ -501,49 +501,49 @@
     "href": "pages/agenda.html",
     "title": "Agenda",
     "section": "",
-    "text": "Lecture (January 5): Course Introduction, Quick Review, Generating Random Variables\nTutorial (January 6): Practice questions for preliminary Quiz 1\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+    "text": "Plans may change. This is the latest planned agenda."
   },
   {
     "objectID": "pages/agenda.html#week-1",
     "href": "pages/agenda.html#week-1",
     "title": "Agenda",
-    "section": "",
-    "text": "Lecture (January 5): Course Introduction, Quick Review, Generating Random Variables\nTutorial (January 6): Practice questions for preliminary Quiz 1\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+    "section": "Week 1",
+    "text": "Week 1\nLecture (January 5): Course Introduction, Quick Review, Generating Random Variables\nTutorial (January 6): Practice questions for preliminary Quiz 1\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
   },
   {
     "objectID": "pages/agenda.html#week-2",
     "href": "pages/agenda.html#week-2",
     "title": "Agenda",
     "section": "Week 2",
-    "text": "Week 2\nLecture (January 12): Generating Random Variables\nTutorial (January 13): TODO\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+    "text": "Week 2\nLecture (January 12): Generating Random Variables\nTutorial (January 13): Practice questions for Quiz 2\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
   },
   {
     "objectID": "pages/agenda.html#week-3",
     "href": "pages/agenda.html#week-3",
     "title": "Agenda",
     "section": "Week 3",
-    "text": "Week 3\nLecture (January 19): Generating Random Variables / Monte Carlo Integration\nTutorial (January 20): TODO\nDeadlines:\n\nPreliminary Quiz is due on Tuesday January 20 (11:59pm).\nQuiz 2 is due on Friday January 23 (11:59pm)."
+    "text": "Week 3\nLecture (January 19): Generating Random Variables / Monte Carlo Integration\nTutorial (January 20): Practice questions for Quiz 3\nDeadlines:\n\nPreliminary Quiz is due on Tuesday January 20 (11:59pm).\nQuiz 2 is due on Friday January 23 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-4",
     "href": "pages/agenda.html#week-4",
     "title": "Agenda",
     "section": "Week 4",
-    "text": "Week 4\nLecture (January 26): Monte Carlo Integration\nTutorial (January 27): TODO\nDeadlines:\n\nQuiz 3 is due on Friday January 30 (11:59pm)."
+    "text": "Week 4\nLecture (January 26): Monte Carlo Integration\nTutorial (January 27): Practice questions for Term Test 1\nDeadlines:\n\nQuiz 3 is due on Friday January 30 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-5",
     "href": "pages/agenda.html#week-5",
     "title": "Agenda",
     "section": "Week 5",
-    "text": "Week 5\nLecture (February 2): Term Test 1\nTutorial (February 3): TODO\nDeadlines:\n\nGroup formation is due on Wednesday February 4 (11:59pm)."
+    "text": "Week 5\nLecture (February 2): Term Test 1\nTutorial (February 3): Additional Monte Carlo practice questions\nDeadlines:\n\nGroup formation is due on Wednesday February 4 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-6",
     "href": "pages/agenda.html#week-6",
     "title": "Agenda",
     "section": "Week 6",
-    "text": "Week 6\nLecture (February 9): Monte Carlo Integration / Monte Carlo Methods in Inference\nTutorial (February 10): TODO\nDeadlines:\n\nProposal is due on Wednesday February 11 (11:59pm)."
+    "text": "Week 6\nLecture (February 9): Monte Carlo Integration / Monte Carlo Methods in Inference\nTutorial (February 10): Practice questions for Quiz 4\nDeadlines:\n\nProposal is due on Wednesday February 11 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-7",
@@ -557,41 +557,41 @@
     "href": "pages/agenda.html#week-8",
     "title": "Agenda",
     "section": "Week 8",
-    "text": "Week 8\nLecture (February 23): Monte Carlo Methods in Inference\nTutorial (February 24): TODO\nDeadlines:\n\nQuiz 4 is due on Friday February 27 (11:59pm).\nBasic implementation check is due on Wednesday February 25 (11:59pm)."
+    "text": "Week 8\nLecture (February 23): Monte Carlo Methods in Inference\nTutorial (February 24): Practice questions for Quiz 5\nDeadlines:\n\nQuiz 4 is due on Friday February 27 (11:59pm).\nBasic implementation check is due on Wednesday February 25 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-9",
     "href": "pages/agenda.html#week-9",
     "title": "Agenda",
     "section": "Week 9",
-    "text": "Week 9\nLecture (March 2): Re-sampling Techniques\nTutorial (March 3): TODO\nDeadlines:\n\nQuiz 5 is due on Friday March 6 (11:59pm).\nPackage compiling is due on Wednesday March 4 (11:59pm)."
+    "text": "Week 9\nLecture (March 2): Re-sampling Techniques\nTutorial (March 3): Practice questions for Term Test 2\nDeadlines:\n\nQuiz 5 is due on Friday March 6 (11:59pm).\nPackage compiling is due on Wednesday March 4 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-10",
     "href": "pages/agenda.html#week-10",
     "title": "Agenda",
     "section": "Week 10",
-    "text": "Week 10\nLecture (March 9): TERM TEST 2\nTutorial (March 10): TODO\nDeadlines:\n\nWebsite prototype is due on Wednesday March 11 (11:59pm)."
+    "text": "Week 10\nLecture (March 9): TERM TEST 2\nTutorial (March 10): [Tutorial may be cancelled! Take a break!]\nDeadlines:\n\nWebsite prototype is due on Wednesday March 11 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-11",
     "href": "pages/agenda.html#week-11",
     "title": "Agenda",
     "section": "Week 11",
-    "text": "Week 11\nLecture (March 16): Probability density estimation / Optimization\nTutorial (March 17): TODO\nDeadlines:\n\nQuiz 6 is due on Friday March 20 (11:59pm)."
+    "text": "Week 11\nLecture (March 16): Probability density estimation / Optimization\nTutorial (March 17): [No plan yet…]\nDeadlines:\n\nQuiz 6 is due on Friday March 20 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-12",
     "href": "pages/agenda.html#week-12",
     "title": "Agenda",
     "section": "Week 12",
-    "text": "Week 12\nLecture (March 23): Optimization\nTutorial (March 24): TODO\nDeadlines:\n\nQuiz 7 is due on Friday March 27 (11:59pm).\nFinal implementation is due on Wednesday March 25 (11:59pm)."
+    "text": "Week 12\nLecture (March 23): Optimization\nTutorial (March 24): Practice questions for Quiz 7\nDeadlines:\n\nQuiz 7 is due on Friday March 27 (11:59pm).\nFinal implementation is due on Wednesday March 25 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-13",
     "href": "pages/agenda.html#week-13",
     "title": "Agenda",
     "section": "Week 13",
-    "text": "Week 13\nLecture (March 30): Review/Grace Period\nTutorial (March 31): TODO"
+    "text": "Week 13\nLecture (March 30): Review/Grace Period\nTutorial (March 31): Final Exam Review"
   }
 ]
