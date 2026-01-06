@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -227,16 +256,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Plans may change. This is the latest planned agenda.</p>
+<p>Plans may change. This includes what we have completed week by week.</p>
 <section id="week-1" class="level2">
 <h2 class="anchored" data-anchor-id="week-1">Week 1</h2>
-<p><strong>Lecture (January 5):</strong> Course Introduction, Quick Review, Generating Random Variables</p>
-<p><strong>Tutorial (January 6):</strong> Practice questions for preliminary Quiz 1</p>
+<p><strong>Lecture (January 5):</strong> Generating Random Variables (Inverse Transform)</p>
+<p>In this lecture we covered all of the inverse-transform methods, although we skipped the recursive question regarding the logarithmic distribution due to time.</p>
+<p><a href="../coding/live_lecture/jan5_code.R">Live January 5 code</a></p>
+<p>The typo was that I used <code>n</code> when I should have used <code>m</code> when generating from the uniform distribution.</p>
+<p>In the lecture I initially argued that we should be using the <code>floor()</code> function, but then in my past notes I used <code>ceiling()</code>. Analysing the answer a bit further, it is likely the case that we must take the <code>ceiling()</code> because the geometric distribution has a support that starts at <code>1</code>, not <code>0</code>, and thus a ceiling guarantees the value of <span class="math inline">\(x\)</span> will be at least 1.</p>
+<p><strong>Tutorial (Cancelled; Recording Instead):</strong> Practice questions for preliminary Quiz 1</p>
 <p>No assessments due, but the preliminary quiz is open. You should do it before it’s too late!</p>
 </section>
 <section id="week-2" class="level2">
 <h2 class="anchored" data-anchor-id="week-2">Week 2</h2>
-<p><strong>Lecture (January 12):</strong> Generating Random Variables</p>
+<p><strong>Lecture (January 12):</strong> Generating Random Variables (Acceptance-Rejection)</p>
 <p><strong>Tutorial (January 13):</strong> Practice questions for Quiz 2</p>
 <p>No assessments due, but the preliminary quiz is open. You should do it before it’s too late!</p>
 </section>

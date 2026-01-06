@@ -116,7 +116,7 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
 [Practice Test Version A](practice/STA380_test1_practiceA.pdf) \| [Practice Test Version B](practice/STA380_test1_practiceB.pdf)
 
-We will provide a formula sheet of common distribution functions, such as the uniform, geometric, binomial, bernoulli, Gaussian, exponential, gamma, etc... (Will be posted.)
+The [formula sheet](practice/Test1_FormulaSheet.pdf) for term test 1 will be different from term test 2 and the final exam.
 
 Practice tests are for students to get a general idea of the topics that may be asked and expectations.
 

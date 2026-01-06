@@ -4,6 +4,7 @@ format: html
 editor: visual
 ---
 
+
 Tentative plan (Updated October 8):
 
 -   Week 1 (January 5): Course Introduction, Simple Review, Generating Random Variables

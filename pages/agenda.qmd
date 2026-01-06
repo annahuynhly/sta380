@@ -4,19 +4,27 @@ format: html
 editor: visual
 ---
 
-Plans may change. This is the latest planned agenda.
+Plans may change. This includes what we have completed week by week.
 
 ## Week 1
 
-**Lecture (January 5):** Course Introduction, Quick Review, Generating Random Variables
+**Lecture (January 5):** Generating Random Variables (Inverse Transform)
 
-**Tutorial (January 6):** Practice questions for preliminary Quiz 1
+In this lecture we covered all of the inverse-transform methods, although we skipped the recursive question regarding the logarithmic distribution due to time.
+
+[Live January 5 code](../coding/live_lecture/jan5_code.R)
+
+The typo was that I used `n` when I should have used `m` when generating from the uniform distribution.
+
+In the lecture I initially argued that we should be using the `floor()` function, but then in my past notes I used `ceiling()`. Analysing the answer a bit further, it is likely the case that we must take the `ceiling()` because the geometric distribution has a support that starts at `1`, not `0`, and thus a ceiling guarantees the value of $x$ will be at least 1.
+
+**Tutorial (Cancelled; Recording Instead):** Practice questions for preliminary Quiz 1
 
 No assessments due, but the preliminary quiz is open. You should do it before it's too late!
 
 ## Week 2
 
-**Lecture (January 12):** Generating Random Variables
+**Lecture (January 12):** Generating Random Variables (Acceptance-Rejection)
 
 **Tutorial (January 13):** Practice questions for Quiz 2
 
@@ -96,7 +104,7 @@ Deadlines:
 
 **Lecture (March 9):** TERM TEST 2
 
-**Tutorial (March 10):** [Tutorial may be cancelled! Take a break!]
+**Tutorial (March 10):** \[Tutorial may be cancelled! Take a break!\]
 
 Deadlines:
 
@@ -106,7 +114,7 @@ Deadlines:
 
 **Lecture (March 16):** Probability density estimation / Optimization
 
-**Tutorial (March 17):** [No plan yet...]
+**Tutorial (March 17):** \[No plan yet...\]
 
 Deadlines:
 
