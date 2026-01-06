@@ -445,7 +445,7 @@
     "href": "pages/test.html#term-test-1",
     "title": "Test Information",
     "section": "Term Test 1",
-    "text": "Term Test 1\nPractice Test Version A | Practice Test Version B\nWe will provide a formula sheet of common distribution functions, such as the uniform, geometric, binomial, bernoulli, Gaussian, exponential, gamma, etc… (Will be posted.)\nPractice tests are for students to get a general idea of the topics that may be asked and expectations.\nThis term test should include the following topics:\n\nStudents should be comfortable with pre-requisite material that are related to the lecture slides and practice problems (i.e., cdf, pdf, expected value, etc.)\nStudents should be comfortable with all derivations and R codes regarding the inverse-transform and acceptance-rejection method as outlined in lecture and practice problems.\nGiven a transformation or convolution (i.e., if provided the relationship between a standard Gaussian and a chisquare distribution), students should be able to write in R code how to generate the requested distribution.\nUnderstand how mixture models work for generating random variables, the code used to generate them, and the difference between mixture and convolutions.\nIntroductory Monte Carlo methods for numerically estimating integrals (Section 1 of Unit 2 slides.) Both the written algorithm and how to code.\n\nStudents will NOT be asked to do the following:\n\nTrick questions regarding whether the inverse-transform or the acceptance-rejection method is applicable or preferred in certain cases.\nMemorize all different combinations of transformations and convolutions between distributions; these will be supplied. Consult the practice test for examples.\nPlotting in R."
+    "text": "Term Test 1\nPractice Test Version A | Practice Test Version B\nThe formula sheet for term test 1 will be different from term test 2 and the final exam.\nPractice tests are for students to get a general idea of the topics that may be asked and expectations.\nThis term test should include the following topics:\n\nStudents should be comfortable with pre-requisite material that are related to the lecture slides and practice problems (i.e., cdf, pdf, expected value, etc.)\nStudents should be comfortable with all derivations and R codes regarding the inverse-transform and acceptance-rejection method as outlined in lecture and practice problems.\nGiven a transformation or convolution (i.e., if provided the relationship between a standard Gaussian and a chisquare distribution), students should be able to write in R code how to generate the requested distribution.\nUnderstand how mixture models work for generating random variables, the code used to generate them, and the difference between mixture and convolutions.\nIntroductory Monte Carlo methods for numerically estimating integrals (Section 1 of Unit 2 slides.) Both the written algorithm and how to code.\n\nStudents will NOT be asked to do the following:\n\nTrick questions regarding whether the inverse-transform or the acceptance-rejection method is applicable or preferred in certain cases.\nMemorize all different combinations of transformations and convolutions between distributions; these will be supplied. Consult the practice test for examples.\nPlotting in R.\n\nRecommended preparation:\nIn order, where the first items are highly recommended.\n\nComplete both practice tests.\nRedo the practice quizzes.\nRedo the lecture slides (proof questions).\nRedo the tutorial problems.\nRedo the lecture slides (example questions).\nSee additional practice problems 2 to 5 from Professor Luai. (Posted on Quercus only.)"
   },
   {
     "objectID": "pages/test.html#coding-expectations",
@@ -501,21 +501,21 @@
     "href": "pages/agenda.html",
     "title": "Agenda",
     "section": "",
-    "text": "Plans may change. This is the latest planned agenda."
+    "text": "Plans may change. This includes what we have completed week by week."
   },
   {
     "objectID": "pages/agenda.html#week-1",
     "href": "pages/agenda.html#week-1",
     "title": "Agenda",
     "section": "Week 1",
-    "text": "Week 1\nLecture (January 5): Course Introduction, Quick Review, Generating Random Variables\nTutorial (January 6): Practice questions for preliminary Quiz 1\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+    "text": "Week 1\nLecture (January 5): Generating Random Variables (Inverse Transform)\nIn this lecture we covered all of the inverse-transform methods, although we skipped the recursive question regarding the logarithmic distribution due to time.\nLive January 5 code\nThe typo was that I used n when I should have used m when generating from the uniform distribution.\nIn the lecture I initially argued that we should be using the floor() function (for the geometric distribution question), but then in my past notes I used ceiling(). Analysing the answer a bit further, it is likely the case that we must take the ceiling() because the geometric distribution has a support that starts at 1, not 0, and thus a ceiling guarantees the value of \\(x\\) will be at least 1.\nThe first thing we proved in class is admittedly an analysis proof; I handwaved it. Since MAT337 is not a pre-requisite, you do not need to know the proof. However, you should understand how to do the rest of the proofs in this unit.\nTutorial (Cancelled; Recording Instead): Practice questions for preliminary Quiz 1\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
   },
   {
     "objectID": "pages/agenda.html#week-2",
     "href": "pages/agenda.html#week-2",
     "title": "Agenda",
     "section": "Week 2",
-    "text": "Week 2\nLecture (January 12): Generating Random Variables\nTutorial (January 13): Practice questions for Quiz 2\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
+    "text": "Week 2\nLecture (January 12): Generating Random Variables (Acceptance-Rejection)\nTutorial (January 13): Practice questions for Quiz 2\nNo assessments due, but the preliminary quiz is open. You should do it before it’s too late!"
   },
   {
     "objectID": "pages/agenda.html#week-3",

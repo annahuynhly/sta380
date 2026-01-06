@@ -16,7 +16,9 @@ In this lecture we covered all of the inverse-transform methods, although we ski
 
 The typo was that I used `n` when I should have used `m` when generating from the uniform distribution.
 
-In the lecture I initially argued that we should be using the `floor()` function, but then in my past notes I used `ceiling()`. Analysing the answer a bit further, it is likely the case that we must take the `ceiling()` because the geometric distribution has a support that starts at `1`, not `0`, and thus a ceiling guarantees the value of $x$ will be at least 1.
+In the lecture I initially argued that we should be using the `floor()` function (for the geometric distribution question), but then in my past notes I used `ceiling()`. Analysing the answer a bit further, it is likely the case that we must take the `ceiling()` because the geometric distribution has a support that starts at `1`, not `0`, and thus a ceiling guarantees the value of $x$ will be at least 1.
+
+The first thing we proved in class is admittedly an analysis proof; I handwaved it. Since MAT337 is not a pre-requisite, you do not need to know the proof. However, you should understand how to do the rest of the proofs in this unit.
 
 **Tutorial (Cancelled; Recording Instead):** Practice questions for preliminary Quiz 1
 

@@ -140,6 +140,22 @@ Students will NOT be asked to do the following:
 
 -   Plotting in `R`.
 
+**Recommended preparation:**
+
+In order, where the first items are highly recommended.
+
+-   Complete both practice tests.
+
+-   Redo the practice quizzes.
+
+-   Redo the lecture slides (proof questions).
+
+-   Redo the tutorial problems.
+
+-   Redo the lecture slides (example questions).
+
+-   See additional practice problems 2 to 5 from Professor Luai. (Posted on Quercus only.)
+
 ## Term Test 2
 
 TBA...
