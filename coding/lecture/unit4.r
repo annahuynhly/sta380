@@ -6,25 +6,49 @@ data("sleepstudy", package = "lme4")
 
 names(sleepstudy)
 
-B <- 200 
-n <- nrow(sleepstudy)
-R <- numeric(B) 
-
-# Not the most efficient; but hard to incorporate sampling into matrix
-for (b in 1:B) {
-  #randomly select the indices
-  i <- sample(1:n, size = n, replace = TRUE)
-  R[b] <- mean(sleepstudy$Reaction[i])
-}
+system.time({
+  B <- 200 
+  n <- nrow(sleepstudy)
+  R <- numeric(B) 
+  
+  # Not the most efficient; but looks prettier
+  for (b in 1:B) {
+    #randomly select the indices
+    i <- sample(1:n, size = n, replace = TRUE)
+    R[b] <- mean(sleepstudy$Reaction[i])
+  }
+})
 
 # Mean of the bootstrap replicates
 mean(R)
 # Mean of the sample
 mean(sleepstudy$Reaction)
-
 # Standard error of the replicates
 sd(R)
 
+######################
+
+library(lme4)
+
+# more efficient method, however, definitely harder to wrap your head around
+system.time({
+  B <- 200 
+  n <- nrow(sleepstudy)
+  
+  # creating the matrix that has all of the sampled values
+  mat <- matrix(
+    sample.int(n, size = n * B, replace = TRUE), 
+    nrow = B, ncol = n)
+  
+  # computing the mean of each replicate
+  R <- rowMeans(matrix(sleepstudy$Reaction[mat], nrow = B, ncol = n))
+})
+
+mean(R)
+mean(sleepstudy$Reaction)
+sd(R)
+
+######################################## side note:
 # There's lots of cool packages in R
 ??lme4::sleepstudy
 
@@ -44,7 +68,6 @@ library(packageRank)
 
 # bootstrap confidence intervals
 hist(sleepstudy$Reaction)
-
 
 data("starwars", package = "dplyr") 
 # this is so not Gaussian

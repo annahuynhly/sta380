@@ -26,7 +26,13 @@ No assessments due, but the preliminary quiz is open. You should do it before it
 
 ## Week 2
 
-**Lecture (January 12):** Generating Random Variables (Acceptance-Rejection)
+**Lecture (January 12):** Generating Random Variables
+
+Lecture was relatively smooth, but there was an issue with zoom where my screen automatically stopped sharing my screen.
+
+We finished unit 1!
+
+[Live January 12 code](../coding/live_lecture/jan12_code.R)
 
 **Tutorial (January 13):** Practice questions for Quiz 2
 
@@ -34,7 +40,7 @@ No assessments due, but the preliminary quiz is open. You should do it before it
 
 ## Week 3
 
-**Lecture (January 19):** Generating Random Variables / Monte Carlo Integration
+**Lecture (January 19):** Monte Carlo Integration
 
 **Tutorial (January 20):** Practice questions for Quiz 3
 

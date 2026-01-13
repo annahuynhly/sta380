@@ -4,35 +4,6 @@ format: html
 editor: visual
 ---
 
-
-Tentative plan (Updated October 8):
-
--   Week 1 (January 5): Course Introduction, Simple Review, Generating Random Variables
-
--   Week 2 (January 12): Generating Random Variables
-
--   Week 3 (January 19): Generating Random Variables / Monte Carlo Integration
-
--   Week 4 (January 26): Monte Carlo Integration
-
--   Week 5 (February 2): TERM TEST 1
-
--   Week 6 (February 9): Monte Carlo Integration / Monte Carlo Methods in Inference
-
--   Week 7: READING WEEK!!!
-
--   Week 8 (February 23): Monte Carlo Methods in Inference
-
--   Week 9 (March 2): Re-sampling Techniques
-
--   Week 10 (March 9): TERM TEST 2
-
--   Week 11 (March 16): Probability density estimation / Optimization
-
--   Week 12 (March 23): Optimization
-
--   Week 13: (March 30): Review/Grace period...
-
 I understand the lecture times are late at night, and many people may be sick during the winter session. There will be a zoom link for the live lectures, although I encourage students to arrive physically as I will not be monitoring the zoom chat (and it is harder for me to answer questions.)
 
 Solutions to lecture notes will be posted upon completion of a section. Recordings may be uploaded on Quercus but no promises (in case a file gets corrupted, quality is poor, etc.)
@@ -43,15 +14,25 @@ I recommend against rushing everything until last second. The assessments will b
 
 [Lecture Notes](lecture_notes/Unit1_Slides_nosol.pdf)
 
-Lecture Notes (Solution Version) - TBA
+[Lecture Notes (Solution Version)](lecture_notes/Unit1.pdf)
 
-R Codes - TBA
+The codes below were my prepared notes. Some of them differ significantly from lecture, where I am coding on the spot. (The live code can be found in the agenda.)
+
+[R Code - Inverse Transform](../coding/lecture/unit1_inverse_transform.R)
+
+[R Code - Acceptance Rejection](../coding/lecture/unit1_acceptreject.R)
+
+[R Code - Convolution](../coding/lecture/unit1_convolution.R)
+
+[R Code - Mixtures](../coding/lecture/unit1_mixtures.R)
 
 ------------------------------------------------------------------------
 
 # Unit 2: Monte Carlo Integration
 
 Lecture Notes - TBA
+
+I'll upload this definitely before lecture.
 
 Lecture Notes (Solution Version) - TBA
 
