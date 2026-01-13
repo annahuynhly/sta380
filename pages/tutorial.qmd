@@ -6,6 +6,10 @@ editor: visual
 
 Notes by the teaching assistant, Ting Lin, will be uploaded here.
 
+**Tutorial 1:**
+
 [Tutorial 1 Notes](tutorial/STA380_TUT1.pdf)
 
 The first tutorial was cancelled because currently Ting is out of the country. However, the recording is on Quercus in the same location as the lecture recordings.
+
+**Tutorial 2:**
