@@ -13,3 +13,7 @@ Notes by the teaching assistant, Ting Lin, will be uploaded here.
 The first tutorial was cancelled because currently Ting is out of the country. However, the recording is on Quercus in the same location as the lecture recordings.
 
 **Tutorial 2:**
+
+Due to the limited time, we were unable to cover all the questions in Tutorial 2. Please try the remaining questions on your own since this will be very helpful for the test/exam.
+
+[Tutorial 2 Notes](tutorial/STA380_TUT2.pdf)
