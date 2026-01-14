@@ -30,9 +30,7 @@ The codes below were my prepared notes. Some of them differ significantly from l
 
 # Unit 2: Monte Carlo Integration
 
-Lecture Notes - TBA
-
-I'll upload this definitely before lecture.
+[Lecture Notes](lecture_notes/Unit2_Slides_nosol.pdf)
 
 Lecture Notes (Solution Version) - TBA
 

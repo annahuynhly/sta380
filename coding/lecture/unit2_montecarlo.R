@@ -50,12 +50,10 @@ mc_gaussian = function(n, x){
   u <- runif(n, 0, 1)
   if(x > 0){
     thetahat <- 1/sqrt(2*pi) * mean(x * exp((-(u*x)^2)/2))
-    q3method1 <- 0.5 + thetahat
+    return(0.5 + thetahat)
   } else {
-    thetahat <- 1/sqrt(2*pi) * mean(-x * exp((-(u*x)^2)/2))
-    q3method1 <- 1 - (0.5 + thetahat)
+    return(1 - mc_gaussian(n, -x))
   }
-  return(q3method1)
 }
 
 q3_method1_pos <- mc_gaussian(n, x1)
@@ -67,25 +65,41 @@ test_that("MC test 3 (Method 1)", {
 })
 
 # Method 2
-mc_gaussian2 = function(x){
-  u <- runif(n, 0, x)
+mc_gaussian2 = function(n, x){
+  u <- runif(n, 0, abs(x))
+  thetahat <- 1/sqrt(2*pi) * mean(exp((-(u)^2)/2))
   if(x > 0){
-    thetahat <- 1/sqrt(2*pi) * mean(x * exp((-(u*x)^2)/2))
-    q3method1 <- 0.5 + x * thetahat
+    return(0.5 + x * thetahat)
   } else {
-    thetahat <- 1/sqrt(2*pi) * mean(-x * exp((-(u*x)^2)/2))
-    q3method1 <- 1 - (0.5 + x * thetahat)
+    # calling the same function again, lol.
+    return(1 - mc_gaussian2(n, -x))
   }
-  return(q3method1)
 }
 
-q3_method2_pos <- mc_gaussian(x1)
-q3_method2_neg <- mc_gaussian(x2)
+q3_method2_pos <- mc_gaussian2(n, x1)
+q3_method2_neg <- mc_gaussian2(n, x2)
 
 test_that("MC test 3 (Method 2)", {
   expect_equal(q3_method2_pos, pnorm(x1), tol = 0.01)
   expect_equal(q3_method2_neg, pnorm(x2), tol = 0.01)
 })
+
+# Let $Z$ be a standard Gaussian distribution. 
+# Compute a simple Monte Carlo estimate of $\mathbb{E}[Z | -2 \leq Z \leq 1]$.
+n <- 10^6
+u <- runif(n, -2, 1)
+num <- 3 * mean(u/sqrt(2*pi) * exp(-u^2/2))
+denom <- 3 * mean(1/sqrt(2*pi) * exp(-u^2/2))
+
+# comparing to the true value
+cond_exp_gau <- function(x){x/sqrt(2*pi) * exp(-x^2/2)}
+true_num <- integrate(cond_exp_gau, -2, 1)
+true_denom <- pnorm(2) - pnorm(-1)
+
+test_that("comparing conditional expectation vs true", {
+  expect_equal(num/denom, true_num$value/true_denom, tol = 0.01)
+})
+
 
 # Let $X \sim N(0, 1)$. Use the hit or miss method to estimate 
 # $\mathbb{P}(X > 2)$ and $\mathbb{P}(0 < X < 1)$. 

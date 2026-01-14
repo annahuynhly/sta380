@@ -48,6 +48,12 @@ Availability period: January 29-30
 
 [Practice questions to prepare for quiz 3.](practice/quiz3_practice.pdf)
 
+Note that this quiz only covers the first half of the second unit. In retrospect, I should have created eight quizzes instead of seven, but I did not want to give too many assessments the same week of the test. 
+
+Nonetheless, the below material is needed for term test 2.
+
+[Practice questions for second half of unit 2.](practice/unit2_extraprac.pdf)
+
 ## Quiz 4: Monte Carlo Methods in Inference
 
 Availability period: February 26-27
