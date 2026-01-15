@@ -48,7 +48,7 @@ Availability period: January 29-30
 
 [Practice questions to prepare for quiz 3.](practice/quiz3_practice.pdf)
 
-Note that this quiz only covers the first half of the second unit. In retrospect, I should have created eight quizzes instead of seven, but I did not want to give too many assessments the same week of the test. 
+Note that this quiz only covers the first half of the second unit. In retrospect, I should have created eight quizzes instead of seven, but I did not want to give too many assessments the same week of the test.
 
 Nonetheless, the below material is needed for term test 2.
 
@@ -63,6 +63,8 @@ Availability period: February 26-27
 ## Quiz 5: Re-sampling Techniques
 
 Availability period: March 5-6
+
+[Practice questions to prepare for quiz 5.](practice/quiz5_practice.pdf)
 
 ## Quiz 6: Probability density estimation
 
@@ -120,6 +122,13 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
 -   Writing comments; use `#` before writing them
 
+-   **(Not for Term Test 1)** Loading a library: `library(package_name)`
+
+-   **(Not for Term Test 1)** Initializing matrices `matrix()`
+
+-   **(Not for Term Test 1)** Operations that can be performed on matrices. For example, if `X` is a matrix than `exp(X)` will apply the exponential function on every single value within the matrix `X`
+
+
 ## Term Test 1
 
 [Practice Test Version A](practice/STA380_test1_practiceA.pdf) \| [Practice Test Version B](practice/STA380_test1_practiceB.pdf)
@@ -174,28 +183,32 @@ In order, where the first items are highly recommended.
 
 This part of the website is still under construction.
 
-Practice Tests: TBA
+[Practice Test Version A](practice/STA380_test2_practiceA.pdf) \| [Practice Test Version B](practice/STA380_test2_practiceB.pdf)
 
-Formula sheet: TBA (will be different from term test 1)
+The [formula sheet](practice/Test2_FormulaSheet.pdf) for term test 2 contains less `R` codes. At this point, we expect you to have practiced more.
 
-For this term test, students should be comfortable with the following:
+For this term test, students should be comfortable with the remainder of the content from Unit 2 and the entirely of Unit 3. These include:
 
 -   The Monte Carlo hit or miss approach.
 
 -   Facts regarding the empirical CDF.
 
--   Importance Sampling. (We will choose the importance function for you.)
+-   Importance Sampling approach. (We will choose the importance function for you.)
 
--   Antithetic variables.
+-   Antithetic variables approach.
 
 -   Compute Monte Carlo estimates for the mean, standard error, MSE, confidence levels, type-I error, type-II error.
 
--   Understand what a *actually* p-value is.
+-   Compute Monte Carlo estimates for any provided expression.
 
--   TBA... (depends how far we get.)
+-   Understand what a *actually* p-value is.
 
 Students will NOT be asked to do or remember the following:
 
 -   The following definitions: weak convergence, convergence in distribution.
+
 -   Derive the UMVUE. If the UMVUE is mentioned, it will be supplied.
--   Derive the rejection region (RR) using the NP Lemma. If you are asked to write code for estimating type-I or type-II error, you will be explicitly given the rejection region.
+
+-   Derive the rejection region (RR) using the NP Lemma. If you are asked to write code for estimating type-I or type-II error, you will be explicitly given the rejection region, similar to the practice tests.
+
+The **recommended preparation** advice is the same as the first term test.
