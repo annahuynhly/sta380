@@ -76,6 +76,8 @@ There will be no practice quiz for probability density estimation. You can just 
 
 Availability period: March 26-27
 
+[Practice questions to prepare for quiz 7.](practice/quiz7_practice.pdf)
+
 # Term Tests
 
 ## Coding Expectations
@@ -122,12 +124,24 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
 -   Writing comments; use `#` before writing them
 
--   **(Not for Term Test 1)** Loading a library: `library(package_name)`
+-   **(Not for term test 1)** Loading a library: `library(package_name)`
 
--   **(Not for Term Test 1)** Initializing matrices `matrix()`
+-   **(Not for term test 1)** Initializing matrices `matrix()`
 
--   **(Not for Term Test 1)** Operations that can be performed on matrices. For example, if `X` is a matrix than `exp(X)` will apply the exponential function on every single value within the matrix `X`
+-   **(Not for term test 1)** Operations that can be performed on matrices. For example, if `X` is a matrix than `exp(X)` will apply the exponential function on every single value within the matrix `X`
 
+-   **(Final examination only)** How to use `optimize()` and `optim()`. We will supply the usage syntax for these, but we will not give a description. For example, in the formula sheet I will include:
+```{r, eval = FALSE}
+optimize(f, interval, ..., lower = min(interval), upper = max(interval),
+         maximum = FALSE,
+         tol = .Machine$double.eps^0.25)
+
+optim(par, fn, gr = NULL, ...,
+      method = c("Nelder-Mead", "BFGS", "CG", "L-BFGS-B", "SANN",
+                 "Brent"),
+      lower = -Inf, upper = Inf,
+      control = list(), hessian = FALSE)
+```
 
 ## Term Test 1
 

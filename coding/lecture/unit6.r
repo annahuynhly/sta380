@@ -20,16 +20,40 @@ f(op$maximum)
 
 abline(h = f(op$maximum), col = "red", lty = 2, lwd = 2)
 
+# Recall this practice question: consider the Pareto distribution:
+#    f_{X}(x) = \frac{\alpha \beta^{\alpha}}{x^{\alpha + 1}}, \quad x > \beta.
+# Let $X_{1}, X_{2}, \dots, X_{n}$ be a random sample from a Pareto distribution 
+# where $\beta = 2$, and we want to estimate $\alpha$. 
+# Derive the MLE for $\alpha$. Then, use optimize() to do it for us.
+
+n <- 10^4
+alpha <- 3
+samp <- extraDistr::rpareto(n, a = alpha, b = 2)
+# below is the theoretical MLE
+n/(sum(log(samp)) - n*log(2))
+
+pareto_likelihood <- function(x, n, alpha){
+  n*log(alpha) + n *alpha*log(2) - (alpha+1)*sum(log(x))
+}
+
+op <- optimize(pareto_likelihood, lower = 2, upper = 10, n = 10^4, 
+               x = samp, maximum = TRUE)
+op$maximum
+
 # For $n = 10$ randomly sample from a $Gamma(\alpha = 5, \lambda = 2)$ using 
 # rgamma(). Use optim() to maximize this function with respect to 
 # $\boldsymbol{\theta} = (\alpha, \lambda)$
 # Compare the results and time required between the 5 different methods.
 
-samp <- rgamma(10000, shape = 5, rate = 2)
+samp <- rgamma(10^4, shape = 5, rate = 2)
 
 gamma_likelihood = function(theta, sample){
   alpha <- theta[1]
   lambda <- theta[2]
+  # need to add constraint for optimizer
+  if (alpha < 0 || lambda < 0) {
+    return(Inf)
+  }
   n <- length(sample)
   sum_xi <- sum(sample)
   sum_log_xi <- sum(log(sample))
@@ -46,7 +70,43 @@ op_2 <- optim(start_val, sample = samp, gamma_likelihood, method = "BFGS")
 op_3 <- optim(start_val, sample = samp, gamma_likelihood, method = "CG")
 op_4 <- optim(start_val, sample = samp, gamma_likelihood, method = "L-BFGS-B",
               lower = c(1e-6, 1e-6))
-op_5 <- optim(start_val, sample = samp, gam_like_neg, method = "SANN")
+op_5 <- optim(start_val, sample = samp, gamma_likelihood, method = "SANN")
+
+op_1$par
+op_2$par
+op_3$par
+op_4$par
+op_5$par
+
+# For $n = 10^4$ randomly sample from a $Normal(\mu = 2, \sigma^{2} = 4)$ using 
+# rnorm(). Use optim() to maximize this function with respect to 
+# $\boldsymbol{\theta} = (\mu, \sigma)$
+# Compare the results and time required between the 5 different methods.
+
+samp <- rnorm(10^4, mean = 2, sd = 2)
+
+norm_likelihood = function(theta, sample){
+  mu <- theta[1]
+  sigma <- theta[2]
+  # need to add constraint for optimizer
+  if (sigma < 0) {
+    return(Inf)
+  }
+  n <- length(sample)
+  part1 <- -(n/2) * log(2*pi*sigma^2)
+  part2 <- -(1/(2*sigma^2)) * sum((sample - mu)^2)
+  # By default, optim() gives the MINIMUM. need to negate for the max!
+  return(-(part1 + part2))
+}
+
+start_val <- c(1, 1)
+
+op_1 <- optim(start_val, sample = samp, norm_likelihood, method = "Nelder-Mead")
+op_2 <- optim(start_val, sample = samp, norm_likelihood, method = "BFGS")
+op_3 <- optim(start_val, sample = samp, norm_likelihood, method = "CG")
+op_4 <- optim(start_val, sample = samp, norm_likelihood, method = "L-BFGS-B",
+              lower = c(1e-6, 1e-6))
+op_5 <- optim(start_val, sample = samp, norm_likelihood, method = "SANN")
 
 op_1$par
 op_2$par
@@ -105,12 +165,16 @@ library("numDeriv")
 # This computes the Hessian matrix for us
 ??numDeriv::hessian
 
-samp <- rgamma(10000, shape = 5, rate = 2)
+samp <- rgamma(10^4, shape = 5, rate = 2)
 
-# Simlar function as before but we don't need to negate it
+# Similar function as before but we don't need to negate it
 gamma_likelihood_nr = function(theta, sample){
   alpha <- theta[1]
   lambda <- theta[2]
+  # need to add constraint for optimizer
+  if (alpha < 0 || lambda < 0) {
+    return(Inf)
+  }
   n <- length(sample)
   sum_xi <- sum(sample)
   sum_log_xi <- sum(log(sample))
@@ -136,6 +200,47 @@ newton_raphson_gamma <- function(theta0, sample, tol = 0.01){
 }
 
 newton_raphson_gamma(theta0 = c(2, 1), sample = samp)
+
+# Consider the same log likelihood function we solved earlier for the 
+# Normal distribution. Again, randomly sample values from  
+# $Normal(\mu = 2, \sigma = 4)$ and now use the Newton-Raphson Method to 
+# solve for the MLE. 
+
+samp <- rnorm(10^4, mean = 2, sd = 2)
+
+# similar likelihood without negation
+norm_likelihood_nr = function(theta, sample){
+  mu <- theta[1]
+  sigma <- theta[2]
+  # need to add constraint for optimizer
+  if (sigma < 0) {
+    return(Inf)
+  }
+  n <- length(sample)
+  part1 <- -(n/2) * log(2*pi*sigma^2)
+  part2 <- -(1/(2*sigma^2)) * sum((sample - mu)^2)
+  # By default, optim() gives the MINIMUM. need to negate for the max!
+  return(part1 + part2)
+}
+
+newton_raphson_normal <- function(theta0, sample, tol = 0.01){
+  theta <- theta0
+  no_root <- TRUE
+  while(no_root){
+    L <- numDeriv::grad(norm_likelihood_nr, theta, sample = sample)
+    H <- numDeriv::hessian(norm_likelihood_nr, theta, sample = sample)
+    
+    new_theta <- theta - solve(H, L)
+    if(sqrt(sum((new_theta - theta)^(2))) <= tol){
+      no_root = FALSE
+    }
+    theta <- new_theta
+  }
+  return(theta)
+}
+
+newton_raphson_normal(theta0 = c(2, 1), sample = samp)
+
 
 # EM Algorithm for iid $X_{1}, \dots, X_{n}$ where $X_{i} \sim Poisson(\tau)$ 
 # for $i = 1, 2, \dots, n$. Suppose we had all of the realizations 
