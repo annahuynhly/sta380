@@ -173,7 +173,7 @@ gamma_likelihood_nr = function(theta, sample){
   lambda <- theta[2]
   # need to add constraint for optimizer
   if (alpha < 0 || lambda < 0) {
-    return(Inf)
+    return(-Inf)
   }
   n <- length(sample)
   sum_xi <- sum(sample)
@@ -214,7 +214,7 @@ norm_likelihood_nr = function(theta, sample){
   sigma <- theta[2]
   # need to add constraint for optimizer
   if (sigma < 0) {
-    return(Inf)
+    return(-Inf)
   }
   n <- length(sample)
   part1 <- -(n/2) * log(2*pi*sigma^2)

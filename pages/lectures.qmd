@@ -70,7 +70,7 @@ R Codes - TBA
 
 # Unit 6: Optimization
 
-[Lecture Notes](lecture_notes/Unit6_Slides_nosol.pdf)
+Lecture Notes - TBA; need to reupload
 
 Lecture Notes (Solution Version) - TBA
 

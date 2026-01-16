@@ -191,7 +191,7 @@ In order, where the first items are highly recommended.
 
 -   Redo the lecture slides (example questions).
 
--   See additional practice problems 2 to 5 from Professor Luai. (Posted on Quercus only.)
+-   See additional practice problems 2, 3, 4, and 5 — but for problem 5, do only questions 1 and 2. (Posted on Quercus only.)
 
 ## Term Test 2
 
@@ -225,4 +225,4 @@ Students will NOT be asked to do or remember the following:
 
 -   Derive the rejection region (RR) using the NP Lemma. If you are asked to write code for estimating type-I or type-II error, you will be explicitly given the rejection region, similar to the practice tests.
 
-The **recommended preparation** advice is the same as the first term test.
+The **recommended preparation** advice is the same as the first term test, except see additional practice problems 5, 6, 7, and 8 — but for problem 5, do only questions 3 to 6. (Posted on Quercus only.)
