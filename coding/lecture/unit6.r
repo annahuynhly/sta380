@@ -266,5 +266,29 @@ em_poisson <- function(sample, tol = 0.0001){
 
 em_poisson(incomp_samp)
 
+# Consider $X_{i} \overset{i.i.d}{\sim} Normal(\mu, \sigma^{2})$ where 
+# $i = 1,2, \dots, n$ where $n = 10^4$. Suppose we had all of the realisations 
+# except for one of them, let's say $X_{1}$. Suppose $\sigma^{2}$ is known, 
+# but not the mean $\mu$. Construct the EM algorithm and code it in \texttt{R}.
 
+n <- 10^3
+sigma <- 4
+incomp_samp <- rnorm(n-1, mean = 2, sd = sigma)
 
+# Assume the sample we put in here is incomplete.
+em_normal <- function(sample, sigma, tol = 0.0001){
+  # Step 1: get the starting point
+  m <- length(sample)
+  mu <- sum(sample) / m
+  no_sol <- TRUE
+  while(no_sol){
+    new_mu <- (mu + sum(sample)) / (m+1)
+    if(sqrt(sum((new_mu - mu)^(2))) <= tol){
+      no_sol = FALSE
+    }
+    mu <- new_mu
+  }
+  return(mu)
+}
+
+em_normal(incomp_samp)
