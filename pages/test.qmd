@@ -78,7 +78,7 @@ Availability period: March 26-27
 
 [Practice questions to prepare for quiz 7.](practice/quiz7_practice.pdf)
 
-# Term Tests
+# Term Tests and Examinations
 
 ## Coding Expectations
 
@@ -130,7 +130,8 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
 -   **(Not for term test 1)** Operations that can be performed on matrices. For example, if `X` is a matrix than `exp(X)` will apply the exponential function on every single value within the matrix `X`
 
--   **(Final examination only)** How to use `optimize()` and `optim()`. We will supply the usage syntax for these, but we will not give a description. For example, in the formula sheet I will include:
+-   **(Final examination only)** How to use `optimize()` and `optim()`. IF NEEDED, we will supply the usage syntax for these, but we will not give a description. For example, in the formula sheet I will include:
+
 ```{r, eval = FALSE}
 optimize(f, interval, ..., lower = min(interval), upper = max(interval),
          maximum = FALSE,
@@ -226,3 +227,61 @@ Students will NOT be asked to do or remember the following:
 -   Derive the rejection region (RR) using the NP Lemma. If you are asked to write code for estimating type-I or type-II error, you will be explicitly given the rejection region, similar to the practice tests.
 
 The **recommended preparation** advice is the same as the first term test, except see additional practice problems 5, 6, 7, and 8 — but for problem 5, do only questions 3 to 6. (Posted on Quercus only.)
+
+## Final Exam
+
+More specific details will be given once the final exam has been approved.
+
+In general, the final exam will be cumulative, but with extra weight towards content past the first two term tests.
+
+You do not need to know Unit 5 for the final exam.
+
+### Formula Sheet Policy (FINAL EXAM ONLY)
+
+We will supply a formula sheet with common distribution functions (exponential, gamma, normal) and some extra useful information.
+
+For the `R` coding portion, students are allowed to bring their own formula sheet.
+
+You may bring one (1) formula sheet to the FINAL exam, subject to all of the following rules.
+
+[**Physical Format**]{.underline}
+
+-   Exactly one standard letter-size page (8.5″ × 11″)
+
+-   Double-sided (both sides may be used)
+
+-   Can be typed, handwritten, or a combination of both
+
+-   Written or printed in English only
+
+[**Permitted Content**]{.underline}
+
+The formula sheet may contain R programming content ONLY, including:
+
+-   R function calls
+
+-   R syntax reminders
+
+-   Short comments explaining the purpose of R code
+
+-   Common R workflows or templates (e.g., loops, function definitions, plotting structure). You may copy all codes relating to the EM algorithm, Newton-Rapshon algorithm, KS permutation tests, etc.
+
+[**Prohibited Content**]{.underline}
+
+The formula sheet must NOT contain:
+
+-   Mathematical formulas written in standard mathematical notation (e.g., integrals, summations, likelihoods, distributions written symbolically)
+
+-   Statistical definitions or theory stated in words (e.g., "the MLE is…", "a p-value is…")
+
+-   Step-by-step algorithms written in plain English
+
+-   Exam-style answers, worked examples, or interpretations
+
+**Rule of thumb:** If it is not valid R code or an R comment directly explaining that code, it does not belong on the formula sheet.
+
+[**Other Policies**]{.underline}
+
+You are allowed to share, copy, or reproduce another student’s formula sheet.
+
+The instructor will inspect formula sheets during the exam, confiscate any sheet that violates these rules, and treat violations as an academic integrity issue.

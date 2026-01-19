@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+**IF YOU ARE AUDITING MY CLASS, THE IN-PERSON LECTURES ARE UNFORTUNATELY CANCELLED TODAY. IF YOU ARE STILL A UTM STUDENT, YOU ARE FREE TO EMAIL ME WITH YOUR UOFT EMAIL IF YOU WANT AN ACCESS TO THE ZOOM LINK FOR ONLINE LIVE LECTURES.**
+
 Welcome to the STA380 website! Please see one of the headers above.
 
 Most of the notes will be posted on this website instead of Quercus/Canvas. [Ben Recht said it best](https://www.argmin.net/p/machine-learning-evaluation-a-syllabus):
