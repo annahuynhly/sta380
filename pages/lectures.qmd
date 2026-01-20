@@ -26,6 +26,12 @@ The codes below were my prepared notes. Some of them differ significantly from l
 
 [R Code - Mixtures](../coding/lecture/unit1_mixtures.R)
 
+Prioritize the quiz preparation questions and the quiz questions themselves, but additional recommended additional problems (posted on Quercus)
+
+Practice 1, 2, 3, 4.
+
+You do not need to worry about the Box-Muller transformation (practice 4, problem 3), as I decided to not cover this.
+
 ------------------------------------------------------------------------
 
 # Unit 2: Monte Carlo Integration
@@ -35,6 +41,10 @@ The codes below were my prepared notes. Some of them differ significantly from l
 Lecture Notes (Solution Version) - TBA
 
 R Codes - TBA
+
+For term test 1, additional recommended practice (posted on Quercus) is practice 5, questions 1-4. However, you don't need to worry about computing the variance until the second term test.
+
+For term test 2, make sure you do the rest of practice 5 (including computing the variance), 6, 7, 8.
 
 ------------------------------------------------------------------------
 

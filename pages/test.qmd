@@ -192,7 +192,21 @@ In order, where the first items are highly recommended.
 
 -   Redo the lecture slides (example questions).
 
--   See additional practice problems 2, 3, 4, and 5 — but for problem 5, do only questions 1 and 2. (Posted on Quercus only.)
+-   See additional practice problems 2, 3, 4, and 5 — but for problem 5, do only questions 1 and 2. (Posted on Quercus only.) Do not worry about the box-muller transformation.
+
+**My approach for making problems:**
+
+If you are unsatisfied with the amount of practice questions, part of the beauty of this course is it’s quite feasible to make your own problems and double check with computations. You will learn a decent amount by trying to use these methods with different distributions that you pick online, especially to understand when inverse-transformation should be used and when acceptance-rejection is better.
+
+When I was making questions for the inverse-transform method, I essentially looked at undergraduate textbooks in 2nd probability for some simple distributions with a closed form cdf to try to simulate values.
+
+For the acceptance-rejection method, I looked at common probability distributions that do not have a proper closed form and tried to simulate from them.
+
+Convolution methods are straightforward; I would recommend attempting every type of convolution I listed on the lecture slides to simulate.
+
+Similarly, you may try different combinations of mixtures and simulate against the true density.
+
+Simple Monte Carlo methods are the easiest to make problems for, as we’re essentially estimating integrals. Simply search up any integral practice problem sheet of a first-year calculus class and instead of integrating, try to use the simple algorithm and compare to the true integral. For a more practical use case, you can just search for integrals without a closed form.
 
 ## Term Test 2
 
