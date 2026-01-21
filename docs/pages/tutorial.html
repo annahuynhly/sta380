@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -209,14 +209,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Notes by the teaching assistant, Ting Lin, will be uploaded here.</p>
+<p><strong>All notes and information provided on this page are managed by the teaching assistant, Ting Lin.</strong></p>
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
 <p><strong>Tutorial 1:</strong></p>
-<p><a href="tutorial/STA380_TUT1.pdf">Tutorial 1 Notes</a></p>
 <p>The first tutorial was cancelled because currently Ting is out of the country. However, the recording is on Quercus in the same location as the lecture recordings.</p>
+<p><a href="tutorial/STA380_TUT1.pdf">Tutorial 1 Notes</a></p>
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
 <p><strong>Tutorial 2:</strong></p>
 <p>Due to the limited time, we were unable to cover all the questions in Tutorial 2. Please try the remaining questions on your own since this will be very helpful for the test/exam.</p>
 <p><a href="tutorial/STA380_TUT2.pdf">Tutorial 2 Notes</a></p>
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
 <p><strong>Tutorial 3:</strong></p>
+<p><span style="color:red; font-weight:bold; font-size:1em;">Important updates:</span></p>
+<p><span style="color:red; font-weight:bold; font-size:1em;">There were a few typos in the solutions for Question 1. The instructor has updated them, so please refer to the latest version of Practice 3.</span></p>
+<p>During the tutorial, I didn’t notice the issue. By the time I realized where the typos were at the end of the tutorial, most of the students had already left. So please don’t worry if you didn’t understand the issue. I will go over this question, including the Monte Carlo estimation, next time.</p>
+<p>I have also updated the notes for Tutorial 3 as shown below.</p>
+<p><a href="tutorial/STA380_TUT3.pdf">Tutorial 3 Notes</a></p>
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+<p><strong>Tutorial 4:</strong></p>
 
 
 
@@ -303,8 +313,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -415,7 +423,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

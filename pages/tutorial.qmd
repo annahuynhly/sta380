@@ -4,13 +4,17 @@ format: html
 editor: visual
 ---
 
-Notes by the teaching assistant, Ting Lin, will be uploaded here.
+**All notes and information provided on this page are managed by the teaching assistant, Ting Lin.**
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
 
 **Tutorial 1:**
 
+The first tutorial was cancelled because currently Ting is out of the country. However, the recording is on Quercus in the same location as the lecture recordings.
+
 [Tutorial 1 Notes](tutorial/STA380_TUT1.pdf)
 
-The first tutorial was cancelled because currently Ting is out of the country. However, the recording is on Quercus in the same location as the lecture recordings.
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
 
 **Tutorial 2:**
 
@@ -18,4 +22,20 @@ Due to the limited time, we were unable to cover all the questions in Tutorial 2
 
 [Tutorial 2 Notes](tutorial/STA380_TUT2.pdf)
 
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
 **Tutorial 3:**
+
+[Important updates:]{style="color:red; font-weight:bold; font-size:1em;"}
+
+[There were a few typos in the solutions for Question 1. The instructor has updated them, so please refer to the latest version of Practice 3.]{style="color:red; font-weight:bold; font-size:1em;"}
+
+During the tutorial, I didn’t notice the issue. By the time I realized where the typos were at the end of the tutorial, most of the students had already left. So please don’t worry if you didn’t understand the issue. I will go over this question, including the Monte Carlo estimation, next time.
+
+I have also updated the notes for Tutorial 3 as shown below.
+
+[Tutorial 3 Notes](tutorial/STA380_TUT3.pdf)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 4:**
