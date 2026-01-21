@@ -40,7 +40,7 @@ Projects fall into three categories: standard, advanced, and original.
 
 -   Original, instructor-approved ideas that have not been detailed here, will qualify for a +2 mark bonus on their project grade.
 
-\[WEIGHTS NOT FINALIZED!\] Note that the project will have a maximum score of 15/15. For instance, if a project would otherwise earn 14.5/15, the bonus raises the mark to 15/15, but no further.
+Note that the project will have a maximum score of 15/15. For instance, if a project would otherwise earn 14.5/15, the bonus raises the mark to 15/15, but no further.
 
 For original ideas, the instructor will provide a clear set of evaluation criteria once their topic has been approved.
 
@@ -136,8 +136,6 @@ For original ideas, the instructor will provide a clear set of evaluation criter
 
 # Checkpoints and Due Dates
 
-(Some of the percentage weights are tentative, as the syllabus has not been officially approved yet.)
-
 -   Group Formation & Submission Details (1%)
 
     -   Due date: February 4th, 2026 at 11:59pm
@@ -146,11 +144,11 @@ For original ideas, the instructor will provide a clear set of evaluation criter
 
     -   Due date: February 11th, 2026 at 11:59pm
 
--   Basic Implementation Check (XX%)
+-   Basic Implementation Check (2%)
 
     -   Due date: February 25th, 2026 at 11:59pm
 
--   Package Compiling (XX%)
+-   Package Compiling (2%)
 
     -   Due date: March 4th, 2026 at 11:59pm
 
@@ -158,7 +156,7 @@ For original ideas, the instructor will provide a clear set of evaluation criter
 
     -   Due date: March 11th, 2026 at 11:59pm
 
--   Final Draft (XX%)
+-   Final Draft (8%)
 
     -   Due date: March 25th, 2026 at 11:59pm
 
