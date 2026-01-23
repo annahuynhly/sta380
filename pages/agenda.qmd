@@ -54,6 +54,8 @@ when really, I should have done
 
 because the `mean()` accounts for the division by `n` once.
 
+Edit January 23: for some reason in my memory I recall that I misspoke "any estimator" instead of "any sample mean estimator" for the CLT... Hopefully you knew what I meant.
+
 [Live January 19 code](../coding/live_lecture/jan19_code.R)
 
 **Tutorial (January 20):** Practice questions for Quiz 3
