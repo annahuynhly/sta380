@@ -39,3 +39,11 @@ I have also updated the notes for Tutorial 3 as shown below.
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
 
 **Tutorial 4:**
+
+The recording of tutorial 4 has been posted on Quercus, please post your questions on piazza if needed.
+
+God luck for the Term Test 1. :)
+
+[Tutorial 4 Notes](tutorial/STA380_TUT4.pdf)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
