@@ -68,7 +68,7 @@ Deadlines:
 
 ## Week 4
 
-**Lecture (January 26):** Monte Carlo Integration
+**Lecture (January 26):** Snow day. Lecture was cancelled.
 
 **Tutorial (January 27):** Practice questions for Term Test 1
 
@@ -80,7 +80,7 @@ Deadlines:
 
 **Lecture (February 2):** Term Test 1
 
-**Tutorial (February 3):** Additional Monte Carlo practice questions. (This is the second half of unit 2. It is found under quiz 3 information.)
+**Tutorial (February 3):** Question 2 and 3 from the additional Monte Carlo practice questions. (This is the second half of unit 2. It is found under quiz 3 information.) If time permits and the audience prefers, go over the solutions of the actual term test.
 
 Deadlines:
 
@@ -88,9 +88,9 @@ Deadlines:
 
 ## Week 6
 
-**Lecture (February 9):** Monte Carlo Integration / Monte Carlo Methods in Inference
+**Lecture (February 9):** Monte Carlo Integration
 
-**Tutorial (February 10):** Practice questions for Quiz 4
+**Tutorial (February 10):** Complete the rest of the additional Monte Carlo practice questions.
 
 Deadlines:
 
@@ -104,7 +104,7 @@ READING WEEK! ENJOY YOUR HOLIDAY!
 
 **Lecture (February 23):** Monte Carlo Methods in Inference
 
-**Tutorial (February 24):** Practice questions for Quiz 5
+**Tutorial (February 24):** Practice questions for Quiz 4
 
 Deadlines:
 
@@ -128,7 +128,7 @@ Deadlines:
 
 **Lecture (March 9):** TERM TEST 2
 
-**Tutorial (March 10):** \[Tutorial may be cancelled! Take a break!\]
+**Tutorial (March 10):** Practice questions for Quiz 5
 
 Deadlines:
 
