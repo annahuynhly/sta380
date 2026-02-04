@@ -58,4 +58,8 @@ $$\theta=10 \int_0^{10} \frac{1}{10}xln(x)dx = \int_0^{10} 10*\frac{1}{10}xln(x)
 
 which is the $g(X)$ times the density of $Uniform(0,10)$, $\frac{1}{10}$.
 
+And for proof question, if you used $E[X_i]$ or $Var[X_i]$, that is fine as well.
+
 [Tutorial 5 Notes](tutorial/STA380_TUT5.pdf)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
