@@ -47,3 +47,15 @@ God luck for the Term Test 1. :)
 [Tutorial 4 Notes](tutorial/STA380_TUT4.pdf)
 
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 5:**
+
+These are the notes for Tutorial 5. I would like to clarify part (c) of Question 1 again, I mentioned that $$g(x)=10*u_i*ln(u_i)$$ and one student asked why.
+
+Here is the explanation: $$\theta=\int_0^{10} xln(x)dx=E[g(X)]$$ and by MC method, we rewrite it as
+
+$$\theta=10 \int_0^{10} \frac{1}{10}xln(x)dx = \int_0^{10} 10*\frac{1}{10}xln(x)dx =  E_{U(0,10)}[g(X)]=\int g(X) * \frac{1}{10} dx$$
+
+which is the $g(X)$ times the density of $Uniform(0,10)$, $\frac{1}{10}$.
+
+[Tutorial 5 Notes](tutorial/STA380_TUT5.pdf)
