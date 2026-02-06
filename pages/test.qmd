@@ -146,6 +146,8 @@ optim(par, fn, gr = NULL, ...,
 
 ## Term Test 1
 
+[SOLUTIONS FOR THE TERM TEST](test/Test1Solutions.pdf)
+
 [Practice Test Version A](practice/STA380_test1_practiceA.pdf) \| [Practice Test Version B](practice/STA380_test1_practiceB.pdf)
 
 The [formula sheet](practice/Test1_FormulaSheet.pdf) for term test 1 will be different from term test 2 and the final exam.
