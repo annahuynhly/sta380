@@ -38,9 +38,13 @@ You do not need to worry about the Box-Muller transformation (practice 4, proble
 
 [Lecture Notes](lecture_notes/Unit2_Slides_nosol.pdf)
 
-Lecture Notes (Solution Version) - TBA
+There is a typo in the above lecture notes. For instance, I forgot a coefficient 2 when adding for the covariance term (antithetic variable section). It is fixed in the solution version, which also includes additional questions.
 
-R Codes - TBA
+[Lecture Notes (Solution Version)](lecture_notes/Unit2.pdf)
+
+[R Codes](../coding/lecture/unit2_montecarlo.R)
+
+Some of the solutions, particularly the additional extra problems, were only done in live lectures and are not included in the above R codes.
 
 For term test 1, additional recommended practice (posted on Quercus) is practice 5, questions 1-4. However, you don't need to worry about computing the variance until the second term test.
 
