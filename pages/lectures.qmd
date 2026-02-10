@@ -54,7 +54,7 @@ For term test 2, make sure you do the rest of practice 5 (including computing th
 
 # Unit 3: Monte Carlo Methods in Inference
 
-Lecture Notes - TBA; recently removed (need to change)
+[Lecture Notes](lecture_notes/Unit3_Slides_nosol.pdf)
 
 Lecture Notes (Solution Version) - TBA
 
