@@ -90,6 +90,10 @@ Deadlines:
 
 **Lecture (February 9):** Monte Carlo Integration
 
+[Live February 9 code](../coding/live_lecture/feb9_code.r)
+
+I mentioned about how there is no variance-bias tradeoff. While this is not related to the course material, you should care about this and [read about it here.](https://www.argmin.net/p/overfitting-to-theories-of-overfitting)
+
 **Tutorial (February 10):** Complete the rest of the additional Monte Carlo practice questions.
 
 Deadlines:

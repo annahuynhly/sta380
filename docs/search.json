@@ -543,7 +543,7 @@
     "href": "pages/agenda.html#week-6",
     "title": "Agenda",
     "section": "Week 6",
-    "text": "Week 6\nLecture (February 9): Monte Carlo Integration\nTutorial (February 10): Complete the rest of the additional Monte Carlo practice questions.\nDeadlines:\n\nProposal is due on Wednesday February 11 (11:59pm)."
+    "text": "Week 6\nLecture (February 9): Monte Carlo Integration\nLive February 9 code\nI mentioned about how there is no variance-bias tradeoff. While this is not related to the course material, you should care about this and read about it here.\nTutorial (February 10): Complete the rest of the additional Monte Carlo practice questions.\nDeadlines:\n\nProposal is due on Wednesday February 11 (11:59pm)."
   },
   {
     "objectID": "pages/agenda.html#week-7",
