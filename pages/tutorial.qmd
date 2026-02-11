@@ -63,3 +63,11 @@ And for proof question, if you used $E[X_i]$ or $Var[X_i]$, that is fine as well
 [Tutorial 5 Notes](tutorial/STA380_TUT5_new.pdf)
 
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 6:**
+
+The notes for Tutorial 6. :)
+
+[Tutorial 6 Notes](tutorial/STA380_TUT6.pdf)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
