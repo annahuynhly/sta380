@@ -16,7 +16,7 @@ An example of a proposal, as well as other files, can be found [here](https://gi
 
 Upload:
 
--   a maximum 2-page PDF,
+-   a maximum 2-page PDF (not including references),
 
 -   the file used to render the pdf,
 
@@ -44,8 +44,6 @@ Upload:
 
     -   Expand on the requirements outlined in your chosen topic description.
 
-    -   For original topics, include the minimum expectations previously given by the instructor.
-
 -   **User Inputs (Shiny Components)**
 
     -   List at least five interactive inputs you plan to include in your R Shiny app.
@@ -65,6 +63,8 @@ Upload:
     -   If the reference is NOT a textbook, then it MUST include a DOI link. If no DOI exists, provide a valid URL. If neither exists, the source cannot be used.
 
     -   The format of the citations do not matter, but it should be consistent amongst citations.
+    
+    -   **The references are not part of the 2-page limit.**
 
 No more wasting your time to match the exact citation styles. Since you are expected to use BibTeX references, you’ll need to write the proposal in LaTeX or anything else that supports BibTeX. [BibTeX works well with Rmarkdown](https://bibtex.eu/rmarkdown/) (and Quarto), and can easily be used.
 
