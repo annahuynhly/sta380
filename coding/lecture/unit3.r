@@ -73,7 +73,9 @@ x1 <- rnorm(n)
 x2 <- rnorm(n)
 y <- abs(x1-x2)
 se1 <- sqrt(sum((y - mean(y))^2)) / n
-se2 <- sqrt(sum((y - mean(y))^2)) / (n-1)
+# here, you to get SE you are dividing by (n-1)*n...
+# the expression for se1 is simplified.
+se2 <- sqrt(sum((y - mean(y))^2) / ((n-1)*n))
 
 test_that("verifying sd and var", {
   # Need to ensure it matches theoretical standard error
@@ -114,10 +116,13 @@ x <- matrix(rnorm(n*m, mean = theta, sd = sqrt(2)), nrow = m)
 
 mu_x <- rowMeans(x)
 sd_x <- sqrt((1/(n-1)) * rowSums( (x - rowMeans(x))^(2)) ) / sqrt(n)
+# need to divide by sqrt(n) because it's sigma/sqrt(n).
+# above, the numerator is supposed to represent just sigma.
 lower_x <- mu_x - qt(1-alpha/2, n-1) * sd_x
 upper_x <- mu_x + qt(1-alpha/2, n-1) * sd_x
 
-y <- ifelse(theta > lower_x, ifelse(theta < upper_x, 1, 0), 0)
+#y <- ifelse(theta > lower_x, ifelse(theta < upper_x, 1, 0), 0)
+y <- ifelse(((theta > lower_x) & (theta < upper_x)), 1, 0)
 mean(y)
 
 # TYPE-I ERROR RATE ###########################################################
@@ -133,7 +138,7 @@ x <- matrix(rnorm(n*m, mean = mu0, sd = sig), nrow = m)
 xbar <- rowMeans(x)
 # Computing the test statistic for each row
 test_stat <- (xbar - mu0)/(sig/sqrt(n))
-# Computing the p-value
+# Computing the p-value (2-sided t-test... -> draw the diagram)
 p_val <- 2 * pnorm(-abs(test_stat))
 # Reject the test_stat if p-value < alpha
 type_1_err <- mean(p_val < alpha)
@@ -148,6 +153,8 @@ sig <- 100
 
 m <- 10000
 
+# main difference here: you generate from H1, but use H0 to compute
+# the test statistic!!
 x <- matrix(rnorm(n*m, mean = mu1, sd = sig), nrow = m)
 xbar <- rowMeans(x)
 # Computing the test statistic for each row
