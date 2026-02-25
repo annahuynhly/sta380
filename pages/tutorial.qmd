@@ -71,3 +71,11 @@ The notes for Tutorial 6. :)
 [Tutorial 6 Notes](tutorial/STA380_TUT6.pdf)
 
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 7:**
+
+The notes for Tutorial 7. Please review how to derive the MLE as well as Likelihood Ratio Test.
+
+[Tutorial 7 Notes](tutorial/STA380_TUT7.pdf)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">

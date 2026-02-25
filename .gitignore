@@ -6,3 +6,5 @@
 Lecture_Notes_STA380
 Textbooks
 .DS_Store
+
+**/*.quarto_ipynb
