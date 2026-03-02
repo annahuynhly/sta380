@@ -58,13 +58,13 @@ For term test 2, make sure you do the rest of practice 5 (including computing th
 
 [Lecture Notes (Solution Version)](lecture_notes/Unit3.pdf)
 
-R Codes - TBA
+[R Codes](../coding/lecture/unit3.R)
 
 ------------------------------------------------------------------------
 
 # Unit 4: Resampling Techniques (includes Permutation Tests)
 
-Lecture Notes - TBA
+[Lecture Notes](lecture_notes/Unit4_Slides_nosol.pdf)
 
 Lecture Notes (Solution Version) - TBA
 
