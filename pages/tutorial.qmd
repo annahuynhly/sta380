@@ -79,3 +79,11 @@ The notes for Tutorial 7. Please review how to derive the MLE as well as Likelih
 [Tutorial 7 Notes](tutorial/STA380_TUT7.pdf)
 
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 8:**
+
+The notes for Tutorial 8. I mentioned some important points for preparing for Term Test 2 today. Please make sure to review them. Good luck next week. :)
+
+[Tutorial 8 Notes](tutorial/STA380_TUT8.pdf)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
