@@ -214,6 +214,8 @@ Simple Monte Carlo methods are the easiest to make problems for, as we’re esse
 
 [Practice Test Version A](practice/STA380_test2_practiceA.pdf) \| [Practice Test Version B](practice/STA380_test2_practiceB.pdf)
 
+DO NOT BRING YOUR OWN FORMULA SHEET.
+
 The [formula sheet](practice/Test2_FormulaSheet.pdf) for term test 2 contains less `R` codes. At this point, we expect you to have practiced more.
 
 For this term test, students should be comfortable with the remainder of the content from Unit 2 and the entirely of Unit 3. These include:

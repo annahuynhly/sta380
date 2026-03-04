@@ -122,6 +122,8 @@ Deadlines:
 
 **Lecture (March 2):** Re-sampling Techniques
 
+[Live March 2 code](../coding/live_lecture/mar2_code.R)
+
 **Tutorial (March 3):** Practice questions for Term Test 2
 
 Deadlines:
