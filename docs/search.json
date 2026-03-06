@@ -144,7 +144,7 @@
     "href": "pages/project/website.html",
     "title": "Website Prototype",
     "section": "",
-    "text": "Due date: March 11th, 2026 at 11:59pm\nFor every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in a new vignette.\nThe purpose of this checkpoint is to ensure that students can successfully launch a working version of their Shiny website and demonstrate functionality in some of the key components.\nDocumentation for Shiny is nicely done here.\nPosit Connect Cloud is recommended since it can be connected to a GitHub repository for immediate deployment."
+    "text": "Due date: March 14th, 2026 at 1:00pm (UPDATED!)\nFor every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in a new vignette.\nThe purpose of this checkpoint is to ensure that students can successfully launch a working version of their Shiny website and demonstrate functionality in some of the key components.\nDocumentation for Shiny is nicely done here.\nPosit Connect Cloud is recommended since it can be connected to a GitHub repository for immediate deployment."
   },
   {
     "objectID": "pages/project/group_formation.html",
@@ -396,28 +396,28 @@
     "href": "pages/test.html#quiz-1-preliminary-quiz-due-january-20th",
     "title": "Test Information",
     "section": "Quiz 1: Preliminary Quiz (Due January 20th)",
-    "text": "Quiz 1: Preliminary Quiz (Due January 20th)\nFor this quiz, you need to know the following concepts:\n\nHow to compute an expected value, variance, bias, and mean squared error for continuous random variables. It’s even easier if you recognize well known continuous distributions: Gaussian (also known as normal), exponential, gamma, beta.\n\nYou should know how to do this for discrete random variables as well, but it is not on the quiz.\n\nKnow the variance-bias decomposition of mean squared error.\nKnow how to compute confidence intervals.\nKnow how to derive likelihood functions and find the maximum likelihood estimator.\n\nPractice questions to prepare for quiz 1.\nUnlike the practice questions, you may be given the actual population parameter (i.e., \\(\\beta = 2\\)) such that you can insert your fill-in-the-blank answer for the mean, variance, bias, and MSE. You should hold onto your original equation (without inserting \\(\\beta\\)) as the value provided will change."
+    "text": "Quiz 1: Preliminary Quiz (Due January 20th)\nQuiz 1 Solutions\nFor this quiz, you need to know the following concepts:\n\nHow to compute an expected value, variance, bias, and mean squared error for continuous random variables. It’s even easier if you recognize well known continuous distributions: Gaussian (also known as normal), exponential, gamma, beta.\n\nYou should know how to do this for discrete random variables as well, but it is not on the quiz.\n\nKnow the variance-bias decomposition of mean squared error.\nKnow how to compute confidence intervals.\nKnow how to derive likelihood functions and find the maximum likelihood estimator.\n\nPractice questions to prepare for quiz 1.\nUnlike the practice questions, you may be given the actual population parameter (i.e., \\(\\beta = 2\\)) such that you can insert your fill-in-the-blank answer for the mean, variance, bias, and MSE. You should hold onto your original equation (without inserting \\(\\beta\\)) as the value provided will change."
   },
   {
     "objectID": "pages/test.html#quiz-2-generating-random-variables",
     "href": "pages/test.html#quiz-2-generating-random-variables",
     "title": "Test Information",
     "section": "Quiz 2: Generating Random Variables",
-    "text": "Quiz 2: Generating Random Variables\nAvailability period: January 22-23\nPractice questions to prepare for quiz 2."
+    "text": "Quiz 2: Generating Random Variables\nQuiz 2 Solutions\nAvailability period: January 22-23\nPractice questions to prepare for quiz 2."
   },
   {
     "objectID": "pages/test.html#quiz-3-monte-carlo-integration",
     "href": "pages/test.html#quiz-3-monte-carlo-integration",
     "title": "Test Information",
     "section": "Quiz 3: Monte Carlo Integration",
-    "text": "Quiz 3: Monte Carlo Integration\nAvailability period: January 29-30\nPractice questions to prepare for quiz 3.\nNote that this quiz only covers the first half of the second unit. In retrospect, I should have created eight quizzes instead of seven, but I did not want to give too many assessments the same week of the test.\nNonetheless, the below material is needed for term test 2.\nPractice questions for second half of unit 2."
+    "text": "Quiz 3: Monte Carlo Integration\nQuiz 3 Solutions\nAvailability period: January 29-30\nPractice questions to prepare for quiz 3.\nNote that this quiz only covers the first half of the second unit. In retrospect, I should have created eight quizzes instead of seven, but I did not want to give too many assessments the same week of the test.\nNonetheless, the below material is needed for term test 2.\nPractice questions for second half of unit 2."
   },
   {
     "objectID": "pages/test.html#quiz-4-monte-carlo-methods-in-inference",
     "href": "pages/test.html#quiz-4-monte-carlo-methods-in-inference",
     "title": "Test Information",
     "section": "Quiz 4: Monte Carlo Methods in Inference",
-    "text": "Quiz 4: Monte Carlo Methods in Inference\nAvailability period: February 26-27\nPractice questions to prepare for quiz 4."
+    "text": "Quiz 4: Monte Carlo Methods in Inference\nQuiz 4 Solutions\nAvailability period: February 26-27\nPractice questions to prepare for quiz 4."
   },
   {
     "objectID": "pages/test.html#quiz-5-re-sampling-techniques",

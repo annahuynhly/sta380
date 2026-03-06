@@ -20,6 +20,8 @@ The Quercus quizzes are in the format of multiple choice, true or false, or fill
 
 ## Quiz 1: Preliminary Quiz (Due January 20th)
 
+[Quiz 1 Solutions](test/quiz1_sol.pdf)
+
 For this quiz, you need to know the following concepts:
 
 -   How to compute an expected value, variance, bias, and mean squared error for continuous random variables. It's even easier if you recognize well known continuous distributions: Gaussian (also known as normal), exponential, gamma, beta.
@@ -38,11 +40,15 @@ Unlike the practice questions, you may be given the actual population parameter 
 
 ## Quiz 2: Generating Random Variables
 
+[Quiz 2 Solutions](test/quiz2_sol.pdf)
+
 Availability period: January 22-23
 
 [Practice questions to prepare for quiz 2.](practice/quiz2_practice.pdf)
 
 ## Quiz 3: Monte Carlo Integration
+
+[Quiz 3 Solutions](test/quiz3_sol.pdf)
 
 Availability period: January 29-30
 
@@ -55,6 +61,8 @@ Nonetheless, the below material is needed for term test 2.
 [Practice questions for second half of unit 2.](practice/unit2_extraprac.pdf)
 
 ## Quiz 4: Monte Carlo Methods in Inference
+
+[Quiz 4 Solutions](test/quiz4_sol.pdf)
 
 Availability period: February 26-27
 

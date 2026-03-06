@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-**Due date:** March 11th, 2026 at 11:59pm
+**Due date:** March 14th, 2026 at 1:00pm (UPDATED!)
 
 **For every checkpoint, it is important to mention at the end what you explicitly used generative AI for. If you did not use generative AI, then state you did not use it. Please put your generative AI statement in a new vignette.**
 
