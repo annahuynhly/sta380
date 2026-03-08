@@ -410,14 +410,14 @@
     "href": "pages/test.html#quiz-3-monte-carlo-integration",
     "title": "Test Information",
     "section": "Quiz 3: Monte Carlo Integration",
-    "text": "Quiz 3: Monte Carlo Integration\nQuiz 3 Solutions\nAvailability period: January 29-30\nPractice questions to prepare for quiz 3.\nNote that this quiz only covers the first half of the second unit. In retrospect, I should have created eight quizzes instead of seven, but I did not want to give too many assessments the same week of the test.\nNonetheless, the below material is needed for term test 2.\nPractice questions for second half of unit 2."
+    "text": "Quiz 3: Monte Carlo Integration\nQuiz 3 Solutions\nAvailability period: January 29-30\nPractice questions to prepare for quiz 3.\nNote that this quiz only covers the first half of the second unit. In retrospect, I should have created eight quizzes instead of seven, but I did not want to give too many assessments the same week of the test.\nNonetheless, the below material is needed for term test 2.\nPractice questions for second half of unit 2.\nThere is a typo in 2.a) where I say Uniform(0, 1), but I meant Uniform(0, 10)."
   },
   {
     "objectID": "pages/test.html#quiz-4-monte-carlo-methods-in-inference",
     "href": "pages/test.html#quiz-4-monte-carlo-methods-in-inference",
     "title": "Test Information",
     "section": "Quiz 4: Monte Carlo Methods in Inference",
-    "text": "Quiz 4: Monte Carlo Methods in Inference\nQuiz 4 Solutions\nAvailability period: February 26-27\nPractice questions to prepare for quiz 4."
+    "text": "Quiz 4: Monte Carlo Methods in Inference\nQuiz 4 Solutions\nNote that for the quiz, I should have said “Monte Carlo estimate(s) for the MLE/UMVUE”. This did not affect students’ scores, as given the m/c options, it is clear that only the parametric bootstrapped samples were constructed but not the total average of all of them.\nAvailability period: February 26-27\nPractice questions to prepare for quiz 4."
   },
   {
     "objectID": "pages/test.html#quiz-5-re-sampling-techniques",

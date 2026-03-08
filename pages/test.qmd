@@ -60,9 +60,13 @@ Nonetheless, the below material is needed for term test 2.
 
 [Practice questions for second half of unit 2.](practice/unit2_extraprac.pdf)
 
+There is a typo in 2.a) where I say Uniform(0, 1), but I meant Uniform(0, 10).
+
 ## Quiz 4: Monte Carlo Methods in Inference
 
 [Quiz 4 Solutions](test/quiz4_sol.pdf)
+
+Note that for the quiz, I should have said "Monte Carlo estimate(s) for the MLE/UMVUE". This did not affect students' scores, as given the m/c options, it is clear that only the parametric bootstrapped samples were constructed but not the total average of all of them.
 
 Availability period: February 26-27
 
