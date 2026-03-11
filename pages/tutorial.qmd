@@ -104,7 +104,7 @@ m <- 10^4
 **Tutorial 9:**
 
 There is no handwritten notes for Tutorial 9. Here is the R script I used for the tutorial.
-The recording of tutorial 9 has been posted on Quercus, please post your questions on piazza if needed.
+The recording of tutorial 9 has been posted on Quercus, and when I was recording, an error popped up on my laptop, that is why there are two videos. If you have any questions, please post them on piazza if needed. Have a great weekend. :)
 
 [Tutorial 9 Notes](tutorial/TUT9.R)
 
