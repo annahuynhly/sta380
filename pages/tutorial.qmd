@@ -88,13 +88,24 @@ The notes for Tutorial 8. I mentioned some important points for preparing for Te
 
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
 
-There is a small typo in question 3 part a. It should be:
-$1 - \exp(-1/\theta)$
+There is a small typo in question 3 part a. It should be: $1 - \exp(-1/\theta)$
 
 For the final question, there was a typo for generating values of theta. I have fixed this in both practice tests. For the TA's solution, assume that the code IN THE QUESTION was:
-```
+
+```         
 n <- 30
 alpha <- 0.05
 theta <- 3 # instead of theta <- 2...
 m <- 10^4
 ```
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 9:**
+
+There is no handwritten notes for Tutorial 9. Here is the R script I used for the tutorial.
+The recording of tutorial 9 has been posted on Quercus, and when I was recording, an error popped up on my laptop, that is why there are two videos. If you have any questions, please post them on piazza if needed. Have a great weekend. :)
+
+[Tutorial 9 Notes](tutorial/TUT9.R)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
