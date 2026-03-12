@@ -18,6 +18,8 @@ Documentation for Shiny is nicely done [here](https://shiny.posit.co/r/getstarte
 
 [Posit Connect Cloud](https://connect.posit.cloud/) is recommended since it can be connected to a GitHub repository for immediate deployment.
 
+WARNING: your repository must be public to use Posit Connect Cloud!
+
 ## Project Example
 
 An example website, which uses Posit Connect Cloud, can be found [here](https://annahuynhly-sta380shiny-example.share.connect.posit.cloud/).

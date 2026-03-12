@@ -272,11 +272,31 @@ See additional practice problems 5, 6, 7, and 8 — but for problem 5, do only q
 
 ## Final Exam
 
+[Practice Final Exam Version A](practice/STA380_final_exam_A.pdf) \| [Practice Final Exam Version B](practice/STA380_final_exam_B.pdf)
+
 More specific details will be given once the final exam has been approved.
 
 In general, the final exam will be cumulative, but with extra weight towards content past the first two term tests.
 
 You do not need to know Unit 5 for the final exam.
+
+### Final Exam Outline
+
+[NOTE: PLANS MAY CHANGE WHEN THE FINAL EXAM IS APPROVED...]
+
+Below is a detailed what students should expect from the actual term test.
+
+Question 1 [18 marks]: EM algorithm computation (Unit 6). There should be no surprise here.
+
+Question 2 [10 marks]: Coding question either from Unit 4 or Unit 6. You will likely have a sufficiently prepared R coding formula sheet to answer this question.
+
+Question 3 [10 marks]: Proof question related to Unit 4 that you have not seen before. Practice exams A and B will have similar, "never seen" before proof questions.
+
+Question 4 [5 marks]: Question related to Unit 1. May either be a computational or a proof question. You should have had adequate preparation of Unit 1 material from the first term test.
+
+Question 5 [7 marks]: Question related to Unit 2 material. May either be a computational or a proof question. You should have had adequate preparation of Unit 2 material from both the first and second term test.
+
+Question 6 [10 marks]: Either a proof question related to Unit 2 material OR a short answer question explaining differences between some concepts of the course. Refer to the practice exams for an example of either.
 
 ### Formula Sheet Policy (FINAL EXAM ONLY)
 
