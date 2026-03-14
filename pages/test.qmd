@@ -224,6 +224,8 @@ Simple Monte Carlo methods are the easiest to make problems for, as we’re esse
 
 ## Term Test 2
 
+[SOLUTIONS FOR THE TERM TEST](test/Test2Solutions.pdf)
+
 [Practice Test Version A](practice/STA380_test2_practiceA.pdf) \| [Practice Test Version B](practice/STA380_test2_practiceB.pdf)
 
 DO NOT BRING YOUR OWN FORMULA SHEET.
@@ -282,21 +284,21 @@ You do not need to know Unit 5 for the final exam.
 
 ### Final Exam Outline
 
-[NOTE: PLANS MAY CHANGE WHEN THE FINAL EXAM IS APPROVED...]
+\[NOTE: PLANS MAY CHANGE WHEN THE FINAL EXAM IS APPROVED...\]
 
 Below is a detailed what students should expect from the actual term test.
 
-Question 1 [18 marks]: EM algorithm computation (Unit 6). There should be no surprise here.
+Question 1 \[18 marks\]: EM algorithm computation (Unit 6). There should be no surprise here.
 
-Question 2 [10 marks]: Coding question either from Unit 4 or Unit 6. You will likely have a sufficiently prepared R coding formula sheet to answer this question.
+Question 2 \[10 marks\]: Coding question either from Unit 4 or Unit 6. You will likely have a sufficiently prepared R coding formula sheet to answer this question.
 
-Question 3 [10 marks]: Proof question related to Unit 4 that you have not seen before. Practice exams A and B will have similar, "never seen" before proof questions.
+Question 3 \[10 marks\]: Proof question related to Unit 4 that you have not seen before. Practice exams A and B will have similar, "never seen" before proof questions.
 
-Question 4 [5 marks]: Question related to Unit 1. May either be a computational or a proof question. You should have had adequate preparation of Unit 1 material from the first term test.
+Question 4 \[5 marks\]: Question related to Unit 1. May either be a computational or a proof question. You should have had adequate preparation of Unit 1 material from the first term test.
 
-Question 5 [7 marks]: Question related to Unit 2 material. May either be a computational or a proof question. You should have had adequate preparation of Unit 2 material from both the first and second term test.
+Question 5 \[7 marks\]: Question related to Unit 2 material. May either be a computational or a proof question. You should have had adequate preparation of Unit 2 material from both the first and second term test.
 
-Question 6 [10 marks]: Either a proof question related to Unit 2 material OR a short answer question explaining differences between some concepts of the course. Refer to the practice exams for an example of either.
+Question 6 \[10 marks\]: Either a proof question related to Unit 2 material OR a short answer question explaining differences between some concepts of the course. Refer to the practice exams for an example of either.
 
 ### Formula Sheet Policy (FINAL EXAM ONLY)
 
