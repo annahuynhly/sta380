@@ -146,7 +146,7 @@ Deadlines:
 
 **Lecture (March 16):** Probability density estimation / Optimization
 
-**Tutorial (March 17):** \[No plan yet...\]
+**Tutorial (March 17):** Practice questions for Quiz 7 (Q 1-3)
 
 Deadlines:
 
@@ -156,7 +156,7 @@ Deadlines:
 
 **Lecture (March 23):** Optimization
 
-**Tutorial (March 24):** Practice questions for Quiz 7
+**Tutorial (March 24):** Practice questions for Quiz 7 (Q 4-5)
 
 Deadlines:
 
