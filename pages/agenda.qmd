@@ -146,6 +146,8 @@ Deadlines:
 
 **Lecture (March 16):** Probability density estimation / Optimization
 
+[Live March 16 code](../coding/live_lecture/mar16_code.R)
+
 **Tutorial (March 17):** Practice questions for Quiz 7 (Q 1-3)
 
 Deadlines:
