@@ -165,7 +165,7 @@ D0 <- max(abs(Fn(z) - Gn(z)))
 R <- 10^5
 D <- numeric(R)
 for (i in 1:R){
-  k <- sample(1:n, size = n/2)
+  k <- sample(1:n, size = 2*n)
   xi <- z[k]
   yi <- z[-k]
   
