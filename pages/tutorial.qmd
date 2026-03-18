@@ -103,9 +103,18 @@ m <- 10^4
 
 **Tutorial 9:**
 
-There is no handwritten notes for Tutorial 9. Here is the R script I used for the tutorial.
-The recording of tutorial 9 has been posted on Quercus, and when I was recording, an error popped up on my laptop, that is why there are two videos. If you have any questions, please post them on piazza if needed. Have a great weekend. :)
+There is no handwritten notes for Tutorial 9. Here is the R script I used for the tutorial. The recording of tutorial 9 has been posted on Quercus, and when I was recording, an error popped up on my laptop, that is why there are two videos. If you have any questions, please post them on piazza if needed. Have a great weekend. :)
 
 [Tutorial 9 Notes](tutorial/TUT9.R)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 10:**
+
+Please find the handwritten notes and R script for Tutorial 10 below. ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
+
+[Tutorial 10 Handwritten Notes](tutorial/STA380_TUT10.pdf)
+
+[Tutorial 10 R script](tutorial/TUT10.R)
 
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
