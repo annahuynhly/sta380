@@ -292,3 +292,67 @@ em_normal <- function(sample, sigma, tol = 0.0001){
 }
 
 em_normal(incomp_samp)
+
+# new problem (made last second); case of gamma distribution....
+
+n <- 100 # assume we are missing 1.
+gam_data <- rgamma(n-1, shape = 2, rate = 3)
+
+neg_incomplete_gamma_likelihood <- function(theta, n, data){
+  # note: data is assumed to be incomplete, assuming complete data n is given
+  alpha = theta[1]
+  lambda = theta[2]
+  part1 = alpha * (n-1) * log(lambda)
+  part2 = (n-1) * lgamma(alpha)
+  # note: we are assuming the data is incompelete below.
+  part3 = (alpha - 1) * sum(log(data))
+  part4 = lambda * sum(data)
+  return(-(part1 - part2 + part3 - part4))
+}
+
+neg_ev_complete_gamma_likelihood <- function(theta, n, data, theta_hat){
+  alpha = theta[1]
+  lambda = theta[2]
+  alpha_hat = theta_hat[1]
+  lambda_hat = theta_hat[2]
+  
+  part1 = alpha*n*log(lambda)
+  part2 = n * lgamma(alpha)
+  # again, assuming data is incomplete.
+  part3 = (alpha - 1) * sum(log(data))
+  part4 = lambda * sum(data)
+  
+  # for part 5, out of laziness of not wanting to compute the integral,
+  # we are simply going to use computational statistics techniques for this.
+  temp_samp <- rgamma(10^5, shape = alpha_hat, rate = lambda_hat)
+  part5 = (alpha - 1) * mean(log(temp_samp))
+  # note: you can actually compute E[log(X1)] by hand as well, but
+  # it involves a weird trick and I think using MC is funnier.
+  
+  part6 = lambda * alpha_hat / lambda_hat
+  
+  return(-(part1 - part2 + part3 - part4 + part5 - part6))
+}
+
+em_gamma <- function(n, data, tol = 0.01){
+  # part 1: finding an "appropriate" starting point
+  start_val <- c(1, 1) # this one is random; the one below is more proper.
+  em <- optim(start_val, neg_incomplete_gamma_likelihood, 
+              n = n, data = data)$par
+  no_sol <- TRUE
+  while(no_sol){
+    # neg_ev_complete_gamma_likelihood is the expectation step
+    # and the use of optim below is the maximization step
+    em_new <- optim(em, neg_ev_complete_gamma_likelihood, 
+                    n = n, data = data, theta_hat = em)$par
+    # keep iterating until the difference is small!!!!!
+    if(sqrt(sum((em_new - em)^(2))) <= tol){
+      no_sol = FALSE
+    }
+    em <- em_new
+  }
+  return(em)
+}
+
+em_gamma(n, data = gam_data)
+# not bad.
