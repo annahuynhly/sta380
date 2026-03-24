@@ -158,6 +158,10 @@ Deadlines:
 
 **Lecture (March 23):** Optimization
 
+[Live March 23 code](../coding/live_lecture/mar23_code.R)
+
+We did not finish the additional EM algorithm question (the code is incomplete). We will finish it next lecture.
+
 **Tutorial (March 24):** Practice questions for Quiz 7 (Q 4-5)
 
 Deadlines:

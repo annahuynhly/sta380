@@ -142,21 +142,9 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
 -   **(Not for term test 1)** Initializing matrices `matrix()`
 
--   **(Not for term test 1)** Operations that can be performed on matrices. For example, if `X` is a matrix than `exp(X)` will apply the exponential function on every single value within the matrix `X`
+-   **(Not for term test 1)** Operations that can be performed on matrices. For example, if `X` is a matrix than `exp(X)` will apply the exponential function on every single value within the matrix `X`.
 
--   **(Final examination only)** How to use `optimize()` and `optim()`. IF NEEDED, we will supply the usage syntax for these, but we will not give a description. For example, in the formula sheet I will include:
-
-```{r, eval = FALSE}
-optimize(f, interval, ..., lower = min(interval), upper = max(interval),
-         maximum = FALSE,
-         tol = .Machine$double.eps^0.25)
-
-optim(par, fn, gr = NULL, ...,
-      method = c("Nelder-Mead", "BFGS", "CG", "L-BFGS-B", "SANN",
-                 "Brent"),
-      lower = -Inf, upper = Inf,
-      control = list(), hessian = FALSE)
-```
+-   **(Final examination only)** How to use `optimize()` and `optim()`. 
 
 ## Term Test 1
 
@@ -278,21 +266,21 @@ See additional practice problems 5, 6, 7, and 8 — but for problem 5, do only q
 
 [Practice Final Exam Version A](practice/STA380_final_exam_A.pdf) \| [Practice Final Exam Version B](practice/STA380_final_exam_B.pdf)
 
-More specific details will be given once the final exam has been approved.
+Click here to see the attached [formula sheet](practice/STA380_Final_FormulaSheet.pdf).
+
+The final exam has been approved and the details of this page are accurate.
 
 In general, the final exam will be cumulative, but with extra weight towards content past the first two term tests.
 
-You do not need to know Unit 5 for the final exam.
+You do not need to know Unit 5 for the final exam. It is included in the formula sheet in case you were paranoid.
 
 ### Final Exam Outline
-
-\[NOTE: PLANS MAY CHANGE WHEN THE FINAL EXAM IS APPROVED...\]
 
 Below is a detailed what students should expect from the actual term test.
 
 Question 1 \[18 marks\]: EM algorithm computation (Unit 6). There should be no surprise here.
 
-Question 2 \[10 marks\]: Coding question either from Unit 4 or Unit 6. You will likely have a sufficiently prepared R coding formula sheet to answer this question.
+Question 2 \[10 marks\]: Coding question either from Unit 4 or Unit 6. You will likely have a sufficiently prepared `R` coding formula sheet to answer this question.
 
 Question 3 \[10 marks\]: Proof question related to Unit 4 that you have not seen before. Practice exams A and B will have similar, "never seen" before proof questions.
 
