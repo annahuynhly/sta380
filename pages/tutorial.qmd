@@ -118,3 +118,12 @@ Please find the handwritten notes and R script for Tutorial 10 below. ദ്ദ�
 [Tutorial 10 R script](tutorial/TUT10.R)
 
 <hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 11:**
+
+Please find the handwritten notes and R script for Tutorial 11 attached below. You may also wish to review the Newton–Raphson method from Tutorial 10 if needed. ₍^ >⩊< ^₎Ⳋ ✧
+
+[Tutorial 11 Handwritten Notes](tutorial/STA380_TUT11.pdf)
+
+[Tutorial 11 R script](tutorial/TUT11.R)
+
