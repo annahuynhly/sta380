@@ -121,9 +121,8 @@ Please find the handwritten notes and R script for Tutorial 10 below. ദ്ദ�
 
 **Tutorial 11:**
 
-Please find the handwritten notes and R script for Tutorial 11 attached below. You may also wish to review the Newton–Raphson method from Tutorial 10 if needed. ₍^ >⩊< ^₎Ⳋ ✧
+Please find the handwritten notes and R script for Tutorial 11 attached below. You may also wish to review the Newton–Raphson method from Tutorial 10 if needed. ₍\^ \>⩊\< \^₎Ⳋ ✧
 
 [Tutorial 11 Handwritten Notes](tutorial/STA380_TUT11.pdf)
 
 [Tutorial 11 R script](tutorial/TUT11.R)
-

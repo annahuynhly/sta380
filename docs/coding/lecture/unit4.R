@@ -191,7 +191,7 @@ D0 <- max(abs(Fn(z) - Gn(z)))
 R <- 999
 D <- numeric(R)
 for (i in 1:R) {
-  k <- sample(1:n, size = n/2, replace = FALSE)
+  k <- sample(1:n, size = 2*n, replace = FALSE)
   xi <- z[k]
   yi <- z[-k]
   
