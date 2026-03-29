@@ -90,6 +90,8 @@ There will be no practice quiz for probability density estimation. You can just 
 
 ## Quiz 7: Optimization
 
+[Quiz 7 Solutions](test/quiz7_sol.pdf)
+
 Availability period: March 26-27
 
 [Practice questions to prepare for quiz 7.](practice/quiz7_practice.pdf)
