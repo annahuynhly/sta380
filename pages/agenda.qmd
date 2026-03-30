@@ -172,6 +172,6 @@ Deadlines:
 
 ## Week 13
 
-**Lecture (March 30):** Review/Grace Period
+**Lecture (March 30):** Finishing up the EM Algorithm & Final Exam Review
 
 **Tutorial (March 31):** Final Exam Review

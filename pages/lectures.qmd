@@ -92,4 +92,10 @@ R Codes - TBA
 
 ------------------------------------------------------------------------
 
-If you saw an earlier version of this website, you've noticed I removed covering MCMC methods. This is because most instructors advised not adding too much. That being said, if I have an ambitious cohort I may re-add it! :D
+# Final Exam Review
+
+[Lecture Notes](lecture_notes/FinalExam_Review.pdf)
+
+Lecture Notes (Solution Version) - TBA
+
+R Codes - TBA
