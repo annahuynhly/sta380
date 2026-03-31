@@ -86,9 +86,9 @@ For term test 2, make sure you do the rest of practice 5 (including computing th
 
 [Lecture Notes](lecture_notes/Unit6_Slides_nosol.pdf)
 
-Lecture Notes (Solution Version) - TBA
+[Lecture Notes (Solution Version)](lecture_notes/Unit6.pdf)
 
-R Codes - TBA
+[R Codes](../coding/lecture/unit6.R)
 
 ------------------------------------------------------------------------
 
@@ -96,6 +96,8 @@ R Codes - TBA
 
 [Lecture Notes](lecture_notes/FinalExam_Review.pdf)
 
-Lecture Notes (Solution Version) - TBA
+[Lecture Notes (Solution Version)](lecture_notes/FinalExam_Review_Sol.pdf)
 
-R Codes - TBA
+[R Codes](../coding/lecture/finalexam_review.R.R)
+
+Do note that most of the `R` codes were included in the slides.

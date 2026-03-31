@@ -4,18 +4,18 @@ format: html
 editor: visual
 ---
 
-Welcome to the STA380 website! Please see one of the headers above.
+Welcome to the Winter 2026 STA380H5 site!
 
 Most of the notes will be posted on this website instead of Quercus/Canvas. [Ben Recht said it best](https://www.argmin.net/p/machine-learning-evaluation-a-syllabus):
 
 *"Using Canvas means that course content lives behind an obnoxious campus IT firewall."*
 
-I will not privatize this website. I will let the world witness the content I have to offer.
+While you're here, please browse some amazing final course projects made by students this semester.
 
-That being said, some content that are personal will not be uploaded. The following will be on Quercus:
+[Project: Monte Carlo Simulation of a Hypothesis Test of Binomially Distributed Samples](http://valeriepan-mc-simulation-of-hypothesis-test-for-binomial-prop.share.connect.posit.cloud/) by Junyi Hou, Siling Cheng, Feiyang Xue, Tianhong Shen, and Valerie Pan.
 
--   Assessments
+[Project: Monte Carlo Study of the Bias–Variance Tradeoff in Regression Models](https://019cea29-16b6-3560-2cce-56feb47d4a51.share.connect.posit.cloud/) by Jizheng Huang, Kai Rui Zhu, Tianchen Xu, and Victor Jiang.
 
--   Practice problems curated by previous instructors
+[Project: VaR calculator for Stock Portfolio through Monte Carlo and Geometric Brownian Motion](https://huangjeffrey-varmcproject.share.connect.posit.cloud/) by Jeffrey Huang and Sun Jia Wei.
 
--   Recordings (if any).
+Brief disclaimer: groups had a minimum of 4 students. Some final group sizes are smaller as some students opted out of the project in the middle of the course.
