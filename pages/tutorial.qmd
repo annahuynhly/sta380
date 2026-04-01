@@ -126,3 +126,16 @@ Please find the handwritten notes and R script for Tutorial 11 attached below. Y
 [Tutorial 11 Handwritten Notes](tutorial/STA380_TUT11.pdf)
 
 [Tutorial 11 R script](tutorial/TUT11.R)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
+**Tutorial 12:**
+
+Here is the note from the last tutorial. Thank you so much to all the students who have consistently attended tutorials every week throughout the term. I hope you all achieve nice grades on the final exam. 
+
+Good luck!  ✧｡٩(ˊᗜˋ )و✧*｡
+
+[Tutorial 12 Notes](tutorial/STA380_TUT12.pdf)
+
+<hr style="border:0; border-top:2px solid #ccc; margin:1.5em 0;">
+
