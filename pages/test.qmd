@@ -148,7 +148,7 @@ You are expected to know how to code in `R` by hand for the term tests. You do n
 
 -   **(Not for term test 1)** Operations that can be performed on matrices. For example, if `X` is a matrix than `exp(X)` will apply the exponential function on every single value within the matrix `X`.
 
--   **(Final examination only)** How to use `optimize()` and `optim()`. 
+-   **(Final examination only)** How to use `optimize()` and `optim()`.
 
 ## Term Test 1
 
@@ -335,6 +335,8 @@ The formula sheet must NOT contain:
 -   Step-by-step algorithms written in plain English
 
 -   Exam-style answers, worked examples, or interpretations
+
+    -   To clarify, the answers or worked examples are specifically referring to short-answer solutions. You can add code `R` regarding the use of the jackknife, but you cannot insert the proof that the jackknife mean is equal to the sample mean.
 
 **Rule of thumb:** If it is not valid `R` code or an `R` comment directly explaining that code, it does not belong on the formula sheet.
 
