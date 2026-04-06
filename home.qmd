@@ -18,4 +18,14 @@ While you're here, please browse some amazing final course projects made by stud
 
 [Project: VaR calculator for Stock Portfolio through Monte Carlo and Geometric Brownian Motion](https://huangjeffrey-varmcproject.share.connect.posit.cloud/) by Jeffrey Huang and Sun Jia Wei.
 
+[Project: Computing Empirical and Theoretical Autocorrelation of Time Series Models](https://019ceda7-9826-0311-2916-aa63adbe0a29.share.connect.posit.cloud/) by Devesh Aggarwal, Daniel Cowley, Esteban Gonzalez, Arnav Nagzirkar, Khushal Patel, and Sohaib Sajid.
+
+[Project: Monte Carlo Study of the Bias–Variance Tradeoff in k-NN](https://janice-chen-123-sta380-yesoryes.share.connect.posit.cloud/) by Jiachen Chen, Jintong Li, Yuxi Ren, and Yiwen Zhao.
+
+[Project: Bootstrap Estimate of Boston Housing Data](https://019cdad2-2f45-f983-9e14-f224101426c2.share.connect.posit.cloud/) by Jiawei Cao, Clara Huang, Qi Wang, and Jimmy Yang Yang.
+
+[Project: Time Series Model Fitting and Diagnostic Checks](https://019d0430-b246-4443-c144-9437cec4e883.share.connect.posit.cloud/) by Amin Amir, Kevaan Chirag Buch, Eshan Hussain, Kevin Joseph, and Will Wang.
+
+[Project: Bootstrap Estimate of Reaction Time using the Nintendo Wii Balance Board](https://019ce7dc-2681-ee8a-3671-e8ce9095563c.share.connect.posit.cloud/) by Tristan Copplestone and Jacob Gipp.
+
 Brief disclaimer: groups had a minimum of 4 students. Some final group sizes are smaller as some students opted out of the project in the middle of the course.
