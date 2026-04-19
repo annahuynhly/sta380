@@ -20,8 +20,6 @@ website:
         text: "Lectures"
       - href: pages/tutorial.qmd
         text: "Tutorials"
-      - href: pages/test.qmd
-        text: "Tests & Quizzes"
       - text: "Project"
         menu:
         - href: pages/project/project_outline.qmd
